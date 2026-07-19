@@ -1,3 +1,13 @@
+# WizAgents
+
+**Subscribe to an expert, not a prompt.** A marketplace where verified human experts publish protected avatar Agents that buyers subscribe to over MCP — with an anti-distillation shield, provenance receipts, KYC-verified experts, enterprise seats & governance, and a community forum.
+
+🔗 https://wiz-agents.com &nbsp;·&nbsp; 🛡️ Proprietary — All rights reserved &nbsp;·&nbsp; 🔒 Private repository
+
+> Built with Next.js 15 (App Router), React 19, TypeScript, Prisma, and Tailwind. Self-hostable via Docker.
+
+---
+
 # WizAgents — 專家 Agent 訂閱市集（可運行全端產品）
 
 > 訂閱一位專家，而不是買一段提示詞。建立在開放 MCP 協定之上的付費專家 Agent 訂閱平台。
@@ -11,7 +21,8 @@ Agent 串流對話、每個 Agent 一個授權式 MCP 端點、Expert Loop（真
 ## 快速開始
 
 ```bash
-cd app
+git clone https://github.com/Edwson/wizagents.git
+cd wizagents
 npm install          # 安裝相依套件
 npm run setup        # 產生 Prisma client、建立 SQLite 資料庫、灌入 122 個示範 Agent
 npm run dev          # 啟動開發伺服器 → http://localhost:3000
@@ -77,7 +88,7 @@ curl -X POST http://localhost:3000/api/mcp/kyc-aml \
 
 ## 接上真 LLM（可選）
 
-編輯 `app/.env`：
+編輯 `.env`（可從 `.env.example` 複製）：
 
 ```
 LLM_API_KEY=sk-...              # 任何 OpenAI 相容端點
