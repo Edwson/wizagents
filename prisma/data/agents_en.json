@@ -1,0 +1,3249 @@
+[
+ {
+  "id": "en-gdpr-compliance-advisor",
+  "name": "GDPR Compliance Advisor Agent",
+  "creator": "Meridian Legal",
+  "category": "compliance",
+  "price": 69,
+  "renewal": 84,
+  "subscribers": 340,
+  "desc": "Guides teams through GDPR obligations, mapping data flows and drafting records of processing for EU personal data.",
+  "features": [
+   "Data mapping",
+   "DPIA drafting",
+   "Breach response"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-soc2-readiness-lead",
+  "name": "SOC 2 Readiness Lead Agent",
+  "creator": "Aegis Assurance",
+  "category": "compliance",
+  "price": 79,
+  "renewal": 81,
+  "subscribers": 210,
+  "desc": "Prepares startups for SOC 2 Type II audits by scoping controls, gathering evidence, and closing policy gaps.",
+  "features": [
+   "Control scoping",
+   "Evidence collection",
+   "Gap remediation"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-aml-kyc-screener",
+  "name": "AML and KYC Screener Agent",
+  "creator": "Sentinel Risk Group",
+  "category": "compliance",
+  "price": 85,
+  "renewal": 78,
+  "subscribers": 180,
+  "desc": "Screens customer onboarding against sanctions and PEP lists while documenting anti-money-laundering decisions.",
+  "features": [
+   "Sanctions screening",
+   "Risk scoring",
+   "Audit trails"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-hipaa-privacy-officer",
+  "name": "HIPAA Privacy Officer Agent",
+  "creator": "Aegis Assurance",
+  "category": "compliance",
+  "price": 72,
+  "renewal": 80,
+  "subscribers": 150,
+  "desc": "Helps healthcare providers align workflows with HIPAA privacy and security rules and train staff on safeguards.",
+  "features": [
+   "Risk analysis",
+   "Policy templates",
+   "Staff training"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-ux-audit-specialist",
+  "name": "UX Audit Specialist Agent",
+  "creator": "Northwind Studio",
+  "category": "design",
+  "price": 49,
+  "renewal": 76,
+  "subscribers": 420,
+  "desc": "Reviews product interfaces for usability heuristics and delivers prioritized recommendations to improve conversion.",
+  "features": [
+   "Heuristic review",
+   "Accessibility checks",
+   "Fix prioritization"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-brand-identity-designer",
+  "name": "Brand Identity Designer Agent",
+  "creator": "Northwind Studio",
+  "category": "design",
+  "price": 55,
+  "renewal": 74,
+  "subscribers": 300,
+  "desc": "Develops cohesive brand systems including logo direction, color palettes, and typography guidelines for new ventures.",
+  "features": [
+   "Logo direction",
+   "Palette systems",
+   "Type pairing"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-design-system-architect",
+  "name": "Design System Architect Agent",
+  "creator": "Pixel Forge Labs",
+  "category": "design",
+  "price": 62,
+  "renewal": 79,
+  "subscribers": 240,
+  "desc": "Builds scalable component libraries and token systems that keep product teams visually consistent across platforms.",
+  "features": [
+   "Token structure",
+   "Component specs",
+   "Documentation"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-ma-deal-analyst",
+  "name": "M&A Deal Analyst Agent",
+  "creator": "Argent Capital Research",
+  "category": "transaction",
+  "price": 89,
+  "renewal": 83,
+  "subscribers": 120,
+  "desc": "Supports mergers and acquisitions with due diligence checklists, synergy modeling, and deal timeline coordination.",
+  "features": [
+   "Due diligence",
+   "Synergy models",
+   "Timeline planning"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-contract-negotiation-coach",
+  "name": "Contract Negotiation Coach Agent",
+  "creator": "Meridian Legal",
+  "category": "transaction",
+  "price": 64,
+  "renewal": 77,
+  "subscribers": 190,
+  "desc": "Prepares negotiators with clause benchmarks, fallback positions, and playbooks for high-stakes commercial deals.",
+  "features": [
+   "Clause benchmarks",
+   "Fallback playbooks",
+   "Risk flags"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-real-estate-closing-guide",
+  "name": "Real Estate Closing Guide Agent",
+  "creator": "Keystone Advisory",
+  "category": "transaction",
+  "price": 47,
+  "renewal": 75,
+  "subscribers": 260,
+  "desc": "Walks buyers and sellers through escrow, title review, and closing documents to avoid last-minute surprises.",
+  "features": [
+   "Escrow tracking",
+   "Title review",
+   "Doc checklists"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-cloud-architect-pro",
+  "name": "Cloud Architect Pro Agent",
+  "creator": "CoreStack Engineering",
+  "category": "engineering",
+  "price": 84,
+  "renewal": 82,
+  "subscribers": 380,
+  "desc": "Designs resilient cloud infrastructure on AWS and Azure with cost optimization and disaster recovery baked in.",
+  "features": [
+   "Reference architectures",
+   "Cost tuning",
+   "DR planning"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-devops-pipeline-engineer",
+  "name": "DevOps Pipeline Engineer Agent",
+  "creator": "CoreStack Engineering",
+  "category": "engineering",
+  "price": 74,
+  "renewal": 80,
+  "subscribers": 320,
+  "desc": "Automates CI/CD pipelines, containerization, and infrastructure as code to accelerate reliable software delivery.",
+  "features": [
+   "CI/CD setup",
+   "IaC modules",
+   "Release automation"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-site-reliability-mentor",
+  "name": "Site Reliability Mentor Agent",
+  "creator": "Fulcrum Systems",
+  "category": "engineering",
+  "price": 78,
+  "renewal": 81,
+  "subscribers": 210,
+  "desc": "Coaches teams on SLOs, incident response, and observability to keep production systems healthy at scale.",
+  "features": [
+   "SLO design",
+   "Incident playbooks",
+   "Observability"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-embedded-firmware-expert",
+  "name": "Embedded Firmware Expert Agent",
+  "creator": "Fulcrum Systems",
+  "category": "engineering",
+  "price": 81,
+  "renewal": 79,
+  "subscribers": 90,
+  "desc": "Advises on microcontroller firmware, real-time constraints, and low-power design for connected hardware devices.",
+  "features": [
+   "RTOS design",
+   "Power tuning",
+   "Driver review"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-startup-counsel",
+  "name": "Startup General Counsel Agent",
+  "creator": "Meridian Legal",
+  "category": "legal",
+  "price": 75,
+  "renewal": 83,
+  "subscribers": 290,
+  "desc": "Answers everyday startup legal questions on incorporation, equity, contracts, and intellectual property protection.",
+  "features": [
+   "Entity formation",
+   "Cap table review",
+   "IP guidance"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-employment-law-advisor",
+  "name": "Employment Law Advisor Agent",
+  "creator": "Bracken and Hale",
+  "category": "legal",
+  "price": 68,
+  "renewal": 80,
+  "subscribers": 220,
+  "desc": "Clarifies hiring, termination, and workplace policy questions across US employment law jurisdictions.",
+  "features": [
+   "Policy drafting",
+   "Termination review",
+   "Classification"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-ip-patent-strategist",
+  "name": "IP and Patent Strategist Agent",
+  "creator": "Bracken and Hale",
+  "category": "legal",
+  "price": 88,
+  "renewal": 82,
+  "subscribers": 140,
+  "desc": "Helps inventors evaluate patentability, draft claims strategy, and manage a defensible intellectual property portfolio.",
+  "features": [
+   "Prior-art search",
+   "Claims strategy",
+   "Portfolio audit"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-code-review-companion",
+  "name": "Code Review Companion Agent",
+  "creator": "Bytewise Labs",
+  "category": "software",
+  "price": 45,
+  "renewal": 84,
+  "subscribers": 510,
+  "desc": "Reviews pull requests for bugs, security flaws, and style issues while explaining suggested improvements clearly.",
+  "features": [
+   "Bug detection",
+   "Security scan",
+   "Style guidance"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-legacy-refactor-guide",
+  "name": "Legacy Refactor Guide Agent",
+  "creator": "Bytewise Labs",
+  "category": "software",
+  "price": 59,
+  "renewal": 78,
+  "subscribers": 230,
+  "desc": "Plans safe, incremental refactors of legacy codebases with test coverage strategies and dependency untangling.",
+  "features": [
+   "Refactor plans",
+   "Test scaffolding",
+   "Dependency maps"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-api-design-consultant",
+  "name": "API Design Consultant Agent",
+  "creator": "CoreStack Engineering",
+  "category": "software",
+  "price": 63,
+  "renewal": 80,
+  "subscribers": 270,
+  "desc": "Designs clean, versioned REST and GraphQL APIs with clear contracts, pagination, and error-handling conventions.",
+  "features": [
+   "Schema design",
+   "Versioning",
+   "Error standards"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-fpa-modeling-analyst",
+  "name": "FP&A Modeling Analyst Agent",
+  "creator": "Argent Capital Research",
+  "category": "finance",
+  "price": 82,
+  "renewal": 83,
+  "subscribers": 300,
+  "desc": "Builds three-statement financial models, budgets, and scenario forecasts for growing companies and their boards.",
+  "features": [
+   "Three-statement models",
+   "Scenario planning",
+   "Board decks"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-personal-wealth-planner",
+  "name": "Personal Wealth Planner Agent",
+  "creator": "Harborline Wealth",
+  "category": "finance",
+  "price": 54,
+  "renewal": 79,
+  "subscribers": 470,
+  "desc": "Helps individuals build diversified portfolios, plan retirement contributions, and balance risk against life goals.",
+  "features": [
+   "Portfolio design",
+   "Retirement planning",
+   "Tax-aware allocation"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-equity-research-analyst",
+  "name": "Equity Research Analyst Agent",
+  "creator": "Argent Capital Research",
+  "category": "finance",
+  "price": 90,
+  "renewal": 81,
+  "subscribers": 160,
+  "desc": "Produces structured equity research covering valuation, competitive moats, and catalysts for public companies.",
+  "features": [
+   "Valuation models",
+   "Moat analysis",
+   "Catalyst tracking"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-startup-cfo-advisor",
+  "name": "Fractional CFO Advisor Agent",
+  "creator": "Harborline Wealth",
+  "category": "finance",
+  "price": 86,
+  "renewal": 82,
+  "subscribers": 200,
+  "desc": "Provides fractional CFO guidance on cash runway, fundraising metrics, and unit economics for early-stage founders.",
+  "features": [
+   "Runway modeling",
+   "Fundraise metrics",
+   "Unit economics"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-smart-contract-auditor",
+  "name": "Smart Contract Auditor Agent",
+  "creator": "ChainGuard Security",
+  "category": "web3",
+  "price": 92,
+  "renewal": 80,
+  "subscribers": 180,
+  "desc": "Audits Solidity smart contracts for reentrancy, overflow, and access-control vulnerabilities before mainnet deployment.",
+  "features": [
+   "Vulnerability scan",
+   "Gas review",
+   "Report drafting"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-tokenomics-designer",
+  "name": "Tokenomics Designer Agent",
+  "creator": "ChainGuard Security",
+  "category": "web3",
+  "price": 78,
+  "renewal": 77,
+  "subscribers": 130,
+  "desc": "Designs sustainable token economies with supply schedules, incentive alignment, and vesting structures for protocols.",
+  "features": [
+   "Supply modeling",
+   "Incentive design",
+   "Vesting plans"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-defi-strategy-guide",
+  "name": "DeFi Strategy Guide Agent",
+  "creator": "BlockHarbor Labs",
+  "category": "web3",
+  "price": 71,
+  "renewal": 75,
+  "subscribers": 240,
+  "desc": "Explains decentralized finance protocols and helps users assess yield, liquidity, and smart-contract risk.",
+  "features": [
+   "Yield analysis",
+   "Risk assessment",
+   "Protocol reviews"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-shopify-growth-expert",
+  "name": "Shopify Growth Expert Agent",
+  "creator": "Cartwright Commerce",
+  "category": "ecommerce",
+  "price": 52,
+  "renewal": 81,
+  "subscribers": 410,
+  "desc": "Optimizes Shopify stores for conversion with product page audits, checkout tuning, and merchandising strategy.",
+  "features": [
+   "Conversion audits",
+   "Checkout tuning",
+   "Merchandising"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-amazon-marketplace-strategist",
+  "name": "Amazon Marketplace Strategist Agent",
+  "creator": "Cartwright Commerce",
+  "category": "ecommerce",
+  "price": 58,
+  "renewal": 79,
+  "subscribers": 330,
+  "desc": "Guides sellers through Amazon listing optimization, PPC campaigns, and inventory planning to grow marketplace sales.",
+  "features": [
+   "Listing SEO",
+   "PPC management",
+   "Inventory planning"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-dtc-retention-specialist",
+  "name": "DTC Retention Specialist Agent",
+  "creator": "Cartwright Commerce",
+  "category": "ecommerce",
+  "price": 49,
+  "renewal": 78,
+  "subscribers": 280,
+  "desc": "Improves direct-to-consumer retention through email flows, loyalty programs, and subscription lifecycle design.",
+  "features": [
+   "Email flows",
+   "Loyalty design",
+   "Churn analysis"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-clinical-trial-coordinator",
+  "name": "Clinical Trial Coordinator Agent",
+  "creator": "Vitalis Health Group",
+  "category": "healthcare",
+  "price": 83,
+  "renewal": 82,
+  "subscribers": 120,
+  "desc": "Supports clinical trial operations with protocol tracking, patient recruitment planning, and regulatory documentation.",
+  "features": [
+   "Protocol tracking",
+   "Recruitment plans",
+   "Regulatory docs"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-medical-coding-assistant",
+  "name": "Medical Coding Assistant Agent",
+  "creator": "Vitalis Health Group",
+  "category": "healthcare",
+  "price": 61,
+  "renewal": 80,
+  "subscribers": 240,
+  "desc": "Assists with accurate ICD-10 and CPT coding, reducing claim denials and supporting clean medical billing.",
+  "features": [
+   "ICD-10 coding",
+   "Claim scrubbing",
+   "Denial appeals"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-nutrition-care-planner",
+  "name": "Nutrition Care Planner Agent",
+  "creator": "Wellspring Clinic",
+  "category": "healthcare",
+  "price": 44,
+  "renewal": 79,
+  "subscribers": 360,
+  "desc": "Creates evidence-based nutrition plans tailored to clinical conditions, allergies, and individual dietary goals.",
+  "features": [
+   "Meal planning",
+   "Macro targets",
+   "Condition guidance"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-seo-content-strategist",
+  "name": "SEO Content Strategist Agent",
+  "creator": "Vanta Marketing",
+  "category": "marketing",
+  "price": 48,
+  "renewal": 82,
+  "subscribers": 530,
+  "desc": "Builds keyword-driven content strategies with topic clusters, briefs, and on-page optimization to grow organic traffic.",
+  "features": [
+   "Keyword research",
+   "Topic clusters",
+   "On-page audits"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-paid-ads-optimizer",
+  "name": "Paid Ads Optimizer Agent",
+  "creator": "Vanta Marketing",
+  "category": "marketing",
+  "price": 56,
+  "renewal": 80,
+  "subscribers": 400,
+  "desc": "Optimizes Google and Meta ad campaigns through audience targeting, creative testing, and budget reallocation.",
+  "features": [
+   "Audience targeting",
+   "Creative testing",
+   "Bid strategy"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-brand-storytelling-coach",
+  "name": "Brand Storytelling Coach Agent",
+  "creator": "Lumen Brand Studio",
+  "category": "marketing",
+  "price": 47,
+  "renewal": 78,
+  "subscribers": 290,
+  "desc": "Shapes compelling brand narratives and messaging frameworks that resonate with target customers across channels.",
+  "features": [
+   "Message frameworks",
+   "Positioning",
+   "Voice guidelines"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-email-lifecycle-marketer",
+  "name": "Email Lifecycle Marketer Agent",
+  "creator": "Vanta Marketing",
+  "category": "marketing",
+  "price": 45,
+  "renewal": 81,
+  "subscribers": 340,
+  "desc": "Designs automated email lifecycle campaigns that nurture leads and increase customer lifetime value.",
+  "features": [
+   "Drip sequences",
+   "Segmentation",
+   "A/B testing"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-technical-writer-pro",
+  "name": "Technical Writer Pro Agent",
+  "creator": "Inkwell Editorial",
+  "category": "writing",
+  "price": 42,
+  "renewal": 80,
+  "subscribers": 380,
+  "desc": "Turns complex technical concepts into clear documentation, API guides, and user manuals for diverse audiences.",
+  "features": [
+   "API docs",
+   "User guides",
+   "Style consistency"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-copywriting-conversion-expert",
+  "name": "Conversion Copywriter Agent",
+  "creator": "Lumen Brand Studio",
+  "category": "writing",
+  "price": 46,
+  "renewal": 79,
+  "subscribers": 320,
+  "desc": "Writes persuasive landing pages, ads, and emails engineered to move readers toward a specific action.",
+  "features": [
+   "Landing copy",
+   "Headline testing",
+   "CTA crafting"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-grant-proposal-writer",
+  "name": "Grant Proposal Writer Agent",
+  "creator": "Inkwell Editorial",
+  "category": "writing",
+  "price": 51,
+  "renewal": 81,
+  "subscribers": 180,
+  "desc": "Crafts compelling grant proposals with clear needs statements, measurable outcomes, and aligned budgets for funders.",
+  "features": [
+   "Needs framing",
+   "Outcome metrics",
+   "Budget narratives"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-history-research-guide",
+  "name": "History Research Guide Agent",
+  "creator": "Athenaeum Scholars",
+  "category": "humanities",
+  "price": 38,
+  "renewal": 77,
+  "subscribers": 210,
+  "desc": "Helps students and writers explore historical sources, contextualize events, and build well-supported arguments.",
+  "features": [
+   "Source analysis",
+   "Contextualization",
+   "Citation help"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-philosophy-tutor",
+  "name": "Philosophy Tutor Agent",
+  "creator": "Athenaeum Scholars",
+  "category": "humanities",
+  "price": 36,
+  "renewal": 78,
+  "subscribers": 240,
+  "desc": "Guides learners through major philosophical traditions, arguments, and thought experiments with Socratic questioning.",
+  "features": [
+   "Argument mapping",
+   "Socratic method",
+   "Text analysis"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-cbt-practice-coach",
+  "name": "CBT Practice Coach Agent",
+  "creator": "Mindframe Institute",
+  "category": "psychology",
+  "price": 50,
+  "renewal": 80,
+  "subscribers": 410,
+  "desc": "Teaches cognitive behavioral techniques to reframe unhelpful thoughts and build healthier daily habits.",
+  "features": [
+   "Thought reframing",
+   "Habit building",
+   "Exposure planning"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-organizational-psych-advisor",
+  "name": "Organizational Psychology Advisor Agent",
+  "creator": "Mindframe Institute",
+  "category": "psychology",
+  "price": 64,
+  "renewal": 79,
+  "subscribers": 160,
+  "desc": "Applies organizational psychology to improve team dynamics, motivation, and workplace culture through evidence.",
+  "features": [
+   "Team diagnostics",
+   "Motivation design",
+   "Culture surveys"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-resume-strategist",
+  "name": "Resume Strategist Agent",
+  "creator": "Ascend Career Lab",
+  "category": "career",
+  "price": 39,
+  "renewal": 81,
+  "subscribers": 560,
+  "desc": "Rewrites resumes and LinkedIn profiles with achievement-focused language tuned to applicant tracking systems.",
+  "features": [
+   "ATS optimization",
+   "Achievement framing",
+   "LinkedIn polish"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-interview-prep-coach",
+  "name": "Interview Prep Coach Agent",
+  "creator": "Ascend Career Lab",
+  "category": "career",
+  "price": 43,
+  "renewal": 80,
+  "subscribers": 480,
+  "desc": "Prepares candidates with mock interviews, STAR story frameworks, and tailored answers for target roles.",
+  "features": [
+   "Mock interviews",
+   "STAR stories",
+   "Salary negotiation"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-career-pivot-mentor",
+  "name": "Career Pivot Mentor Agent",
+  "creator": "Ascend Career Lab",
+  "category": "career",
+  "price": 47,
+  "renewal": 78,
+  "subscribers": 300,
+  "desc": "Guides professionals through career transitions by mapping transferable skills and building a focused pivot plan.",
+  "features": [
+   "Skill mapping",
+   "Market research",
+   "Transition roadmap"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-mindfulness-coach",
+  "name": "Mindfulness Coach Agent",
+  "creator": "Wellspring Clinic",
+  "category": "wellness",
+  "price": 34,
+  "renewal": 82,
+  "subscribers": 520,
+  "desc": "Guides daily meditation, breathwork, and stress-reduction practices tailored to busy modern lifestyles.",
+  "features": [
+   "Guided meditation",
+   "Breathwork",
+   "Stress tracking"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-sleep-optimization-guide",
+  "name": "Sleep Optimization Guide Agent",
+  "creator": "Wellspring Clinic",
+  "category": "wellness",
+  "price": 37,
+  "renewal": 80,
+  "subscribers": 370,
+  "desc": "Improves sleep quality through evidence-based routines, circadian alignment, and environment optimization.",
+  "features": [
+   "Sleep routines",
+   "Circadian tips",
+   "Habit tracking"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-math-tutor-pro",
+  "name": "Math Tutor Pro Agent",
+  "creator": "BrightPath Learning",
+  "category": "education",
+  "price": 33,
+  "renewal": 83,
+  "subscribers": 600,
+  "desc": "Teaches math from algebra to calculus with step-by-step explanations and adaptive practice problems.",
+  "features": [
+   "Step solutions",
+   "Adaptive practice",
+   "Concept checks"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-language-learning-coach",
+  "name": "Language Learning Coach Agent",
+  "creator": "BrightPath Learning",
+  "category": "education",
+  "price": 35,
+  "renewal": 81,
+  "subscribers": 540,
+  "desc": "Builds conversational fluency through spaced repetition, immersive dialogue, and personalized vocabulary drills.",
+  "features": [
+   "Spaced repetition",
+   "Dialogue practice",
+   "Grammar coaching"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-study-skills-mentor",
+  "name": "Study Skills Mentor Agent",
+  "creator": "BrightPath Learning",
+  "category": "education",
+  "price": 31,
+  "renewal": 80,
+  "subscribers": 420,
+  "desc": "Helps students master time management, active recall, and note-taking systems to study smarter, not harder.",
+  "features": [
+   "Active recall",
+   "Time blocking",
+   "Note systems"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-personal-organizer",
+  "name": "Personal Organizer Agent",
+  "creator": "Everyday Method",
+  "category": "lifestyle",
+  "price": 29,
+  "renewal": 79,
+  "subscribers": 330,
+  "desc": "Helps declutter spaces and build sustainable organizing systems for homes and daily routines.",
+  "features": [
+   "Decluttering plans",
+   "Storage systems",
+   "Routine design"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-travel-itinerary-planner",
+  "name": "Travel Itinerary Planner Agent",
+  "creator": "Everyday Method",
+  "category": "lifestyle",
+  "price": 32,
+  "renewal": 81,
+  "subscribers": 450,
+  "desc": "Designs personalized travel itineraries balancing budget, pacing, and local experiences for memorable trips.",
+  "features": [
+   "Route planning",
+   "Budget balancing",
+   "Local picks"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-youtube-growth-strategist",
+  "name": "YouTube Growth Strategist Agent",
+  "creator": "Creator Collective",
+  "category": "content",
+  "price": 44,
+  "renewal": 80,
+  "subscribers": 410,
+  "desc": "Grows YouTube channels with title and thumbnail testing, retention analysis, and content calendar planning.",
+  "features": [
+   "Title testing",
+   "Retention analysis",
+   "Content calendar"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-podcast-producer",
+  "name": "Podcast Producer Agent",
+  "creator": "Creator Collective",
+  "category": "content",
+  "price": 41,
+  "renewal": 78,
+  "subscribers": 260,
+  "desc": "Guides podcast creation from format and guest booking to show notes, editing flow, and audience growth.",
+  "features": [
+   "Show planning",
+   "Guest outreach",
+   "Show notes"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-social-media-manager",
+  "name": "Social Media Manager Agent",
+  "creator": "Creator Collective",
+  "category": "content",
+  "price": 39,
+  "renewal": 81,
+  "subscribers": 480,
+  "desc": "Plans and schedules multi-platform social content with hooks, hashtags, and engagement-driven posting strategy.",
+  "features": [
+   "Content calendars",
+   "Hook writing",
+   "Engagement tactics"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-property-investment-analyst",
+  "name": "Property Investment Analyst Agent",
+  "creator": "Keystone Advisory",
+  "category": "realestate",
+  "price": 67,
+  "renewal": 81,
+  "subscribers": 220,
+  "desc": "Analyzes rental and flip deals with cash-flow modeling, cap rates, and neighborhood market comparisons.",
+  "features": [
+   "Cash-flow models",
+   "Cap rate analysis",
+   "Market comps"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-mortgage-advisor",
+  "name": "Mortgage Advisor Agent",
+  "creator": "Keystone Advisory",
+  "category": "realestate",
+  "price": 53,
+  "renewal": 79,
+  "subscribers": 290,
+  "desc": "Explains mortgage options, rate scenarios, and qualification requirements to help buyers finance confidently.",
+  "features": [
+   "Rate scenarios",
+   "Qualification checks",
+   "Refi analysis"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-insurance-claims-advocate",
+  "name": "Insurance Claims Advocate Agent",
+  "creator": "Sterling Risk Partners",
+  "category": "insurance",
+  "price": 57,
+  "renewal": 80,
+  "subscribers": 190,
+  "desc": "Guides policyholders through filing, documenting, and appealing insurance claims to secure fair settlements.",
+  "features": [
+   "Claim filing",
+   "Documentation",
+   "Appeal support"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-risk-underwriting-analyst",
+  "name": "Risk Underwriting Analyst Agent",
+  "creator": "Sterling Risk Partners",
+  "category": "insurance",
+  "price": 72,
+  "renewal": 79,
+  "subscribers": 130,
+  "desc": "Assesses insurance risk using actuarial data, exposure modeling, and policy pricing recommendations.",
+  "features": [
+   "Exposure modeling",
+   "Pricing analysis",
+   "Risk scoring"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-game-design-consultant",
+  "name": "Game Design Consultant Agent",
+  "creator": "Pixel Forge Labs",
+  "category": "gaming",
+  "price": 55,
+  "renewal": 78,
+  "subscribers": 300,
+  "desc": "Advises indie studios on core loops, level pacing, and monetization design that respects player experience.",
+  "features": [
+   "Core loop design",
+   "Level pacing",
+   "Monetization"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-esports-performance-coach",
+  "name": "Esports Performance Coach Agent",
+  "creator": "Pixel Forge Labs",
+  "category": "gaming",
+  "price": 48,
+  "renewal": 77,
+  "subscribers": 260,
+  "desc": "Coaches competitive players on mechanics, strategy review, and mental focus to climb ranked ladders.",
+  "features": [
+   "Mechanics drills",
+   "VOD review",
+   "Focus training"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-music-production-mentor",
+  "name": "Music Production Mentor Agent",
+  "creator": "Resonance Audio Co",
+  "category": "music",
+  "price": 46,
+  "renewal": 79,
+  "subscribers": 340,
+  "desc": "Teaches beat making, mixing, and arrangement across DAWs to help producers finish release-ready tracks.",
+  "features": [
+   "Mixing coaching",
+   "Arrangement",
+   "Sound design"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-songwriting-coach",
+  "name": "Songwriting Coach Agent",
+  "creator": "Resonance Audio Co",
+  "category": "music",
+  "price": 42,
+  "renewal": 78,
+  "subscribers": 280,
+  "desc": "Helps songwriters develop melodies, lyrics, and song structures that connect emotionally with listeners.",
+  "features": [
+   "Melody crafting",
+   "Lyric feedback",
+   "Structure tips"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-meal-prep-chef",
+  "name": "Meal Prep Chef Agent",
+  "creator": "Copper Pot Kitchen",
+  "category": "culinary",
+  "price": 33,
+  "renewal": 80,
+  "subscribers": 400,
+  "desc": "Creates weekly meal-prep plans with batch recipes, shopping lists, and nutrition balanced for busy schedules.",
+  "features": [
+   "Batch recipes",
+   "Shopping lists",
+   "Nutrition balance"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-pastry-technique-tutor",
+  "name": "Pastry Technique Tutor Agent",
+  "creator": "Copper Pot Kitchen",
+  "category": "culinary",
+  "price": 38,
+  "renewal": 79,
+  "subscribers": 210,
+  "desc": "Teaches precise pastry and baking techniques from laminated dough to tempered chocolate with troubleshooting tips.",
+  "features": [
+   "Technique guides",
+   "Recipe scaling",
+   "Troubleshooting"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-data-science-mentor",
+  "name": "Data Science Mentor Agent",
+  "creator": "Quantum Lab Collective",
+  "category": "science",
+  "price": 64,
+  "renewal": 81,
+  "subscribers": 350,
+  "desc": "Mentors learners through statistics, machine learning workflows, and reproducible analysis using Python and R.",
+  "features": [
+   "ML workflows",
+   "Statistics coaching",
+   "Reproducibility"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-biotech-research-advisor",
+  "name": "Biotech Research Advisor Agent",
+  "creator": "Quantum Lab Collective",
+  "category": "science",
+  "price": 78,
+  "renewal": 80,
+  "subscribers": 140,
+  "desc": "Advises on experimental design, assay optimization, and literature synthesis for life sciences research teams.",
+  "features": [
+   "Experiment design",
+   "Assay optimization",
+   "Literature review"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-daily-reflection-companion",
+  "name": "Daily Reflection Companion Agent",
+  "creator": "Kindred Companions",
+  "category": "companion",
+  "price": 25,
+  "renewal": 83,
+  "subscribers": 470,
+  "desc": "Offers supportive daily check-ins, journaling prompts, and reflective conversation to help you process your day.",
+  "features": [
+   "Daily check-ins",
+   "Journal prompts",
+   "Reflective chat"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-accountability-partner",
+  "name": "Accountability Partner Agent",
+  "creator": "Kindred Companions",
+  "category": "companion",
+  "price": 27,
+  "renewal": 82,
+  "subscribers": 390,
+  "desc": "Keeps you consistent on goals through encouraging check-ins, progress tracking, and gentle motivational nudges.",
+  "features": [
+   "Goal tracking",
+   "Check-ins",
+   "Motivation nudges"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-astronomy-explainer",
+  "name": "Astronomy Explainer Agent",
+  "creator": "Orbit Science Media",
+  "category": "space",
+  "price": 30,
+  "renewal": 80,
+  "subscribers": 300,
+  "desc": "Explains astronomy and cosmology from planetary science to black holes with vivid, accessible walkthroughs.",
+  "features": [
+   "Concept explainers",
+   "Sky guides",
+   "Mission updates"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-rocketry-design-tutor",
+  "name": "Rocketry Design Tutor Agent",
+  "creator": "Orbit Science Media",
+  "category": "space",
+  "price": 52,
+  "renewal": 78,
+  "subscribers": 120,
+  "desc": "Teaches rocket propulsion fundamentals, orbital mechanics, and vehicle design for aerospace enthusiasts and students.",
+  "features": [
+   "Propulsion basics",
+   "Orbital mechanics",
+   "Design tradeoffs"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-physics-problem-solver",
+  "name": "Physics Problem Solver Agent",
+  "creator": "Athenaeum Scholars",
+  "category": "physics",
+  "price": 34,
+  "renewal": 81,
+  "subscribers": 360,
+  "desc": "Guides students through mechanics, electromagnetism, and quantum problems with clear conceptual reasoning.",
+  "features": [
+   "Step solutions",
+   "Concept building",
+   "Exam prep"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-computational-physics-guide",
+  "name": "Computational Physics Guide Agent",
+  "creator": "Quantum Lab Collective",
+  "category": "physics",
+  "price": 58,
+  "renewal": 79,
+  "subscribers": 110,
+  "desc": "Helps researchers simulate physical systems with numerical methods, modeling frameworks, and result validation.",
+  "features": [
+   "Numerical methods",
+   "Simulation setup",
+   "Validation"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-organic-chemistry-tutor",
+  "name": "Organic Chemistry Tutor Agent",
+  "creator": "Athenaeum Scholars",
+  "category": "chemistry",
+  "price": 36,
+  "renewal": 80,
+  "subscribers": 330,
+  "desc": "Demystifies reaction mechanisms, synthesis routes, and spectroscopy with step-by-step visual explanations.",
+  "features": [
+   "Mechanism drills",
+   "Synthesis routes",
+   "Spectra reading"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-lab-safety-advisor",
+  "name": "Lab Safety Advisor Agent",
+  "creator": "Quantum Lab Collective",
+  "category": "chemistry",
+  "price": 44,
+  "renewal": 79,
+  "subscribers": 150,
+  "desc": "Advises laboratories on chemical handling, hazard assessment, and compliant waste disposal procedures.",
+  "features": [
+   "Hazard assessment",
+   "SOP drafting",
+   "Waste disposal"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-sql-analytics-expert",
+  "name": "SQL Analytics Expert Agent",
+  "creator": "Datastream Analytics",
+  "category": "data",
+  "price": 54,
+  "renewal": 82,
+  "subscribers": 440,
+  "desc": "Writes and optimizes complex SQL queries and builds analytics models that turn raw tables into clear insight.",
+  "features": [
+   "Query optimization",
+   "Data modeling",
+   "Metric definitions"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-dashboard-builder",
+  "name": "Dashboard Builder Agent",
+  "creator": "Datastream Analytics",
+  "category": "data",
+  "price": 49,
+  "renewal": 81,
+  "subscribers": 380,
+  "desc": "Designs clear, actionable BI dashboards in tools like Tableau and Power BI aligned to business questions.",
+  "features": [
+   "KPI design",
+   "Visual layout",
+   "Drill-down flows"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-data-pipeline-engineer",
+  "name": "Data Pipeline Engineer Agent",
+  "creator": "Datastream Analytics",
+  "category": "data",
+  "price": 76,
+  "renewal": 80,
+  "subscribers": 260,
+  "desc": "Builds reliable ETL and ELT pipelines with schema validation, orchestration, and data quality monitoring.",
+  "features": [
+   "ETL design",
+   "Orchestration",
+   "Quality checks"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en-ml-experiment-analyst",
+  "name": "ML Experiment Analyst Agent",
+  "creator": "Datastream Analytics",
+  "category": "data",
+  "price": 71,
+  "renewal": 79,
+  "subscribers": 200,
+  "desc": "Helps teams run rigorous machine learning experiments with feature engineering, evaluation, and drift monitoring.",
+  "features": [
+   "Feature engineering",
+   "Model evaluation",
+   "Drift monitoring"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-soc2-type2-readiness-auditor",
+  "name": "SOC 2 Type II Readiness Auditor",
+  "creator": "Aldergate Compliance",
+  "category": "compliance",
+  "price": 89,
+  "renewal": 84,
+  "subscribers": 410,
+  "desc": "Runs a full SOC 2 Type II gap assessment and produces an auditor-ready evidence package with a remediation roadmap. Decides which Trust Services Criteria you can pass today versus what needs remediation.",
+  "features": [
+   "Maps existing controls to SOC 2 Trust Services Criteria",
+   "Generates auditor-ready evidence requests per control",
+   "Builds a prioritized remediation roadmap with owners and due dates"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-gdpr-dpia-drafter",
+  "name": "GDPR DPIA & RoPA Drafter",
+  "creator": "Meridian Privacy Partners",
+  "category": "compliance",
+  "price": 79,
+  "renewal": 80,
+  "subscribers": 360,
+  "desc": "Produces Data Protection Impact Assessments and Records of Processing Activities aligned to GDPR Articles 30 and 35. Flags high-risk processing that requires a prior consultation with the supervisory authority.",
+  "features": [
+   "Drafts Article 30 Records of Processing Activities",
+   "Scores processing risk and triggers DPIA thresholds",
+   "Generates lawful-basis and retention justifications per processing purpose"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-iso27001-soa-builder",
+  "name": "ISO 27001 Statement of Applicability Builder",
+  "creator": "Northgate Assurance",
+  "category": "compliance",
+  "price": 95,
+  "renewal": 86,
+  "subscribers": 290,
+  "desc": "Builds the Annex A Statement of Applicability and internal audit plan for ISO 27001 certification. Decides which controls to include, exclude, or justify with documented rationale.",
+  "features": [
+   "Generates Annex A control justifications and exclusions",
+   "Builds a stage 1 and stage 2 audit readiness checklist",
+   "Maps risk treatment plan to selected controls"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-hipaa-security-risk-analyst",
+  "name": "HIPAA Security Rule Risk Analyst",
+  "creator": "Verity Health Advisory",
+  "category": "compliance",
+  "price": 99,
+  "renewal": 88,
+  "subscribers": 240,
+  "desc": "Conducts the HIPAA Security Rule risk analysis required under 45 CFR 164.308 and documents administrative, physical, and technical safeguards. Produces a corrective action plan sized for OCR audit defense.",
+  "features": [
+   "Inventories ePHI systems and data flows",
+   "Scores safeguard gaps against 45 CFR 164 standards",
+   "Generates an OCR-defensible corrective action plan"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-aml-kyc-program-reviewer",
+  "name": "AML/KYC Program Reviewer",
+  "creator": "Sterling Financial Crime Group",
+  "category": "compliance",
+  "price": 119,
+  "renewal": 88,
+  "subscribers": 200,
+  "desc": "Reviews your BSA/AML program against FinCEN expectations and drafts risk-rating, CDD, and SAR escalation procedures. Decides where transaction monitoring thresholds need tuning to cut false positives.",
+  "features": [
+   "Assesses customer risk-rating methodology and CDD coverage",
+   "Reviews transaction monitoring rules for tuning opportunities",
+   "Drafts SAR narrative templates and escalation workflows"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-aicpa-vendor-risk-assessor",
+  "name": "Third-Party Vendor Risk Assessor",
+  "creator": "Aldergate Compliance",
+  "category": "compliance",
+  "price": 69,
+  "renewal": 78,
+  "subscribers": 330,
+  "desc": "Scores third-party vendors on security, privacy, and continuity posture and produces a tiered risk register with contractual control requirements. Decides which vendors require a full assessment versus attestation.",
+  "features": [
+   "Tiers vendors by data access and business criticality",
+   "Generates security questionnaires and reviews responses",
+   "Recommends contractual security clauses and SLAs"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-commercial-lease-redline-reviewer",
+  "name": "Commercial Lease Redline Reviewer",
+  "creator": "Harrow & Bly Counsel",
+  "category": "legal",
+  "price": 99,
+  "renewal": 86,
+  "subscribers": 280,
+  "desc": "Redlines commercial lease agreements against tenant-favorable positions and flags escalation, CAM, and assignment risks. Produces a negotiation memo ranking each open issue by leverage.",
+  "features": [
+   "Redlines rent escalation and CAM pass-through clauses",
+   "Flags assignment, sublease, and exclusivity restrictions",
+   "Produces a ranked negotiation memo with fallback positions"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-saas-msa-negotiator",
+  "name": "SaaS MSA & DPA Negotiator",
+  "creator": "Harrow & Bly Counsel",
+  "category": "legal",
+  "price": 109,
+  "renewal": 86,
+  "subscribers": 300,
+  "desc": "Negotiates SaaS master service agreements and data processing addenda, focusing on liability caps, indemnity, and data rights. Decides which clauses are dealbreakers versus acceptable concessions.",
+  "features": [
+   "Benchmarks liability caps and indemnity against market norms",
+   "Redlines data processing and sub-processor terms",
+   "Generates a clause-by-clause negotiation position table"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-employment-offer-counsel",
+  "name": "Employment Offer & Non-Compete Counsel",
+  "creator": "Cobalt Employment Law",
+  "category": "legal",
+  "price": 79,
+  "renewal": 82,
+  "subscribers": 350,
+  "desc": "Drafts and reviews employment offers, non-competes, and separation agreements for enforceability across US states. Flags clauses void under state law and proposes compliant alternatives.",
+  "features": [
+   "Checks non-compete enforceability by state",
+   "Drafts at-will offer letters and equity terms",
+   "Reviews separation and release agreements for validity"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-trademark-clearance-advisor",
+  "name": "Trademark Clearance & Filing Advisor",
+  "creator": "Lark IP Partners",
+  "category": "legal",
+  "price": 89,
+  "renewal": 84,
+  "subscribers": 260,
+  "desc": "Runs knockout trademark searches and assesses registrability before a USPTO filing. Decides likelihood-of-confusion risk and recommends class selection and filing strategy.",
+  "features": [
+   "Runs knockout searches across USPTO and common law",
+   "Scores likelihood-of-confusion risk",
+   "Recommends Nice classification and filing basis"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-privacy-policy-drafter",
+  "name": "Privacy Policy & Terms Drafter",
+  "creator": "Meridian Privacy Partners",
+  "category": "legal",
+  "price": 59,
+  "renewal": 76,
+  "subscribers": 420,
+  "desc": "Drafts website privacy policies and terms of service aligned to GDPR, CCPA/CPRA, and consumer-protection rules. Produces jurisdiction-specific disclosures and consent language.",
+  "features": [
+   "Generates CCPA/CPRA and GDPR-compliant disclosures",
+   "Drafts consent, cookie, and data-rights sections",
+   "Tailors terms for arbitration and limitation of liability"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-contract-obligation-tracker",
+  "name": "Contract Obligation & Renewal Tracker",
+  "creator": "Harrow & Bly Counsel",
+  "category": "legal",
+  "price": 69,
+  "renewal": 78,
+  "subscribers": 310,
+  "desc": "Extracts key obligations, renewal dates, and termination windows from executed contracts into a monitored register. Decides which upcoming deadlines require action to avoid auto-renewal.",
+  "features": [
+   "Extracts renewal, notice, and termination dates",
+   "Flags auto-renewal and price-escalation triggers",
+   "Builds an obligation calendar with owner assignments"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-litigation-hold-coordinator",
+  "name": "Litigation Hold & eDiscovery Coordinator",
+  "creator": "Cobalt Employment Law",
+  "category": "legal",
+  "price": 99,
+  "renewal": 86,
+  "subscribers": 150,
+  "desc": "Issues litigation hold notices and scopes eDiscovery preservation obligations when a claim is anticipated. Produces a defensible preservation record and custodian list.",
+  "features": [
+   "Drafts and tracks legal hold notices to custodians",
+   "Scopes data sources and preservation obligations",
+   "Maintains a defensible chain-of-custody log"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-13week-cashflow-forecaster",
+  "name": "13-Week Cash Flow Forecaster",
+  "creator": "Northwind Tax Group",
+  "category": "finance",
+  "price": 89,
+  "renewal": 84,
+  "subscribers": 470,
+  "desc": "Builds a rolling 13-week direct cash flow forecast with weekly liquidity, covenant, and runway views. Decides which weeks face a cash shortfall and quantifies the gap.",
+  "features": [
+   "Projects weekly receipts, disbursements, and net position",
+   "Flags covenant breaches and minimum-cash violations",
+   "Runs scenario toggles for collections and payment timing"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-transfer-pricing-doc-specialist",
+  "name": "Transfer Pricing Documentation Specialist",
+  "creator": "Northwind Tax Group",
+  "category": "finance",
+  "price": 139,
+  "renewal": 90,
+  "subscribers": 180,
+  "desc": "Prepares OECD-aligned transfer pricing documentation including master file, local file, and benchmarking rationale. Decides which intercompany transactions carry the highest audit exposure.",
+  "features": [
+   "Documents intercompany transactions and methods",
+   "Builds arm's-length benchmarking rationale",
+   "Assembles master file and local file per OECD guidance"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-saas-metrics-analyst",
+  "name": "SaaS Metrics & ARR Bridge Analyst",
+  "creator": "Beacon FP&A Group",
+  "category": "finance",
+  "price": 99,
+  "renewal": 84,
+  "subscribers": 390,
+  "desc": "Builds an ARR bridge with new, expansion, contraction, and churn components plus NRR and CAC payback. Decides which retention cohort is driving revenue leakage.",
+  "features": [
+   "Constructs ARR waterfall and NRR by cohort",
+   "Calculates CAC payback and magic number",
+   "Flags churn concentration and expansion drivers"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-budget-variance-analyst",
+  "name": "Budget vs Actuals Variance Analyst",
+  "creator": "Beacon FP&A Group",
+  "category": "finance",
+  "price": 69,
+  "renewal": 80,
+  "subscribers": 430,
+  "desc": "Produces monthly budget-versus-actuals variance reports with driver-based explanations by department. Decides which variances are timing versus permanent and require reforecast.",
+  "features": [
+   "Computes variances by department and GL account",
+   "Classifies variances as timing, volume, or rate",
+   "Drafts management commentary and reforecast triggers"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-r-and-d-tax-credit-analyst",
+  "name": "R&D Tax Credit Qualification Analyst",
+  "creator": "Northwind Tax Group",
+  "category": "finance",
+  "price": 119,
+  "renewal": 88,
+  "subscribers": 220,
+  "desc": "Identifies qualifying research activities and expenses for the federal R&D tax credit and builds the four-part-test documentation. Decides which projects and wages qualify under Section 41.",
+  "features": [
+   "Applies the Section 41 four-part test to projects",
+   "Quantifies qualified wages, supplies, and contract research",
+   "Assembles audit-ready QRE substantiation"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-purchase-price-allocation-advisor",
+  "name": "Purchase Price Allocation Advisor",
+  "creator": "Beacon FP&A Group",
+  "category": "finance",
+  "price": 129,
+  "renewal": 88,
+  "subscribers": 140,
+  "desc": "Prepares ASC 805 purchase price allocations, identifying and valuing intangible assets and goodwill after an acquisition. Decides useful lives and amortization schedules for each intangible.",
+  "features": [
+   "Identifies acquired intangibles per ASC 805",
+   "Values customer relationships, IP, and goodwill",
+   "Builds amortization schedules and deferred tax impacts"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-revenue-recognition-analyst",
+  "name": "ASC 606 Revenue Recognition Analyst",
+  "creator": "Beacon FP&A Group",
+  "category": "finance",
+  "price": 109,
+  "renewal": 86,
+  "subscribers": 200,
+  "desc": "Applies the ASC 606 five-step model to contracts and documents performance obligations and revenue timing. Decides how to allocate transaction price across bundled deliverables.",
+  "features": [
+   "Identifies performance obligations in customer contracts",
+   "Allocates transaction price using standalone selling price",
+   "Documents recognition timing and disclosure requirements"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-series-a-term-sheet-negotiator",
+  "name": "Series A Term Sheet Negotiator",
+  "creator": "Highline Ventures Advisory",
+  "category": "transaction",
+  "price": 129,
+  "renewal": 88,
+  "subscribers": 260,
+  "desc": "Negotiates Series A term sheets, modeling dilution, liquidation preference, and control-term impacts on founders. Decides which terms to concede and which to hold in exchange for valuation.",
+  "features": [
+   "Models pre/post-money dilution and option pool shuffle",
+   "Benchmarks liquidation preference and anti-dilution terms",
+   "Flags board, protective-provision, and control tradeoffs"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-ma-due-diligence-coordinator",
+  "name": "M&A Due Diligence Coordinator",
+  "creator": "Highline Ventures Advisory",
+  "category": "transaction",
+  "price": 139,
+  "renewal": 90,
+  "subscribers": 190,
+  "desc": "Runs buy-side M&A due diligence, building the request list, data-room tracker, and issues log across workstreams. Decides which findings are deal-adjusting versus disclosable.",
+  "features": [
+   "Builds diligence request lists by workstream",
+   "Tracks data-room completeness and open items",
+   "Escalates red-flag findings into a deal-issues log"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-quality-of-earnings-analyst",
+  "name": "Quality of Earnings Analyst",
+  "creator": "Keystone Transaction Advisors",
+  "category": "transaction",
+  "price": 139,
+  "renewal": 90,
+  "subscribers": 170,
+  "desc": "Prepares a quality of earnings analysis, normalizing EBITDA for one-time, non-recurring, and run-rate adjustments. Decides which addbacks a buyer will accept versus challenge.",
+  "features": [
+   "Normalizes EBITDA for non-recurring items",
+   "Builds net working capital peg and true-up analysis",
+   "Assesses revenue and margin quality by segment"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-cap-table-scenario-modeler",
+  "name": "Cap Table & Waterfall Modeler",
+  "creator": "Highline Ventures Advisory",
+  "category": "transaction",
+  "price": 99,
+  "renewal": 84,
+  "subscribers": 300,
+  "desc": "Models cap table scenarios and exit waterfalls across preferred classes, options, and convertibles. Decides what each shareholder nets at any exit valuation.",
+  "features": [
+   "Models exit proceeds across preferred and common",
+   "Handles SAFEs, notes, and participating preferred",
+   "Runs breakpoint analysis for option and warrant conversion"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-loi-deal-structuring-advisor",
+  "name": "LOI & Deal Structuring Advisor",
+  "creator": "Keystone Transaction Advisors",
+  "category": "transaction",
+  "price": 119,
+  "renewal": 88,
+  "subscribers": 150,
+  "desc": "Drafts letters of intent and evaluates asset-versus-stock structures for tax and liability impact. Decides earnout, escrow, and indemnity structures that balance both sides.",
+  "features": [
+   "Drafts LOIs with price, structure, and exclusivity terms",
+   "Compares asset vs stock deal tax and liability tradeoffs",
+   "Structures earnouts, escrows, and indemnity caps"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-commercial-property-underwriter",
+  "name": "Commercial Property Underwriter",
+  "creator": "Ironclad Underwriting Group",
+  "category": "insurance",
+  "price": 99,
+  "renewal": 86,
+  "subscribers": 220,
+  "desc": "Evaluates commercial property submissions, assessing COPE data, cat exposure, and loss history to set terms. Decides accept, decline, or refer and recommends pricing and deductibles.",
+  "features": [
+   "Scores COPE and catastrophe exposure",
+   "Analyzes loss runs and frequency/severity trends",
+   "Recommends limits, deductibles, and pricing adequacy"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-general-liability-claim-adjuster",
+  "name": "General Liability Claims Adjuster",
+  "creator": "Ridgeline Claims Advisory",
+  "category": "insurance",
+  "price": 89,
+  "renewal": 84,
+  "subscribers": 240,
+  "desc": "Reviews general liability claims for coverage, liability, and damages and sets reserves with a resolution plan. Decides whether to defend, settle, or deny based on policy and facts.",
+  "features": [
+   "Analyzes coverage triggers and policy exclusions",
+   "Sets indemnity and expense reserves",
+   "Builds a defend-settle-deny recommendation with rationale"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-cyber-insurance-risk-profiler",
+  "name": "Cyber Insurance Risk Profiler",
+  "creator": "Ironclad Underwriting Group",
+  "category": "insurance",
+  "price": 109,
+  "renewal": 86,
+  "subscribers": 210,
+  "desc": "Profiles an applicant's cyber posture from security questionnaires and external scans to price cyber coverage. Decides which control gaps are subjectivities before binding.",
+  "features": [
+   "Scores security controls from application data",
+   "Correlates external scan findings to loss likelihood",
+   "Recommends subjectivities and coverage sublimits"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-workers-comp-mod-analyst",
+  "name": "Workers' Comp Experience Mod Analyst",
+  "creator": "Ridgeline Claims Advisory",
+  "category": "insurance",
+  "price": 79,
+  "renewal": 82,
+  "subscribers": 180,
+  "desc": "Analyzes the experience modification factor, identifying claims driving the mod and correcting rating errors. Decides which open claims to reserve-manage before the unit stat date.",
+  "features": [
+   "Recalculates the experience mod from loss data",
+   "Flags primary vs excess loss drivers",
+   "Identifies unit-stat-date reserve reduction opportunities"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-dandO-coverage-advisor",
+  "name": "D&O Coverage Placement Advisor",
+  "creator": "Ironclad Underwriting Group",
+  "category": "insurance",
+  "price": 119,
+  "renewal": 88,
+  "subscribers": 130,
+  "desc": "Structures directors and officers insurance towers and benchmarks limits, retentions, and Side-A coverage. Decides adequate limits based on company profile and litigation exposure.",
+  "features": [
+   "Benchmarks D&O limits by revenue and sector",
+   "Reviews Side-A, entity, and definition wordings",
+   "Structures excess towers and reinstatement options"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-life-underwriting-risk-classifier",
+  "name": "Life Underwriting Risk Classifier",
+  "creator": "Meridian Life Risk",
+  "category": "insurance",
+  "price": 69,
+  "renewal": 80,
+  "subscribers": 190,
+  "desc": "Classifies life insurance applicants into risk tiers from medical, financial, and lifestyle data. Decides preferred, standard, or rated classification and flags cases needing an APS.",
+  "features": [
+   "Assigns risk class from medical and lifestyle factors",
+   "Flags cases requiring attending physician statements",
+   "Recommends rating debits, credits, and exclusions"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-multifamily-underwriting-analyst",
+  "name": "Multifamily Acquisition Underwriter",
+  "creator": "Cornerstone Realty Capital",
+  "category": "realestate",
+  "price": 119,
+  "renewal": 88,
+  "subscribers": 270,
+  "desc": "Underwrites multifamily acquisitions with a rent-roll analysis, T-12 normalization, and return projections. Decides the maximum offer price to hit target IRR and cash-on-cash.",
+  "features": [
+   "Normalizes T-12 operating statements and rent rolls",
+   "Builds cash flow, IRR, and equity-multiple projections",
+   "Solves for max purchase price at target returns"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-cre-loan-package-preparer",
+  "name": "CRE Loan Package Preparer",
+  "creator": "Cornerstone Realty Capital",
+  "category": "realestate",
+  "price": 89,
+  "renewal": 84,
+  "subscribers": 220,
+  "desc": "Prepares commercial real estate loan packages with DSCR, LTV, and debt-yield analysis for lender submission. Decides which lenders fit the deal profile and likely sizing.",
+  "features": [
+   "Calculates DSCR, LTV, and debt yield",
+   "Assembles lender-ready sponsor and property packages",
+   "Matches deals to lender appetite and loan sizing"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-lease-abstraction-specialist",
+  "name": "Commercial Lease Abstraction Specialist",
+  "creator": "Cornerstone Realty Capital",
+  "category": "realestate",
+  "price": 69,
+  "renewal": 80,
+  "subscribers": 250,
+  "desc": "Abstracts commercial leases into structured summaries of rent, escalations, options, and recovery terms. Decides which lease clauses affect valuation and NOI.",
+  "features": [
+   "Extracts base rent, escalations, and free-rent terms",
+   "Summarizes options, recoveries, and co-tenancy clauses",
+   "Flags landlord obligations impacting NOI"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-property-tax-appeal-advisor",
+  "name": "Property Tax Appeal Advisor",
+  "creator": "Beacon Assessment Partners",
+  "category": "realestate",
+  "price": 79,
+  "renewal": 82,
+  "subscribers": 200,
+  "desc": "Analyzes assessed values against comparable sales and income to build property tax appeal cases. Decides whether an appeal is worth filing and the defensible target value.",
+  "features": [
+   "Compares assessment to sales and income approaches",
+   "Builds evidence packages for appeal boards",
+   "Estimates savings and appeal success likelihood"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-development-proforma-modeler",
+  "name": "Development Pro Forma Modeler",
+  "creator": "Cornerstone Realty Capital",
+  "category": "realestate",
+  "price": 109,
+  "renewal": 86,
+  "subscribers": 160,
+  "desc": "Builds ground-up development pro formas with hard/soft costs, absorption, and construction-loan draws. Decides project feasibility and residual land value.",
+  "features": [
+   "Models development budget and draw schedule",
+   "Projects absorption, lease-up, and stabilized value",
+   "Solves residual land value and profit margin"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-dtc-retention-ltv-strategist",
+  "name": "DTC Retention & LTV Strategist",
+  "creator": "Northbeam Growth Studio",
+  "category": "marketing",
+  "price": 89,
+  "renewal": 84,
+  "subscribers": 520,
+  "desc": "Builds retention and lifecycle programs for DTC brands, modeling cohort LTV and repeat-purchase drivers. Decides which segments to reactivate and the offer economics.",
+  "features": [
+   "Models cohort LTV and repeat-purchase curves",
+   "Designs lifecycle email and SMS flows by segment",
+   "Sizes win-back offers against margin"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-b2b-demand-gen-planner",
+  "name": "B2B Demand Gen Campaign Planner",
+  "creator": "Northbeam Growth Studio",
+  "category": "marketing",
+  "price": 99,
+  "renewal": 84,
+  "subscribers": 340,
+  "desc": "Plans integrated B2B demand generation campaigns with channel mix, MQL targets, and pipeline forecasts. Decides budget allocation across channels to hit pipeline goals.",
+  "features": [
+   "Builds channel mix and budget allocation model",
+   "Forecasts MQL-to-pipeline conversion by stage",
+   "Designs multi-touch campaign and content calendar"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-seo-content-gap-strategist",
+  "name": "SEO Content Gap Strategist",
+  "creator": "Summit Search Collective",
+  "category": "marketing",
+  "price": 79,
+  "renewal": 82,
+  "subscribers": 480,
+  "desc": "Runs keyword gap and SERP intent analysis to build a prioritized SEO content roadmap. Decides which topics can rank and the cluster structure to build authority.",
+  "features": [
+   "Identifies keyword gaps versus competitors",
+   "Maps search intent and SERP feature opportunities",
+   "Builds pillar-cluster content roadmap with priorities"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-paid-media-budget-optimizer",
+  "name": "Paid Media Budget Optimizer",
+  "creator": "Northbeam Growth Studio",
+  "category": "marketing",
+  "price": 99,
+  "renewal": 84,
+  "subscribers": 360,
+  "desc": "Analyzes paid media performance across channels and reallocates budget to maximize blended ROAS. Decides where to scale, hold, or cut spend by campaign.",
+  "features": [
+   "Computes blended and channel-level ROAS/CAC",
+   "Recommends budget reallocation by marginal return",
+   "Flags creative and audience fatigue signals"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-brand-positioning-strategist",
+  "name": "Brand Positioning & Messaging Strategist",
+  "creator": "Lyric Brand Studio",
+  "category": "marketing",
+  "price": 89,
+  "renewal": 84,
+  "subscribers": 300,
+  "desc": "Develops brand positioning, messaging hierarchy, and value propositions differentiated from competitors. Decides the core positioning statement and proof points per audience.",
+  "features": [
+   "Builds positioning statement and messaging pillars",
+   "Maps value props to buyer segments and objections",
+   "Audits competitive messaging for white space"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-webinar-funnel-architect",
+  "name": "Webinar & Event Funnel Architect",
+  "creator": "Summit Search Collective",
+  "category": "marketing",
+  "price": 69,
+  "renewal": 80,
+  "subscribers": 280,
+  "desc": "Designs webinar and event funnels with registration, nurture, and post-event conversion sequences. Decides the promotion timeline and follow-up cadence to maximize attendance and pipeline.",
+  "features": [
+   "Builds registration and reminder sequences",
+   "Designs post-event nurture and sales handoff",
+   "Forecasts attendance and conversion by source"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-amazon-listing-optimizer",
+  "name": "Amazon Listing & PPC Optimizer",
+  "creator": "Cartwright Commerce Lab",
+  "category": "ecommerce",
+  "price": 79,
+  "renewal": 82,
+  "subscribers": 540,
+  "desc": "Optimizes Amazon listings and PPC campaigns, improving conversion, organic rank, and ACOS. Decides keyword targeting and bid strategy to hit target profitability.",
+  "features": [
+   "Rewrites titles, bullets, and backend keywords",
+   "Restructures Sponsored Products campaigns by ACOS target",
+   "Analyzes search-term reports for negatives and harvests"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-shopify-cro-specialist",
+  "name": "Shopify Conversion Rate Specialist",
+  "creator": "Cartwright Commerce Lab",
+  "category": "ecommerce",
+  "price": 89,
+  "renewal": 84,
+  "subscribers": 410,
+  "desc": "Audits Shopify storefronts and checkout to find conversion leaks and prioritizes A/B tests by expected lift. Decides which page changes will move revenue per visitor most.",
+  "features": [
+   "Audits funnel drop-off by page and device",
+   "Prioritizes A/B tests by projected revenue lift",
+   "Recommends checkout and PDP optimizations"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-ecommerce-merchandising-planner",
+  "name": "Ecommerce Merchandising & Assortment Planner",
+  "creator": "Cartwright Commerce Lab",
+  "category": "ecommerce",
+  "price": 99,
+  "renewal": 84,
+  "subscribers": 260,
+  "desc": "Plans product assortment, pricing tiers, and category merchandising to maximize margin and sell-through. Decides which SKUs to promote, hold, or discontinue.",
+  "features": [
+   "Analyzes sell-through and margin by SKU and category",
+   "Builds assortment and price-tier plans",
+   "Recommends markdown and clearance strategy"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-subscription-churn-reducer",
+  "name": "Subscription Churn Reduction Analyst",
+  "creator": "Northbeam Growth Studio",
+  "category": "ecommerce",
+  "price": 89,
+  "renewal": 84,
+  "subscribers": 300,
+  "desc": "Analyzes subscription churn drivers and builds retention interventions across the lifecycle. Decides which at-risk cohorts to target and the save-offer economics.",
+  "features": [
+   "Segments churn by cohort, reason, and tenure",
+   "Designs dunning and cancellation-flow saves",
+   "Models save-offer impact on lifetime value"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-marketplace-expansion-advisor",
+  "name": "Marketplace Expansion Advisor",
+  "creator": "Cartwright Commerce Lab",
+  "category": "ecommerce",
+  "price": 99,
+  "renewal": 84,
+  "subscribers": 190,
+  "desc": "Evaluates expansion onto new marketplaces and channels, sizing demand, fees, and operational fit. Decides which channels to prioritize and the launch sequencing.",
+  "features": [
+   "Sizes channel demand, fees, and margin impact",
+   "Assesses fulfillment and catalog readiness",
+   "Builds a phased channel launch roadmap"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-executive-resume-strategist",
+  "name": "Executive Resume & LinkedIn Strategist",
+  "creator": "Ascend Career Partners",
+  "category": "career",
+  "price": 69,
+  "renewal": 80,
+  "subscribers": 620,
+  "desc": "Rewrites executive resumes and LinkedIn profiles into achievement-driven, ATS-optimized narratives. Decides how to position each role to target specific senior openings.",
+  "features": [
+   "Rewrites bullets into quantified achievement statements",
+   "Optimizes for ATS keywords and target roles",
+   "Rebuilds LinkedIn headline, About, and experience"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-tech-interview-prep-coach",
+  "name": "Technical Interview Prep Coach",
+  "creator": "Ascend Career Partners",
+  "category": "career",
+  "price": 79,
+  "renewal": 82,
+  "subscribers": 480,
+  "desc": "Prepares candidates for technical and system-design interviews with structured practice and feedback. Decides which topics to drill based on target company and role.",
+  "features": [
+   "Builds a role-specific study and drill plan",
+   "Runs mock system-design and behavioral rounds",
+   "Gives structured feedback on gaps and framing"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-salary-negotiation-advisor",
+  "name": "Salary & Offer Negotiation Advisor",
+  "creator": "Ascend Career Partners",
+  "category": "career",
+  "price": 59,
+  "renewal": 78,
+  "subscribers": 540,
+  "desc": "Benchmarks compensation offers and builds a negotiation strategy across base, equity, and bonus. Decides the counter-offer range and the leverage points to push.",
+  "features": [
+   "Benchmarks offers against market comp data",
+   "Models total-comp tradeoffs across base and equity",
+   "Scripts counter-offer language and BATNA"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-career-pivot-strategist",
+  "name": "Career Pivot & Transition Strategist",
+  "creator": "Ascend Career Partners",
+  "category": "career",
+  "price": 69,
+  "renewal": 80,
+  "subscribers": 360,
+  "desc": "Maps transferable skills and builds a step-by-step plan to pivot into a new function or industry. Decides which roles are realistic near-term versus require reskilling.",
+  "features": [
+   "Maps transferable skills to target roles",
+   "Identifies skill gaps and reskilling paths",
+   "Builds a 90-day transition action plan"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-medicare-denial-analyst",
+  "name": "Medicare Claims Denial Analyst",
+  "creator": "Verity Health Advisory",
+  "category": "healthcare",
+  "price": 89,
+  "renewal": 84,
+  "subscribers": 230,
+  "desc": "Analyzes denied Medicare and commercial claims to identify root causes and builds appeal packages. Decides which denials are appealable and the strongest appeal argument.",
+  "features": [
+   "Categorizes denials by root cause and payer",
+   "Drafts appeal letters with clinical and coding support",
+   "Flags recurring edits to fix at the front end"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-hcc-risk-coding-auditor",
+  "name": "HCC Risk Adjustment Coding Auditor",
+  "creator": "Verity Health Advisory",
+  "category": "healthcare",
+  "price": 99,
+  "renewal": 86,
+  "subscribers": 190,
+  "desc": "Audits clinical documentation and HCC coding for risk-adjustment accuracy and RADV defensibility. Decides which diagnoses are supported versus require query or removal.",
+  "features": [
+   "Validates HCC codes against documentation",
+   "Identifies unsupported and missed capture opportunities",
+   "Builds RADV-defensible audit worksheets"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-payer-contract-rate-analyst",
+  "name": "Payer Contract Rate Analyst",
+  "creator": "Caldwell Reimbursement Group",
+  "category": "healthcare",
+  "price": 109,
+  "renewal": 86,
+  "subscribers": 150,
+  "desc": "Analyzes payer contract rates against fee schedules and benchmarks to find underpayment and renegotiation targets. Decides which contracts and codes to prioritize in negotiations.",
+  "features": [
+   "Compares contracted rates to benchmarks by CPT",
+   "Quantifies underpayment and leakage by payer",
+   "Builds renegotiation targets and modeling"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en2-clinical-trial-protocol-reviewer",
+  "name": "Clinical Trial Protocol Reviewer",
+  "creator": "Halcyon Clinical Advisory",
+  "category": "healthcare",
+  "price": 129,
+  "renewal": 88,
+  "subscribers": 120,
+  "desc": "Reviews clinical trial protocols for endpoint design, eligibility, and regulatory alignment before submission. Decides which protocol elements risk FDA or IRB pushback.",
+  "features": [
+   "Reviews endpoints and statistical assumptions",
+   "Checks eligibility criteria and enrollment feasibility",
+   "Flags regulatory and IRB submission risks"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-k8s-cost-optimizer",
+  "name": "Kubernetes Cost Optimizer",
+  "creator": "CoreStack Engineering",
+  "category": "engineering",
+  "price": 79,
+  "renewal": 80,
+  "subscribers": 412,
+  "desc": "Analyzes cluster utilization and recommends right-sized requests, spot pools, and bin-packing changes. Delivers a per-namespace savings report with YAML patches.",
+  "features": [
+   "Idle-workload and over-provisioning detection with dollar impact",
+   "Spot/on-demand mix recommendations per node group",
+   "HPA/VPA and resource-request tuning patches"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-ci-pipeline-accelerator",
+  "name": "CI Pipeline Build Accelerator",
+  "creator": "Velocity Build Works",
+  "category": "engineering",
+  "price": 59,
+  "renewal": 72,
+  "subscribers": 338,
+  "desc": "Profiles slow CI jobs and generates caching, parallelization, and layer-reuse fixes. Outputs an annotated pipeline diff with expected minutes saved.",
+  "features": [
+   "Critical-path analysis of job dependency graphs",
+   "Docker layer and dependency cache configuration",
+   "Test-splitting and matrix parallelization plans"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-observability-slo-designer",
+  "name": "Observability SLO Designer",
+  "creator": "SignalPath Reliability",
+  "category": "engineering",
+  "price": 69,
+  "renewal": 78,
+  "subscribers": 221,
+  "desc": "Turns service telemetry into SLIs, SLOs, and burn-rate alerts. Produces ready-to-import dashboards and error-budget policies.",
+  "features": [
+   "SLI selection from latency and availability signals",
+   "Multi-window multi-burn-rate alert rules",
+   "Error-budget policy and reporting templates"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-terraform-drift-auditor",
+  "name": "Terraform Drift Auditor",
+  "creator": "Provision Guild",
+  "category": "engineering",
+  "price": 65,
+  "renewal": 74,
+  "subscribers": 190,
+  "desc": "Compares live cloud state against IaC and flags drift, orphaned resources, and risky changes. Emits a reconciliation plan with prioritized fixes.",
+  "features": [
+   "State-vs-reality diff across multiple providers",
+   "Orphaned-resource and cost-leak detection",
+   "Import blocks and remediation plan generation"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-solid-refactor-reviewer",
+  "name": "Legacy Refactor Strategy Reviewer",
+  "creator": "Cleanline Software",
+  "category": "software",
+  "price": 55,
+  "renewal": 70,
+  "subscribers": 264,
+  "desc": "Maps tangled modules and proposes an incremental refactor path with seams and characterization tests. Delivers a phased migration plan with risk notes.",
+  "features": [
+   "Dependency and coupling hot-spot mapping",
+   "Seam and strangler-fig extraction proposals",
+   "Characterization-test scaffolding suggestions"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-api-contract-designer",
+  "name": "REST & GraphQL Contract Designer",
+  "creator": "Interface Foundry",
+  "category": "software",
+  "price": 62,
+  "renewal": 76,
+  "subscribers": 298,
+  "desc": "Designs versioned API contracts with pagination, errors, and idempotency baked in. Outputs OpenAPI/SDL specs plus a backward-compatibility checklist.",
+  "features": [
+   "OpenAPI and GraphQL SDL generation",
+   "Pagination, error, and idempotency conventions",
+   "Breaking-change and deprecation review"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-swiftui-migration-advisor",
+  "name": "SwiftUI Migration Advisor",
+  "creator": "Northwind Mobile",
+  "category": "software",
+  "price": 72,
+  "renewal": 80,
+  "subscribers": 176,
+  "desc": "Plans a UIKit-to-SwiftUI migration screen by screen with interop bridges. Produces a prioritized backlog and reusable component inventory.",
+  "features": [
+   "Screen complexity scoring and migration ordering",
+   "UIViewRepresentable interop bridge patterns",
+   "State-management and navigation modernization"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-concurrency-bug-hunter",
+  "name": "Concurrency Bug Hunter",
+  "creator": "RaceGuard Systems",
+  "category": "software",
+  "price": 85,
+  "renewal": 82,
+  "subscribers": 143,
+  "desc": "Reviews multithreaded code for data races, deadlocks, and lost updates. Returns annotated findings with lock-ordering and lock-free alternatives.",
+  "features": [
+   "Data-race and deadlock pattern detection",
+   "Lock-ordering and atomicity recommendations",
+   "Reproduction and stress-test harness design"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-postgres-query-tuner",
+  "name": "Postgres Query Plan Tuner",
+  "creator": "DataForge Labs",
+  "category": "data",
+  "price": 74,
+  "renewal": 80,
+  "subscribers": 389,
+  "desc": "Reads EXPLAIN plans and rewrites slow queries with better indexes and join strategies. Delivers before/after plans and index DDL.",
+  "features": [
+   "Plan-node bottleneck and seq-scan analysis",
+   "Composite and partial index recommendations",
+   "Query rewrite and materialization options"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-dbt-model-refactorer",
+  "name": "dbt Model Refactorer",
+  "creator": "Warehouse Craft",
+  "category": "data",
+  "price": 58,
+  "renewal": 72,
+  "subscribers": 247,
+  "desc": "Restructures sprawling dbt projects into staging, intermediate, and mart layers with tests. Outputs a refactored DAG and naming conventions.",
+  "features": [
+   "Layered model architecture and DAG cleanup",
+   "Test, freshness, and contract coverage plans",
+   "Incremental and materialization strategy tuning"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-data-quality-sentinel",
+  "name": "Data Quality Rule Sentinel",
+  "creator": "Veritas Pipelines",
+  "category": "data",
+  "price": 63,
+  "renewal": 75,
+  "subscribers": 205,
+  "desc": "Profiles datasets and proposes validation rules for nulls, ranges, and referential integrity. Generates expectation suites and anomaly thresholds.",
+  "features": [
+   "Column profiling and drift detection",
+   "Expectation-suite and constraint generation",
+   "Freshness and volume anomaly alerting"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-streaming-pipeline-architect",
+  "name": "Streaming Pipeline Architect",
+  "creator": "FlowState Data",
+  "category": "data",
+  "price": 88,
+  "renewal": 84,
+  "subscribers": 158,
+  "desc": "Designs Kafka/Flink pipelines with exactly-once semantics and backpressure handling. Delivers topology diagrams and partitioning strategy.",
+  "features": [
+   "Partitioning, keying, and consumer-group design",
+   "Exactly-once and idempotent sink patterns",
+   "Watermarking and late-data handling"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-solidity-reentrancy-auditor",
+  "name": "Solidity Reentrancy Auditor",
+  "creator": "Chainforge Security",
+  "category": "web3",
+  "price": 119,
+  "renewal": 88,
+  "subscribers": 167,
+  "desc": "Audits smart contracts for reentrancy, access-control, and oracle-manipulation flaws. Delivers a severity-ranked report with proof-of-concept exploits.",
+  "features": [
+   "Reentrancy and checks-effects-interactions review",
+   "Access-control and privilege-escalation analysis",
+   "PoC exploit and remediation guidance"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-gas-optimization-engineer",
+  "name": "EVM Gas Optimization Engineer",
+  "creator": "Chainforge Security",
+  "category": "web3",
+  "price": 95,
+  "renewal": 85,
+  "subscribers": 142,
+  "desc": "Rewrites contract storage layout and hot paths to cut gas costs. Produces a per-function gas diff with equivalence notes.",
+  "features": [
+   "Storage packing and slot-usage optimization",
+   "Loop, calldata, and opcode-level cost reduction",
+   "Per-function gas benchmark comparison"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-tokenomics-model-designer",
+  "name": "Tokenomics Model Designer",
+  "creator": "Lattice Protocol Studio",
+  "category": "web3",
+  "price": 98,
+  "renewal": 86,
+  "subscribers": 121,
+  "desc": "Models emission schedules, sinks, and incentive flows with sensitivity analysis. Delivers a supply/demand simulation and vesting plan.",
+  "features": [
+   "Emission, vesting, and unlock schedule modeling",
+   "Incentive and sink balance simulation",
+   "Sensitivity and inflation-risk scenarios"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-zk-circuit-reviewer",
+  "name": "ZK Circuit Constraint Reviewer",
+  "creator": "Nullifier Labs",
+  "category": "web3",
+  "price": 125,
+  "renewal": 90,
+  "subscribers": 74,
+  "desc": "Reviews zero-knowledge circuits for under-constrained signals and soundness gaps. Returns a constraint-coverage report with fix recommendations.",
+  "features": [
+   "Under-constrained and non-deterministic signal detection",
+   "Soundness and completeness gap analysis",
+   "Witness-generation and trusted-setup review"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-design-token-architect",
+  "name": "Design System Token Architect",
+  "creator": "Prism Interface Studio",
+  "category": "design",
+  "price": 68,
+  "renewal": 78,
+  "subscribers": 276,
+  "desc": "Structures multi-brand, multi-theme design tokens with semantic aliasing. Delivers a token schema plus platform export configs.",
+  "features": [
+   "Primitive, semantic, and component token layering",
+   "Dark-mode and multi-brand theming structure",
+   "Style Dictionary export configuration"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-accessibility-audit-reviewer",
+  "name": "WCAG Accessibility Audit Reviewer",
+  "creator": "Inclusive Pixels",
+  "category": "design",
+  "price": 64,
+  "renewal": 76,
+  "subscribers": 233,
+  "desc": "Audits interfaces against WCAG 2.2 for contrast, focus order, and semantics. Produces a prioritized issue list with remediation snippets.",
+  "features": [
+   "Contrast, target-size, and focus-order checks",
+   "ARIA and semantic structure review",
+   "Keyboard and screen-reader flow validation"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-ux-flow-friction-analyst",
+  "name": "UX Flow Friction Analyst",
+  "creator": "Wayfinder UX",
+  "category": "design",
+  "price": 57,
+  "renewal": 72,
+  "subscribers": 198,
+  "desc": "Maps user journeys and flags friction, dead ends, and drop-off risks. Delivers annotated flow diagrams with redesign recommendations.",
+  "features": [
+   "Journey mapping and friction heat-scoring",
+   "Drop-off and dead-end identification",
+   "Alternative flow and micro-copy suggestions"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-motion-spec-designer",
+  "name": "UI Motion Spec Designer",
+  "creator": "Kinetic Layer",
+  "category": "design",
+  "price": 61,
+  "renewal": 74,
+  "subscribers": 149,
+  "desc": "Defines easing, duration, and choreography for interface transitions. Outputs a motion spec with tokens and reduced-motion fallbacks.",
+  "features": [
+   "Easing-curve and duration scale definition",
+   "Enter/exit and shared-element choreography",
+   "Reduced-motion and performance guidelines"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-technical-seo-crawl-analyst",
+  "name": "Technical SEO Crawl Analyst",
+  "creator": "Northlight Content",
+  "category": "content",
+  "price": 52,
+  "renewal": 70,
+  "subscribers": 301,
+  "desc": "Crawls a site for indexation, canonical, and Core Web Vitals issues. Delivers a prioritized fix roadmap with expected traffic impact.",
+  "features": [
+   "Crawlability, canonical, and redirect-chain audit",
+   "Structured-data and internal-linking analysis",
+   "Core Web Vitals and rendering diagnostics"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-content-repurposing-planner",
+  "name": "Content Repurposing Planner",
+  "creator": "Evergreen Media Co",
+  "category": "content",
+  "price": 44,
+  "renewal": 68,
+  "subscribers": 254,
+  "desc": "Turns one long-form asset into a multi-channel distribution plan. Delivers per-platform outlines, hooks, and a publishing calendar.",
+  "features": [
+   "Atomization of pillar content into snippets",
+   "Per-channel hook and format adaptation",
+   "Publishing cadence and calendar mapping"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-editorial-style-enforcer",
+  "name": "Editorial Style Guide Enforcer",
+  "creator": "Redline Editorial",
+  "category": "content",
+  "price": 39,
+  "renewal": 66,
+  "subscribers": 187,
+  "desc": "Checks drafts against a house style guide for tone, terminology, and formatting. Returns tracked edits with rule citations.",
+  "features": [
+   "Terminology and banned-word enforcement",
+   "Tone, voice, and reading-level checks",
+   "Citation of the specific style rule violated"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-video-script-hook-writer",
+  "name": "Video Script Hook Writer",
+  "creator": "Frame Zero Studio",
+  "category": "content",
+  "price": 47,
+  "renewal": 69,
+  "subscribers": 216,
+  "desc": "Writes retention-driven scripts with cold opens, pattern interrupts, and CTAs. Delivers scene-by-scene scripts with b-roll notes.",
+  "features": [
+   "Cold-open and hook variant generation",
+   "Retention beat and pattern-interrupt mapping",
+   "B-roll and on-screen text direction"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-grant-proposal-architect",
+  "name": "Research Grant Proposal Architect",
+  "creator": "Quill & Compass",
+  "category": "writing",
+  "price": 66,
+  "renewal": 78,
+  "subscribers": 132,
+  "desc": "Structures grant narratives around aims, significance, and impact with reviewer psychology in mind. Delivers a specific-aims page and full outline.",
+  "features": [
+   "Specific-aims and hypothesis framing",
+   "Significance, innovation, and impact scaffolding",
+   "Reviewer-objection preemption checklist"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-narrative-arc-doctor",
+  "name": "Fiction Narrative Arc Doctor",
+  "creator": "Storyframe Guild",
+  "category": "writing",
+  "price": 49,
+  "renewal": 70,
+  "subscribers": 178,
+  "desc": "Diagnoses pacing, stakes, and character-arc problems in manuscripts. Returns a chapter-level structural report with revision priorities.",
+  "features": [
+   "Scene-level tension and pacing mapping",
+   "Character-arc and motivation consistency checks",
+   "Midpoint and climax structural diagnosis"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-api-docs-writer",
+  "name": "Developer API Docs Writer",
+  "creator": "Clearword Docs",
+  "category": "writing",
+  "price": 54,
+  "renewal": 72,
+  "subscribers": 209,
+  "desc": "Turns endpoints and schemas into task-oriented reference and quickstart docs. Delivers structured pages with runnable examples.",
+  "features": [
+   "Quickstart and authentication guide drafting",
+   "Endpoint reference from OpenAPI specs",
+   "Runnable, copy-paste code examples"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-game-economy-balancer",
+  "name": "Game Economy Balancer",
+  "creator": "Loot Table Labs",
+  "category": "gaming",
+  "price": 71,
+  "renewal": 80,
+  "subscribers": 163,
+  "desc": "Models currency sources, sinks, and progression curves to prevent inflation. Delivers tuned drop tables and a balance spreadsheet.",
+  "features": [
+   "Source/sink flow and inflation modeling",
+   "Progression-curve and reward pacing tuning",
+   "Drop-table and pricing recommendations"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-unity-perf-profiler",
+  "name": "Unity Performance Profiler",
+  "creator": "FrameForge Studio",
+  "category": "gaming",
+  "price": 76,
+  "renewal": 82,
+  "subscribers": 184,
+  "desc": "Diagnoses frame-time spikes from draw calls, GC, and physics. Returns a prioritized optimization list with measured budgets.",
+  "features": [
+   "Draw-call batching and overdraw analysis",
+   "GC-allocation and pooling recommendations",
+   "CPU/GPU frame-budget breakdown"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-level-design-pacing-reviewer",
+  "name": "Level Design Pacing Reviewer",
+  "creator": "Greybox Collective",
+  "category": "gaming",
+  "price": 58,
+  "renewal": 73,
+  "subscribers": 121,
+  "desc": "Reviews level layouts for pacing, difficulty ramp, and player guidance. Delivers annotated maps with encounter-tuning notes.",
+  "features": [
+   "Intensity-curve and rest-beat mapping",
+   "Sightline and player-guidance analysis",
+   "Encounter difficulty and checkpoint tuning"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-multiplayer-netcode-advisor",
+  "name": "Multiplayer Netcode Advisor",
+  "creator": "Rollback Networks",
+  "category": "gaming",
+  "price": 89,
+  "renewal": 85,
+  "subscribers": 97,
+  "desc": "Recommends netcode models for latency, cheating, and desync tradeoffs. Delivers an architecture spec with reconciliation strategy.",
+  "features": [
+   "Rollback vs lockstep vs authoritative comparison",
+   "Client prediction and reconciliation design",
+   "Anti-cheat and lag-compensation strategy"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-mix-bus-balance-engineer",
+  "name": "Mix Bus Balance Engineer",
+  "creator": "Headroom Audio",
+  "category": "music",
+  "price": 56,
+  "renewal": 72,
+  "subscribers": 146,
+  "desc": "Analyzes a mix for masking, dynamics, and tonal balance across the bus. Returns EQ, compression, and level moves with reasoning.",
+  "features": [
+   "Frequency-masking and tonal-balance analysis",
+   "Bus compression and gain-staging guidance",
+   "Loudness and dynamic-range targeting"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-chord-progression-composer",
+  "name": "Chord Progression Composer",
+  "creator": "Modal Craft",
+  "category": "music",
+  "price": 42,
+  "renewal": 67,
+  "subscribers": 193,
+  "desc": "Generates genre-aware progressions with voice leading and modal options. Delivers lead sheets with reharmonization variants.",
+  "features": [
+   "Diatonic and borrowed-chord progression sets",
+   "Voice-leading and inversion suggestions",
+   "Reharmonization and tension-substitution options"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-master-loudness-optimizer",
+  "name": "Streaming Master Loudness Optimizer",
+  "creator": "Headroom Audio",
+  "category": "music",
+  "price": 51,
+  "renewal": 70,
+  "subscribers": 128,
+  "desc": "Optimizes masters to platform LUFS targets while protecting transients. Delivers per-platform limiter and ceiling settings.",
+  "features": [
+   "Per-platform LUFS and true-peak targeting",
+   "Limiter, ceiling, and transient preservation",
+   "Reference-track loudness matching"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-experiment-power-planner",
+  "name": "Experiment Power & Sample-Size Planner",
+  "creator": "Inference Lab",
+  "category": "science",
+  "price": 73,
+  "renewal": 80,
+  "subscribers": 167,
+  "desc": "Computes required sample sizes and power for planned experiments. Delivers a pre-registration-ready design with assumptions stated.",
+  "features": [
+   "Power and MDE calculation for common tests",
+   "Multiple-comparison and interim-analysis handling",
+   "Pre-registration and analysis-plan drafting"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-literature-synthesis-reviewer",
+  "name": "Systematic Literature Synthesis Reviewer",
+  "creator": "Meridian Research",
+  "category": "science",
+  "price": 67,
+  "renewal": 78,
+  "subscribers": 141,
+  "desc": "Structures a systematic review with inclusion criteria and evidence tables. Delivers a PRISMA-style flow and synthesis matrix.",
+  "features": [
+   "Inclusion/exclusion criteria and search strategy",
+   "PRISMA flow and screening documentation",
+   "Evidence-table and risk-of-bias synthesis"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-bioinformatics-pipeline-advisor",
+  "name": "Bioinformatics Pipeline Advisor",
+  "creator": "Helix Compute",
+  "category": "science",
+  "price": 84,
+  "renewal": 84,
+  "subscribers": 112,
+  "desc": "Designs reproducible sequencing pipelines with QC and versioning. Delivers a workflow spec with tool choices and parameters.",
+  "features": [
+   "QC, trimming, and alignment step selection",
+   "Reproducibility and container/versioning setup",
+   "Variant-calling and coverage-threshold guidance"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-reproducibility-audit-reviewer",
+  "name": "Research Reproducibility Auditor",
+  "creator": "Open Method Collective",
+  "category": "science",
+  "price": 60,
+  "renewal": 74,
+  "subscribers": 98,
+  "desc": "Audits analysis code and data handling for reproducibility gaps. Returns a checklist of fixes for environment, seeds, and provenance.",
+  "features": [
+   "Environment and dependency pinning review",
+   "Random-seed and determinism checks",
+   "Data-provenance and pipeline documentation"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-fem-mesh-convergence-analyst",
+  "name": "FEM Mesh Convergence Analyst",
+  "creator": "Continuum Simulation",
+  "category": "physics",
+  "price": 92,
+  "renewal": 86,
+  "subscribers": 86,
+  "desc": "Reviews finite-element setups for mesh quality and convergence. Delivers a refinement plan with error estimates and element choices.",
+  "features": [
+   "Mesh-quality and aspect-ratio diagnostics",
+   "Convergence study and error-estimation plan",
+   "Element-type and boundary-condition review"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-cfd-turbulence-model-advisor",
+  "name": "CFD Turbulence Model Advisor",
+  "creator": "FlowLine Physics",
+  "category": "physics",
+  "price": 97,
+  "renewal": 86,
+  "subscribers": 79,
+  "desc": "Recommends turbulence models and y+ targets for a given flow regime. Delivers a solver setup with boundary and wall-treatment choices.",
+  "features": [
+   "RANS/LES/DES model selection by regime",
+   "y+ target and wall-function guidance",
+   "Convergence and residual-monitoring setup"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-optics-system-designer",
+  "name": "Optical System Ray Designer",
+  "creator": "Photon Bench",
+  "category": "physics",
+  "price": 81,
+  "renewal": 82,
+  "subscribers": 93,
+  "desc": "Designs lens systems and analyzes aberrations against tolerances. Delivers a prescription with spot diagrams and tolerance budget.",
+  "features": [
+   "Aberration and MTF trade-off analysis",
+   "Tolerance budgeting and sensitivity study",
+   "Coating and stray-light mitigation notes"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-retrosynthesis-route-planner",
+  "name": "Retrosynthesis Route Planner",
+  "creator": "Benchmark Chemistry",
+  "category": "chemistry",
+  "price": 94,
+  "renewal": 86,
+  "subscribers": 88,
+  "desc": "Proposes synthetic routes with disconnections, reagents, and step economy. Delivers ranked routes with feasibility and hazard notes.",
+  "features": [
+   "Disconnection and precursor route generation",
+   "Step-economy and yield trade-off ranking",
+   "Reagent hazard and protecting-group notes"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-reaction-condition-optimizer",
+  "name": "Reaction Condition Optimizer",
+  "creator": "Kinetics Works",
+  "category": "chemistry",
+  "price": 78,
+  "renewal": 81,
+  "subscribers": 104,
+  "desc": "Suggests solvent, temperature, and catalyst screens to improve yield. Delivers a DoE screening matrix with rationale.",
+  "features": [
+   "Solvent, base, and catalyst screening design",
+   "Temperature and stoichiometry optimization",
+   "Design-of-experiments matrix generation"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-spectra-interpretation-reviewer",
+  "name": "NMR & MS Spectra Interpretation Reviewer",
+  "creator": "Peak Assign Labs",
+  "category": "chemistry",
+  "price": 70,
+  "renewal": 78,
+  "subscribers": 117,
+  "desc": "Assigns peaks and checks structural consistency across NMR and MS data. Returns an annotated assignment table with confidence flags.",
+  "features": [
+   "1H/13C peak assignment and multiplicity checks",
+   "Mass fragmentation and isotope-pattern analysis",
+   "Structure-consistency and purity flagging"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-orbit-transfer-planner",
+  "name": "Orbit Transfer & Delta-V Planner",
+  "creator": "Apogee Dynamics",
+  "category": "space",
+  "price": 99,
+  "renewal": 87,
+  "subscribers": 91,
+  "desc": "Plans transfer maneuvers and delta-v budgets for a mission profile. Delivers a burn schedule with launch-window analysis.",
+  "features": [
+   "Hohmann and bi-elliptic transfer trade studies",
+   "Delta-v budget and propellant sizing",
+   "Launch-window and phasing analysis"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-satellite-thermal-reviewer",
+  "name": "Satellite Thermal Budget Reviewer",
+  "creator": "Orbital Systems Guild",
+  "category": "space",
+  "price": 93,
+  "renewal": 85,
+  "subscribers": 68,
+  "desc": "Reviews spacecraft thermal budgets across orbital hot and cold cases. Delivers radiator sizing and coating recommendations.",
+  "features": [
+   "Hot/cold case thermal balance analysis",
+   "Radiator, MLI, and heater sizing",
+   "Coating and absorptivity/emissivity selection"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-ground-station-link-analyst",
+  "name": "Ground Station Link Budget Analyst",
+  "creator": "Downlink Labs",
+  "category": "space",
+  "price": 82,
+  "renewal": 82,
+  "subscribers": 74,
+  "desc": "Computes RF link budgets for uplink and downlink with margin analysis. Delivers a link table with modulation and coding choices.",
+  "features": [
+   "Path-loss, gain, and noise-figure budgeting",
+   "Modulation and FEC coding trade-offs",
+   "Rain-fade and margin sensitivity analysis"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-curriculum-scaffolding-designer",
+  "name": "Curriculum Scaffolding Designer",
+  "creator": "Learnwell Studio",
+  "category": "education",
+  "price": 48,
+  "renewal": 69,
+  "subscribers": 231,
+  "desc": "Sequences learning objectives into scaffolded units with checks for understanding. Delivers a mapped syllabus with assessment alignment.",
+  "features": [
+   "Objective sequencing and prerequisite mapping",
+   "Formative check and retrieval-practice design",
+   "Assessment-to-objective alignment matrix"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-assessment-item-writer",
+  "name": "Assessment Item Writer",
+  "creator": "Rubric Foundry",
+  "category": "education",
+  "price": 45,
+  "renewal": 68,
+  "subscribers": 204,
+  "desc": "Writes valid multiple-choice and constructed-response items with rubrics. Delivers items tagged to objectives and cognitive levels.",
+  "features": [
+   "Distractor design and item-flaw avoidance",
+   "Bloom-level and objective tagging",
+   "Analytic rubric and answer-key generation"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-spaced-repetition-planner",
+  "name": "Spaced Repetition Study Planner",
+  "creator": "Recall Labs",
+  "category": "education",
+  "price": 36,
+  "renewal": 66,
+  "subscribers": 278,
+  "desc": "Converts course material into spaced-repetition decks and review schedules. Delivers card sets with interval plans.",
+  "features": [
+   "Concept extraction into atomic cards",
+   "Interval and review-schedule optimization",
+   "Interleaving and difficulty-tagging plans"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-lab-activity-designer",
+  "name": "STEM Lab Activity Designer",
+  "creator": "Hands-On Learning Co",
+  "category": "education",
+  "price": 50,
+  "renewal": 70,
+  "subscribers": 156,
+  "desc": "Designs inquiry-based lab activities with safety and data-collection plans. Delivers a lab handout with guiding questions and rubrics.",
+  "features": [
+   "Inquiry-driven procedure and hypothesis framing",
+   "Safety, materials, and data-collection planning",
+   "Analysis prompts and grading rubric"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-lifecycle-email-strategist",
+  "name": "Lifecycle Email Flow Strategist",
+  "creator": "Cadence Growth",
+  "category": "marketing",
+  "price": 53,
+  "renewal": 71,
+  "subscribers": 287,
+  "desc": "Designs onboarding, retention, and win-back email flows with triggers. Delivers a sequence map with copy angles and timing.",
+  "features": [
+   "Trigger and segmentation flow mapping",
+   "Onboarding, retention, and win-back sequences",
+   "Subject-line and CTA angle testing plan"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-paid-acquisition-auditor",
+  "name": "Paid Acquisition Funnel Auditor",
+  "creator": "Signal Spend Agency",
+  "category": "marketing",
+  "price": 75,
+  "renewal": 80,
+  "subscribers": 198,
+  "desc": "Audits paid campaigns for wasted spend, creative fatigue, and funnel leaks. Delivers a prioritized action plan with budget reallocation.",
+  "features": [
+   "Wasted-spend and negative-keyword analysis",
+   "Creative-fatigue and CTR decay detection",
+   "Budget reallocation and bid-strategy plan"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-positioning-message-architect",
+  "name": "Product Positioning & Message Architect",
+  "creator": "Sharpangle Brand",
+  "category": "marketing",
+  "price": 69,
+  "renewal": 78,
+  "subscribers": 167,
+  "desc": "Clarifies positioning, differentiators, and message hierarchy for a product. Delivers a messaging framework with proof points.",
+  "features": [
+   "Category and competitive positioning canvas",
+   "Value-prop and differentiator articulation",
+   "Message hierarchy and proof-point mapping"
+  ],
+  "owner": "other",
+  "lang": "en"
+ },
+ {
+  "id": "en3-conversion-cro-analyst",
+  "name": "Landing Page CRO Analyst",
+  "creator": "Uplift Experiments",
+  "category": "marketing",
+  "price": 61,
+  "renewal": 74,
+  "subscribers": 223,
+  "desc": "Reviews landing pages for clarity, friction, and persuasion gaps. Delivers a prioritized test backlog with hypotheses.",
+  "features": [
+   "Above-the-fold clarity and friction review",
+   "Persuasion and social-proof gap analysis",
+   "Prioritized A/B test hypothesis backlog"
+  ],
+  "owner": "other",
+  "lang": "en"
+ }
+]

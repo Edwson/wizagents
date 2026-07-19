@@ -1,0 +1,22 @@
+# dependencies
+node_modules
+
+# next.js build output
+.next
+out
+
+# databases (never commit local data)
+*.db
+*.db-journal
+
+# secrets / local env (only the .example templates are committed)
+.env
+.env.local
+.env*.local
+
+# logs
+*.log
+
+# os
+.DS_Store
+Thumbs.db

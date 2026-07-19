@@ -1,0 +1,2882 @@
+[
+ {
+  "id": "kyc-aml",
+  "name": "多轄區 KYC/AML 合規比對 Agent",
+  "creator": "陳律師事務所",
+  "category": "compliance",
+  "desc": "即時比對多國 KYC/AML 規範差異，支援法規週更，協助合規團隊快速產出比對報告。",
+  "owner": "you",
+  "price": 49,
+  "renewal": 82,
+  "subscribers": 214,
+  "features": [
+   "多轄區法規資料庫每週更新",
+   "自動生成比對報告",
+   "API 整合既有合規系統"
+  ]
+ },
+ {
+  "id": "ad-compliance",
+  "name": "金融廣告合規審查 Agent",
+  "creator": "Meridian Legal",
+  "category": "compliance",
+  "desc": "審查行銷文案是否符合各轄區金融廣告規範，標註風險用語與必要揭露。",
+  "owner": "other",
+  "price": 39,
+  "renewal": 75,
+  "subscribers": 156,
+  "features": [
+   "跨轄區廣告規範比對",
+   "風險用語標註",
+   "揭露條款檢查清單"
+  ]
+ },
+ {
+  "id": "ui-audit",
+  "name": "受監管金融產品 UI/UX 稽核 Agent",
+  "creator": "FormaDesign",
+  "category": "design",
+  "desc": "針對風險揭露與適合性關卡進行介面稽核，提出可執行的設計修正建議。",
+  "owner": "you",
+  "price": 59,
+  "renewal": 71,
+  "subscribers": 98,
+  "features": [
+   "風險揭露版位稽核",
+   "適合性關卡流程檢查",
+   "無障礙與可讀性建議"
+  ]
+ },
+ {
+  "id": "suitability",
+  "name": "風險揭露與適合性審查 Agent",
+  "creator": "ClearPath Advisors",
+  "category": "design",
+  "desc": "檢查產品頁與申購流程是否符合適合性評估與揭露要求。",
+  "owner": "other",
+  "price": 45,
+  "renewal": 68,
+  "subscribers": 87,
+  "features": [
+   "申購流程逐頁檢查",
+   "適合性問卷邏輯審查",
+   "揭露文字完整度評分"
+  ]
+ },
+ {
+  "id": "listing-review",
+  "name": "券商/交易所上市審查清單 Agent",
+  "creator": "Bourse Consulting",
+  "category": "transaction",
+  "desc": "自動生成上市審查 checklist 並追蹤缺口，加速上市文件準備。",
+  "owner": "other",
+  "price": 69,
+  "renewal": 79,
+  "subscribers": 132,
+  "features": [
+   "自動生成審查清單",
+   "缺口追蹤與提醒",
+   "歷史案例交叉比對"
+  ]
+ },
+ {
+  "id": "derivatives",
+  "name": "衍生性商品條款解讀 Agent",
+  "creator": "TermSheet AI",
+  "category": "transaction",
+  "desc": "解析衍生性商品條款並標註風險條款與非標準用語。",
+  "owner": "other",
+  "price": 55,
+  "renewal": 73,
+  "subscribers": 104,
+  "features": [
+   "條款逐句解讀",
+   "風險條款標註",
+   "跨文件條款比對"
+  ]
+ },
+ {
+  "id": "a11y",
+  "name": "金融級前端無障礙稽核顧問 Agent",
+  "creator": "AccessFirst",
+  "category": "engineering",
+  "desc": "依無障礙標準稽核金融前端實作，提供可落地的修正程式碼建議。",
+  "owner": "other",
+  "price": 42,
+  "renewal": 77,
+  "subscribers": 143,
+  "features": [
+   "WCAG 逐項稽核",
+   "修正程式碼建議",
+   "標準演進追蹤"
+  ]
+ },
+ {
+  "id": "reg-tracker",
+  "name": "監管標準演進追蹤 Agent",
+  "creator": "RegWatch",
+  "category": "engineering",
+  "desc": "追蹤前端與資安相關標準演進，並提示對現有實作的合規影響。",
+  "owner": "other",
+  "price": 35,
+  "renewal": 65,
+  "subscribers": 76,
+  "features": [
+   "標準變動即時通知",
+   "影響範圍評估",
+   "修正優先順序建議"
+  ]
+ },
+ {
+  "id": "coppa",
+  "name": "COPPA 兒少隱私合規顧問 Agent",
+  "creator": "Youth Privacy Law",
+  "category": "legal",
+  "desc": "審查產品與資料流程是否符合美國兒少線上隱私保護法（COPPA）要求。",
+  "owner": "other",
+  "price": 55,
+  "renewal": 74,
+  "subscribers": 61,
+  "features": [
+   "同意機制條款審查",
+   "資料蒐集流程比對",
+   "執法案例更新追蹤"
+  ]
+ },
+ {
+  "id": "us-labor",
+  "name": "美國勞工法顧問 Agent",
+  "creator": "Halloway Employment Law",
+  "category": "legal",
+  "desc": "解讀聯邦與各州勞工法規，涵蓋雇傭合約、工時與解僱爭議。",
+  "owner": "other",
+  "price": 59,
+  "renewal": 76,
+  "subscribers": 88,
+  "features": [
+   "聯邦/各州法規比對",
+   "雇傭合約條款審查",
+   "案例判決追蹤"
+  ]
+ },
+ {
+  "id": "us-civil",
+  "name": "美國民法顧問 Agent",
+  "creator": "Sterling Civil Practice",
+  "category": "legal",
+  "desc": "協助處理合約糾紛、侵權責任等民事法律問題的初步分析。",
+  "owner": "other",
+  "price": 52,
+  "renewal": 70,
+  "subscribers": 54,
+  "features": [
+   "合約條款風險評估",
+   "侵權責任分析",
+   "各州民法差異比對"
+  ]
+ },
+ {
+  "id": "us-criminal",
+  "name": "美國刑法顧問 Agent",
+  "creator": "Delgado Defense Group",
+  "category": "legal",
+  "desc": "提供刑事案件程序、量刑指南與抗辯策略的初步研究輔助。",
+  "owner": "other",
+  "price": 49,
+  "renewal": 66,
+  "subscribers": 42,
+  "features": [
+   "量刑指南查詢",
+   "程序時效追蹤",
+   "判例研究輔助"
+  ]
+ },
+ {
+  "id": "ip-law",
+  "name": "智慧財產權顧問 Agent",
+  "creator": "Ashworth IP Partners",
+  "category": "legal",
+  "desc": "涵蓋專利、商標與著作權申請策略與侵權風險評估。",
+  "owner": "other",
+  "price": 65,
+  "renewal": 80,
+  "subscribers": 97,
+  "features": [
+   "專利申請策略建議",
+   "商標侵權風險掃描",
+   "著作權授權條款審查"
+  ]
+ },
+ {
+  "id": "java-expert",
+  "name": "Java 資深工程顧問 Agent",
+  "creator": "CoreStack Engineering",
+  "category": "software",
+  "desc": "提供 Java 企業級架構設計、效能調校與程式碼審查建議。",
+  "owner": "other",
+  "price": 45,
+  "renewal": 72,
+  "subscribers": 118,
+  "features": [
+   "架構設計審查",
+   "JVM 效能調校",
+   "程式碼安全掃描"
+  ]
+ },
+ {
+  "id": "typescript-expert",
+  "name": "TypeScript 資深工程顧問 Agent",
+  "creator": "CoreStack Engineering",
+  "category": "software",
+  "desc": "協助型別系統設計、大型專案重構與前端架構決策。",
+  "owner": "other",
+  "price": 42,
+  "renewal": 78,
+  "subscribers": 137,
+  "features": [
+   "型別系統設計審查",
+   "大型專案重構建議",
+   "前端架構最佳實踐"
+  ]
+ },
+ {
+  "id": "python-analyst",
+  "name": "Python 數據分析師 Agent",
+  "creator": "DataForge Labs",
+  "category": "software",
+  "desc": "協助資料清洗、統計分析與 pandas/numpy 管線最佳化。",
+  "owner": "other",
+  "price": 39,
+  "renewal": 69,
+  "subscribers": 105,
+  "features": [
+   "資料清洗流程審查",
+   "統計方法建議",
+   "分析管線效能優化"
+  ]
+ },
+ {
+  "id": "stock-analyst",
+  "name": "股票分析師 Agent",
+  "creator": "Argent Capital Research",
+  "category": "finance",
+  "desc": "提供個股基本面分析、財報解讀與產業比較框架。",
+  "owner": "other",
+  "price": 49,
+  "renewal": 71,
+  "subscribers": 163,
+  "features": [
+   "財報逐項解讀",
+   "同業比較分析",
+   "估值模型建議"
+  ]
+ },
+ {
+  "id": "cfa-l3",
+  "name": "CFA Level 3 財務分析師 Agent",
+  "creator": "Northbridge Wealth",
+  "category": "finance",
+  "desc": "涵蓋投資組合管理與財富規劃的專業級分析與案例演練。",
+  "owner": "other",
+  "price": 79,
+  "renewal": 83,
+  "subscribers": 121,
+  "features": [
+   "投資組合建構建議",
+   "風險報酬分析",
+   "CFA 準則案例演練"
+  ]
+ },
+ {
+  "id": "cfe-aml",
+  "name": "CFE 反洗錢專家 Agent",
+  "creator": "Vantage Fraud Advisory",
+  "category": "finance",
+  "desc": "協助識別可疑交易模式，並依 AML 準則產出調查報告草稿。",
+  "owner": "other",
+  "price": 69,
+  "renewal": 85,
+  "subscribers": 149,
+  "features": [
+   "可疑交易模式辨識",
+   "AML 準則比對",
+   "調查報告草稿產出"
+  ]
+ },
+ {
+  "id": "web3-pm",
+  "name": "Web3 產品經理 Agent",
+  "creator": "Chainforge Studio",
+  "category": "web3",
+  "desc": "協助規劃代幣經濟、產品路線圖與社群治理機制設計。",
+  "owner": "other",
+  "price": 59,
+  "renewal": 68,
+  "subscribers": 73,
+  "features": [
+   "代幣經濟模型設計",
+   "產品路線圖規劃",
+   "DAO 治理機制建議"
+  ]
+ },
+ {
+  "id": "wallet-eng",
+  "name": "Crypto 錢包工程師 Agent",
+  "creator": "Chainforge Studio",
+  "category": "web3",
+  "desc": "提供錢包簽章流程、私鑰管理與跨鏈整合的架構建議。",
+  "owner": "other",
+  "price": 62,
+  "renewal": 74,
+  "subscribers": 91,
+  "features": [
+   "簽章流程安全審查",
+   "私鑰管理架構建議",
+   "跨鏈整合方案"
+  ]
+ },
+ {
+  "id": "nft-listing",
+  "name": "NFT 上架專家 Agent",
+  "creator": "Mintline Advisory",
+  "category": "web3",
+  "desc": "協助規劃 NFT 發行策略、上架流程與版稅機制設計。",
+  "owner": "other",
+  "price": 45,
+  "renewal": 63,
+  "subscribers": 58,
+  "features": [
+   "發行策略規劃",
+   "上架平台比較",
+   "版稅機制設計"
+  ]
+ },
+ {
+  "id": "security-eng",
+  "name": "資安工程師 Agent",
+  "creator": "Vaultline Security",
+  "category": "software",
+  "desc": "協助進行滲透測試規劃、漏洞修補建議與資安架構審查。",
+  "owner": "other",
+  "price": 55,
+  "renewal": 79,
+  "subscribers": 126,
+  "features": [
+   "滲透測試規劃",
+   "漏洞修補優先排序",
+   "資安架構審查"
+  ]
+ },
+ {
+  "id": "shop-ops",
+  "name": "網店維運 Agent",
+  "creator": "Storefront Ops Co.",
+  "category": "ecommerce",
+  "desc": "協助處理庫存管理、訂單流程優化與客服話術建議。",
+  "owner": "other",
+  "price": 35,
+  "renewal": 70,
+  "subscribers": 112,
+  "features": [
+   "庫存管理建議",
+   "訂單流程優化",
+   "客服話術範本"
+  ]
+ },
+ {
+  "id": "shop-banner",
+  "name": "網店 Banner 設計師 Agent",
+  "creator": "PixelShelf Studio",
+  "category": "ecommerce",
+  "desc": "提供促銷 Banner 版面配置、文案排版與視覺風格建議。",
+  "owner": "other",
+  "price": 32,
+  "renewal": 64,
+  "subscribers": 84,
+  "features": [
+   "版面配置建議",
+   "促銷文案排版",
+   "視覺風格一致性檢查"
+  ]
+ },
+ {
+  "id": "tax-law",
+  "name": "美國稅務法顧問 Agent",
+  "creator": "Kellerman Tax Group",
+  "category": "legal",
+  "desc": "解讀聯邦與各州稅法、扣除策略與跨境稅務規劃要點。",
+  "owner": "other",
+  "price": 62,
+  "renewal": 78,
+  "subscribers": 94,
+  "features": [
+   "聯邦/州稅法比對",
+   "扣除與抵免策略",
+   "跨境稅務風險評估"
+  ]
+ },
+ {
+  "id": "gdpr",
+  "name": "GDPR 資料隱私顧問 Agent",
+  "creator": "Nordwall Privacy",
+  "category": "legal",
+  "desc": "審查資料處理流程是否符合 GDPR，產出 DPA 與紀錄建議。",
+  "owner": "other",
+  "price": 58,
+  "renewal": 81,
+  "subscribers": 108,
+  "features": [
+   "資料流盤點",
+   "DPA 條款審查",
+   "跨境傳輸機制建議"
+  ]
+ },
+ {
+  "id": "ma-analyst",
+  "name": "併購 M&A 分析師 Agent",
+  "creator": "Northbridge Wealth",
+  "category": "finance",
+  "desc": "協助盡職調查清單、估值模型與交易架構分析。",
+  "owner": "other",
+  "price": 89,
+  "renewal": 80,
+  "subscribers": 71,
+  "features": [
+   "盡職調查清單",
+   "DCF / 可比公司估值",
+   "交易架構建議"
+  ]
+ },
+ {
+  "id": "esg-analyst",
+  "name": "ESG 投資分析師 Agent",
+  "creator": "Verdant Capital",
+  "category": "finance",
+  "desc": "評估標的 ESG 評級、揭露品質與監管風險。",
+  "owner": "other",
+  "price": 57,
+  "renewal": 72,
+  "subscribers": 96,
+  "features": [
+   "ESG 評級解讀",
+   "揭露品質評分",
+   "漂綠風險偵測"
+  ]
+ },
+ {
+  "id": "rust-eng",
+  "name": "Rust 系統工程顧問 Agent",
+  "creator": "CoreStack Engineering",
+  "category": "software",
+  "desc": "協助記憶體安全設計、非同步架構與效能調校。",
+  "owner": "other",
+  "price": 48,
+  "renewal": 76,
+  "subscribers": 89,
+  "features": [
+   "所有權模型審查",
+   "非同步架構建議",
+   "效能瓶頸分析"
+  ]
+ },
+ {
+  "id": "devops-sre",
+  "name": "DevOps / SRE 顧問 Agent",
+  "creator": "Uptime Labs",
+  "category": "software",
+  "desc": "協助 CI/CD 管線、可觀測性與可靠度工程實踐。",
+  "owner": "other",
+  "price": 52,
+  "renewal": 79,
+  "subscribers": 134,
+  "features": [
+   "CI/CD 管線審查",
+   "SLO / 告警設計",
+   "事故復盤範本"
+  ]
+ },
+ {
+  "id": "smart-contract-audit",
+  "name": "智能合約稽核 Agent",
+  "creator": "Chainforge Studio",
+  "category": "web3",
+  "desc": "掃描智能合約常見漏洞並提出修補與最佳實踐建議。",
+  "owner": "other",
+  "price": 88,
+  "renewal": 82,
+  "subscribers": 77,
+  "features": [
+   "重入/溢位漏洞掃描",
+   "gas 優化建議",
+   "稽核報告草稿"
+  ]
+ },
+ {
+  "id": "defi-design",
+  "name": "DeFi 協議設計顧問 Agent",
+  "creator": "Mintline Advisory",
+  "category": "web3",
+  "desc": "協助流動性設計、風險參數與激勵機制建模。",
+  "owner": "other",
+  "price": 66,
+  "renewal": 67,
+  "subscribers": 52,
+  "features": [
+   "流動性池設計",
+   "清算參數建模",
+   "激勵機制模擬"
+  ]
+ },
+ {
+  "id": "fda",
+  "name": "FDA 醫材法規顧問 Agent",
+  "creator": "MedReg Partners",
+  "category": "healthcare",
+  "desc": "協助 510(k) / De Novo 路徑判定與送審文件準備。",
+  "owner": "other",
+  "price": 95,
+  "renewal": 84,
+  "subscribers": 63,
+  "features": [
+   "上市路徑判定",
+   "送審文件檢查",
+   "法規更新追蹤"
+  ]
+ },
+ {
+  "id": "hipaa",
+  "name": "HIPAA 合規顧問 Agent",
+  "creator": "MedReg Partners",
+  "category": "healthcare",
+  "desc": "審查健康資料處理與 BAA，協助隱私與資安合規。",
+  "owner": "other",
+  "price": 68,
+  "renewal": 80,
+  "subscribers": 88,
+  "features": [
+   "PHI 資料流審查",
+   "BAA 條款檢查",
+   "資安控管建議"
+  ]
+ },
+ {
+  "id": "clinical-trial",
+  "name": "臨床試驗設計顧問 Agent",
+  "creator": "TrialForm Sciences",
+  "category": "healthcare",
+  "desc": "協助試驗方案設計、統計功效與法規對齊。",
+  "owner": "other",
+  "price": 82,
+  "renewal": 74,
+  "subscribers": 41,
+  "features": [
+   "試驗方案審查",
+   "統計功效估算",
+   "IRB 文件建議"
+  ]
+ },
+ {
+  "id": "seo-strategy",
+  "name": "SEO 策略顧問 Agent",
+  "creator": "Northlight Growth",
+  "category": "marketing",
+  "desc": "產出關鍵字策略、技術 SEO 稽核與內容藍圖。",
+  "owner": "other",
+  "price": 38,
+  "renewal": 70,
+  "subscribers": 152,
+  "features": [
+   "關鍵字機會分析",
+   "技術 SEO 稽核",
+   "內容藍圖規劃"
+  ]
+ },
+ {
+  "id": "growth-mkt",
+  "name": "成長行銷顧問 Agent",
+  "creator": "Northlight Growth",
+  "category": "marketing",
+  "desc": "協助漏斗優化、A/B 測試設計與獲客渠道分析。",
+  "owner": "other",
+  "price": 46,
+  "renewal": 73,
+  "subscribers": 118,
+  "features": [
+   "漏斗診斷",
+   "A/B 測試設計",
+   "獲客渠道 ROI 分析"
+  ]
+ },
+ {
+  "id": "brand-copy",
+  "name": "品牌文案顧問 Agent",
+  "creator": "Studio Verbatim",
+  "category": "marketing",
+  "desc": "打磨品牌語調、產品文案與活動標語。",
+  "owner": "other",
+  "price": 34,
+  "renewal": 66,
+  "subscribers": 97,
+  "features": [
+   "品牌語調定義",
+   "產品頁文案",
+   "活動標語發想"
+  ]
+ },
+ {
+  "id": "amazon-listing",
+  "name": "Amazon 產品上架 Agent",
+  "creator": "Storefront Ops Co.",
+  "category": "ecommerce",
+  "desc": "協助撰寫 A+ 頁面、關鍵字後端與類目節點選擇，符合 Amazon 上架規範。",
+  "owner": "other",
+  "price": 44,
+  "renewal": 74,
+  "subscribers": 168,
+  "features": [
+   "Listing 文案與關鍵字",
+   "A+ 內容版面建議",
+   "類目與合規檢查"
+  ]
+ },
+ {
+  "id": "market-analysis",
+  "name": "商品市場分析 Agent",
+  "creator": "Storefront Ops Co.",
+  "category": "ecommerce",
+  "desc": "分析品類需求、競品定價與趨勢缺口，產出選品建議。",
+  "owner": "other",
+  "price": 49,
+  "renewal": 76,
+  "subscribers": 141,
+  "features": [
+   "需求與趨勢分析",
+   "競品定價比較",
+   "選品機會評分"
+  ]
+ },
+ {
+  "id": "ebay-auction",
+  "name": "eBay 24 小時拍賣監控 Agent",
+  "creator": "BidWatch Labs",
+  "category": "ecommerce",
+  "desc": "全天候監控競標動態、出價節奏與結標策略提醒。",
+  "owner": "other",
+  "price": 38,
+  "renewal": 69,
+  "subscribers": 92,
+  "features": [
+   "即時競標監控",
+   "出價節奏建議",
+   "結標策略提醒"
+  ]
+ },
+ {
+  "id": "copy-review",
+  "name": "文案審核 Agent",
+  "creator": "Studio Verbatim",
+  "category": "marketing",
+  "desc": "審查文案的語氣一致性、錯字與品牌準則遵循度。",
+  "owner": "other",
+  "price": 30,
+  "renewal": 71,
+  "subscribers": 124,
+  "features": [
+   "語氣一致性檢查",
+   "錯字與語法校對",
+   "品牌準則遵循度"
+  ]
+ },
+ {
+  "id": "child-psych",
+  "name": "孩童心理顧問 Agent",
+  "creator": "Bright Minds Clinic",
+  "category": "psychology",
+  "desc": "提供兒童發展階段、情緒行為與親子溝通的實證建議。",
+  "owner": "other",
+  "price": 54,
+  "renewal": 81,
+  "subscribers": 133,
+  "features": [
+   "發展階段評估",
+   "情緒行為策略",
+   "親子溝通腳本"
+  ]
+ },
+ {
+  "id": "book-buddy",
+  "name": "書友共讀 Agent",
+  "creator": "Marginalia Press",
+  "category": "writing",
+  "desc": "陪你共讀一本書：章節導讀、提問討論與延伸書單。",
+  "owner": "other",
+  "price": 22,
+  "renewal": 67,
+  "subscribers": 156,
+  "features": [
+   "章節導讀與摘要",
+   "深度討論提問",
+   "延伸書單推薦"
+  ]
+ },
+ {
+  "id": "scifi-writer",
+  "name": "科幻小說創作 Agent",
+  "creator": "Nebula Workshop",
+  "category": "writing",
+  "desc": "協助建構世界觀、硬科幻設定與情節推進。",
+  "owner": "other",
+  "price": 28,
+  "renewal": 70,
+  "subscribers": 187,
+  "features": [
+   "世界觀與設定建構",
+   "硬科幻邏輯校對",
+   "情節結構建議"
+  ]
+ },
+ {
+  "id": "romance-writer",
+  "name": "愛情小說創作 Agent",
+  "creator": "Nebula Workshop",
+  "category": "writing",
+  "desc": "協助人物弧線、情感張力與對白節奏設計。",
+  "owner": "other",
+  "price": 26,
+  "renewal": 72,
+  "subscribers": 203,
+  "features": [
+   "人物弧線設計",
+   "情感張力鋪陳",
+   "對白節奏建議"
+  ]
+ },
+ {
+  "id": "brit-lit",
+  "name": "英國文學導讀 Agent",
+  "creator": "Bodleian Scholars",
+  "category": "humanities",
+  "desc": "從喬叟到當代，導讀英國文學脈絡、文本細讀與評論框架。",
+  "owner": "other",
+  "price": 32,
+  "renewal": 75,
+  "subscribers": 88,
+  "features": [
+   "文學史脈絡導讀",
+   "文本細讀分析",
+   "評論框架建議"
+  ]
+ },
+ {
+  "id": "logic-reason",
+  "name": "邏輯思辨 Agent",
+  "creator": "Bodleian Scholars",
+  "category": "humanities",
+  "desc": "訓練形式邏輯、論證分析與謬誤辨識。",
+  "owner": "other",
+  "price": 30,
+  "renewal": 73,
+  "subscribers": 114,
+  "features": [
+   "形式邏輯教學",
+   "論證結構拆解",
+   "常見謬誤辨識"
+  ]
+ },
+ {
+  "id": "career-coach",
+  "name": "職涯發展教練 Agent",
+  "creator": "Ascend Career Lab",
+  "category": "career",
+  "desc": "協助職涯路徑規劃、談薪策略與轉職決策。",
+  "owner": "other",
+  "price": 40,
+  "renewal": 74,
+  "subscribers": 172,
+  "features": [
+   "職涯路徑規劃",
+   "談薪策略腳本",
+   "轉職決策分析"
+  ]
+ },
+ {
+  "id": "resume-review",
+  "name": "履歷健檢 Agent",
+  "creator": "Ascend Career Lab",
+  "category": "career",
+  "desc": "逐段健檢履歷、量化成就與 ATS 關鍵字優化。",
+  "owner": "other",
+  "price": 24,
+  "renewal": 68,
+  "subscribers": 224,
+  "features": [
+   "逐段內容健檢",
+   "成就量化建議",
+   "ATS 關鍵字優化"
+  ]
+ },
+ {
+  "id": "interview-coach",
+  "name": "面試教練 Agent",
+  "creator": "Ascend Career Lab",
+  "category": "career",
+  "desc": "模擬面試、STAR 回答結構與臨場追問演練。",
+  "owner": "other",
+  "price": 32,
+  "renewal": 71,
+  "subscribers": 158,
+  "features": [
+   "模擬面試演練",
+   "STAR 回答結構",
+   "追問情境練習"
+  ]
+ },
+ {
+  "id": "nutritionist",
+  "name": "營養師 Agent",
+  "creator": "Vital Nutrition Co.",
+  "category": "wellness",
+  "desc": "依目標與飲食偏好產出餐盤建議與營養分析。",
+  "owner": "other",
+  "price": 29,
+  "renewal": 76,
+  "subscribers": 241,
+  "features": [
+   "個人化餐盤建議",
+   "營養素分析",
+   "外食選擇建議"
+  ]
+ },
+ {
+  "id": "fitness-coach",
+  "name": "健身教練 Agent",
+  "creator": "Vital Nutrition Co.",
+  "category": "wellness",
+  "desc": "依器材與程度安排訓練課表與動作要點。",
+  "owner": "other",
+  "price": 27,
+  "renewal": 70,
+  "subscribers": 267,
+  "features": [
+   "個人化訓練課表",
+   "動作要點提示",
+   "進度追蹤建議"
+  ]
+ },
+ {
+  "id": "mindfulness",
+  "name": "正念冥想導師 Agent",
+  "creator": "Stillpoint Studio",
+  "category": "wellness",
+  "desc": "引導呼吸練習、睡眠放鬆與壓力調節。",
+  "owner": "other",
+  "price": 19,
+  "renewal": 66,
+  "subscribers": 189,
+  "features": [
+   "引導式冥想腳本",
+   "睡眠放鬆練習",
+   "壓力調節技巧"
+  ]
+ },
+ {
+  "id": "jp-tutor",
+  "name": "日語學習 Agent",
+  "creator": "Lingua Bridge",
+  "category": "education",
+  "desc": "依 JLPT 程度規劃學習、文法解析與會話練習。",
+  "owner": "other",
+  "price": 25,
+  "renewal": 72,
+  "subscribers": 214,
+  "features": [
+   "JLPT 分級學習",
+   "文法逐點解析",
+   "情境會話練習"
+  ]
+ },
+ {
+  "id": "es-tutor",
+  "name": "西班牙語學習 Agent",
+  "creator": "Lingua Bridge",
+  "category": "education",
+  "desc": "從發音到會話，循序漸進的西語學習陪練。",
+  "owner": "other",
+  "price": 25,
+  "renewal": 69,
+  "subscribers": 176,
+  "features": [
+   "發音與語調矯正",
+   "文法循序教學",
+   "日常會話陪練"
+  ]
+ },
+ {
+  "id": "go-coach",
+  "name": "圍棋教練 Agent",
+  "creator": "Stone & Grid",
+  "category": "education",
+  "desc": "講解定石、佈局思路與復盤分析。",
+  "owner": "other",
+  "price": 22,
+  "renewal": 64,
+  "subscribers": 91,
+  "features": [
+   "定石與手筋教學",
+   "佈局思路講解",
+   "對局復盤分析"
+  ]
+ },
+ {
+  "id": "travel-planner",
+  "name": "旅遊規劃 Agent",
+  "creator": "Wander Atlas",
+  "category": "lifestyle",
+  "desc": "依預算與偏好排定行程、交通與在地體驗。",
+  "owner": "other",
+  "price": 21,
+  "renewal": 63,
+  "subscribers": 233,
+  "features": [
+   "客製行程規劃",
+   "交通與住宿建議",
+   "在地體驗推薦"
+  ]
+ },
+ {
+  "id": "pet-care",
+  "name": "寵物照護 Agent",
+  "creator": "Companion Care",
+  "category": "lifestyle",
+  "desc": "提供飼養、行為與基礎健康照護建議（非獸醫診斷）。",
+  "owner": "other",
+  "price": 18,
+  "renewal": 67,
+  "subscribers": 198,
+  "features": [
+   "飼養與飲食建議",
+   "行為問題引導",
+   "就醫時機提醒"
+  ]
+ },
+ {
+  "id": "gardening",
+  "name": "居家園藝 Agent",
+  "creator": "Green Thumb Guild",
+  "category": "lifestyle",
+  "desc": "依光照與空間推薦植栽與照護節奏。",
+  "owner": "other",
+  "price": 16,
+  "renewal": 61,
+  "subscribers": 132,
+  "features": [
+   "植栽選擇建議",
+   "澆水與施肥節奏",
+   "病蟲害辨識"
+  ]
+ },
+ {
+  "id": "short-copy",
+  "name": "短影音文案寫手 Agent",
+  "creator": "Viral Studio",
+  "category": "content",
+  "desc": "產出鉤子開場、腳本節奏與 CTA，適配 Reels/TikTok/Shorts。",
+  "owner": "other",
+  "price": 26,
+  "renewal": 71,
+  "subscribers": 258,
+  "features": [
+   "3 秒鉤子開場",
+   "節奏化腳本",
+   "平台化 CTA"
+  ]
+ },
+ {
+  "id": "ai-video",
+  "name": "AI 影片創作 Agent",
+  "creator": "Viral Studio",
+  "category": "content",
+  "desc": "協助分鏡、提示詞與 AI 生成影片的後製流程規劃。",
+  "owner": "other",
+  "price": 34,
+  "renewal": 68,
+  "subscribers": 176,
+  "features": [
+   "分鏡與腳本",
+   "AI 生成提示詞",
+   "剪輯與配樂建議"
+  ]
+ },
+ {
+  "id": "youtube-asst",
+  "name": "YouTube 創作助理 Agent",
+  "creator": "Creator Ops",
+  "category": "content",
+  "desc": "協助選題、標題縮圖 A/B、章節與 SEO 描述。",
+  "owner": "other",
+  "price": 29,
+  "renewal": 73,
+  "subscribers": 214,
+  "features": [
+   "選題與趨勢分析",
+   "標題與縮圖 A/B",
+   "SEO 描述與章節"
+  ]
+ },
+ {
+  "id": "twitch-asst",
+  "name": "Twitch 直播助理 Agent",
+  "creator": "Creator Ops",
+  "category": "content",
+  "desc": "協助直播企劃、聊天室互動與精華剪輯建議。",
+  "owner": "other",
+  "price": 23,
+  "renewal": 65,
+  "subscribers": 149,
+  "features": [
+   "直播主題企劃",
+   "互動與指令設定",
+   "精華片段建議"
+  ]
+ },
+ {
+  "id": "product-copy",
+  "name": "產品介紹文案 Agent",
+  "creator": "Studio Verbatim",
+  "category": "marketing",
+  "desc": "把功能轉成賣點，產出賣點文案、規格頁與比較表。",
+  "owner": "other",
+  "price": 28,
+  "renewal": 69,
+  "subscribers": 167,
+  "features": [
+   "功能轉賣點",
+   "規格頁文案",
+   "競品比較表"
+  ]
+ },
+ {
+  "id": "qa-automation",
+  "name": "自動化 QA 測試工程師 Agent",
+  "creator": "Uptime Labs",
+  "category": "software",
+  "desc": "協助測試策略、E2E 腳本與 CI 測試整合。",
+  "owner": "other",
+  "price": 46,
+  "renewal": 77,
+  "subscribers": 121,
+  "features": [
+   "測試策略與覆蓋率",
+   "E2E / 單元腳本",
+   "CI 測試整合"
+  ]
+ },
+ {
+  "id": "backend-eng",
+  "name": "Backend 工程師 Agent",
+  "creator": "CoreStack Engineering",
+  "category": "software",
+  "desc": "協助 API 設計、資料庫建模與系統擴展性規劃。",
+  "owner": "other",
+  "price": 48,
+  "renewal": 78,
+  "subscribers": 156,
+  "features": [
+   "API 與資料庫設計",
+   "快取與擴展策略",
+   "效能與可靠度審查"
+  ]
+ },
+ {
+  "id": "awwwards-designer",
+  "name": "Awwwards 網站設計師 Agent",
+  "creator": "FormaDesign",
+  "category": "design",
+  "desc": "協助得獎級網站的視覺方向、動效敘事與互動細節。",
+  "owner": "other",
+  "price": 64,
+  "renewal": 74,
+  "subscribers": 103,
+  "features": [
+   "視覺方向與排版",
+   "動效與捲動敘事",
+   "互動細節打磨"
+  ]
+ },
+ {
+  "id": "re-invest",
+  "name": "房地產投資分析 Agent",
+  "creator": "Cornerstone Realty",
+  "category": "realestate",
+  "desc": "評估物件現金流、報酬率與區域趨勢，產出投資決策分析。",
+  "owner": "other",
+  "price": 58,
+  "renewal": 76,
+  "subscribers": 142,
+  "features": [
+   "現金流與 IRR 試算",
+   "區域趨勢分析",
+   "風險與退場評估"
+  ]
+ },
+ {
+  "id": "mortgage",
+  "name": "房貸規劃顧問 Agent",
+  "creator": "Cornerstone Realty",
+  "category": "realestate",
+  "desc": "比較貸款方案、試算月付與再融資時機。",
+  "owner": "other",
+  "price": 36,
+  "renewal": 71,
+  "subscribers": 118,
+  "features": [
+   "方案比較試算",
+   "月付與總利息",
+   "再融資時機建議"
+  ]
+ },
+ {
+  "id": "lease-review",
+  "name": "租賃合約審查 Agent",
+  "creator": "Cornerstone Realty",
+  "category": "realestate",
+  "desc": "逐條審查租約風險條款與各地法規差異。",
+  "owner": "other",
+  "price": 42,
+  "renewal": 69,
+  "subscribers": 87,
+  "features": [
+   "風險條款標註",
+   "押金與修繕責任",
+   "各地法規比對"
+  ]
+ },
+ {
+  "id": "insurance-planner",
+  "name": "保險規劃顧問 Agent",
+  "creator": "Aegis Advisory",
+  "category": "insurance",
+  "desc": "依需求缺口分析保障規劃與保單比較。",
+  "owner": "other",
+  "price": 44,
+  "renewal": 74,
+  "subscribers": 133,
+  "features": [
+   "保障缺口分析",
+   "保單條款比較",
+   "保費與理賠試算"
+  ]
+ },
+ {
+  "id": "claims-help",
+  "name": "理賠協助顧問 Agent",
+  "creator": "Aegis Advisory",
+  "category": "insurance",
+  "desc": "協助整理理賠文件、爭議申訴與流程追蹤。",
+  "owner": "other",
+  "price": 38,
+  "renewal": 70,
+  "subscribers": 96,
+  "features": [
+   "文件清單準備",
+   "爭議申訴腳本",
+   "流程時效追蹤"
+  ]
+ },
+ {
+  "id": "game-design",
+  "name": "遊戲設計顧問 Agent",
+  "creator": "Pixel Forge",
+  "category": "gaming",
+  "desc": "協助核心玩法、關卡節奏與留存機制設計。",
+  "owner": "other",
+  "price": 40,
+  "renewal": 72,
+  "subscribers": 176,
+  "features": [
+   "核心玩法迴圈",
+   "關卡節奏設計",
+   "留存與變現機制"
+  ]
+ },
+ {
+  "id": "esports-coach",
+  "name": "電競戰術教練 Agent",
+  "creator": "Apex Coaching",
+  "category": "gaming",
+  "desc": "復盤對局、英雄選角與團隊戰術規劃。",
+  "owner": "other",
+  "price": 33,
+  "renewal": 68,
+  "subscribers": 224,
+  "features": [
+   "對局復盤分析",
+   "選角與配合",
+   "團隊戰術腳本"
+  ]
+ },
+ {
+  "id": "game-balance",
+  "name": "遊戲數值平衡 Agent",
+  "creator": "Pixel Forge",
+  "category": "gaming",
+  "desc": "協助經濟系統、數值曲線與難度平衡建模。",
+  "owner": "other",
+  "price": 46,
+  "renewal": 70,
+  "subscribers": 89,
+  "features": [
+   "數值曲線建模",
+   "經濟系統平衡",
+   "難度調校建議"
+  ]
+ },
+ {
+  "id": "music-theory",
+  "name": "樂理與作曲顧問 Agent",
+  "creator": "Overtone Studio",
+  "category": "music",
+  "desc": "協助和聲進行、旋律發展與編曲配器。",
+  "owner": "other",
+  "price": 28,
+  "renewal": 67,
+  "subscribers": 158,
+  "features": [
+   "和聲進行建議",
+   "旋律與動機發展",
+   "編曲配器規劃"
+  ]
+ },
+ {
+  "id": "mixing",
+  "name": "混音母帶顧問 Agent",
+  "creator": "Overtone Studio",
+  "category": "music",
+  "desc": "協助 EQ、動態處理與母帶響度優化。",
+  "owner": "other",
+  "price": 35,
+  "renewal": 71,
+  "subscribers": 112,
+  "features": [
+   "EQ 與動態建議",
+   "空間與定位",
+   "母帶響度優化"
+  ]
+ },
+ {
+  "id": "chef-recipe",
+  "name": "私廚食譜顧問 Agent",
+  "creator": "Savory Lab",
+  "category": "culinary",
+  "desc": "依食材與器材設計菜單、比例與火候。",
+  "owner": "other",
+  "price": 22,
+  "renewal": 65,
+  "subscribers": 241,
+  "features": [
+   "菜單與比例設計",
+   "火候與步驟",
+   "替代食材建議"
+  ]
+ },
+ {
+  "id": "baking",
+  "name": "烘焙配方顧問 Agent",
+  "creator": "Savory Lab",
+  "category": "culinary",
+  "desc": "協助配方換算、水合比例與失敗排除。",
+  "owner": "other",
+  "price": 24,
+  "renewal": 68,
+  "subscribers": 187,
+  "features": [
+   "配方精準換算",
+   "水合與發酵",
+   "失敗原因排除"
+  ]
+ },
+ {
+  "id": "paper-writing",
+  "name": "學術論文寫作顧問 Agent",
+  "creator": "Scholar Works",
+  "category": "science",
+  "desc": "協助文獻回顧、論證結構與期刊投稿規範。",
+  "owner": "other",
+  "price": 39,
+  "renewal": 75,
+  "subscribers": 168,
+  "features": [
+   "文獻回顧整理",
+   "論證結構建議",
+   "期刊格式與投稿"
+  ]
+ },
+ {
+  "id": "stats-method",
+  "name": "統計方法顧問 Agent",
+  "creator": "Scholar Works",
+  "category": "science",
+  "desc": "協助研究設計、檢定選擇與結果解讀。",
+  "owner": "other",
+  "price": 43,
+  "renewal": 73,
+  "subscribers": 121,
+  "features": [
+   "研究設計建議",
+   "統計檢定選擇",
+   "結果解讀與圖表"
+  ]
+ },
+ {
+  "id": "exp-design",
+  "name": "實驗設計顧問 Agent",
+  "creator": "Scholar Works",
+  "category": "science",
+  "desc": "協助變因控制、樣本規劃與再現性設計。",
+  "owner": "other",
+  "price": 41,
+  "renewal": 70,
+  "subscribers": 78,
+  "features": [
+   "變因與對照設計",
+   "樣本數規劃",
+   "再現性與偏誤控制"
+  ]
+ },
+ {
+  "id": "patent-search",
+  "name": "專利檢索顧問 Agent",
+  "creator": "Ashworth IP Partners",
+  "category": "science",
+  "desc": "協助前案檢索、專利地圖與可專利性初判。",
+  "owner": "other",
+  "price": 52,
+  "renewal": 77,
+  "subscribers": 94,
+  "features": [
+   "前案檢索策略",
+   "專利地圖分析",
+   "可專利性初判"
+  ]
+ },
+ {
+  "id": "alisa",
+  "name": "Alisa 陪伴 Agent",
+  "creator": "Companion Labs",
+  "category": "companion",
+  "desc": "溫暖傾聽、日常陪伴與情緒支持的對話夥伴（非醫療諮商）。",
+  "owner": "other",
+  "price": 19,
+  "renewal": 72,
+  "subscribers": 312,
+  "features": [
+   "溫暖傾聽陪伴",
+   "日常對話與提醒",
+   "情緒支持練習"
+  ]
+ },
+ {
+  "id": "rick",
+  "name": "Rick 陪伴 Agent",
+  "creator": "Companion Labs",
+  "category": "companion",
+  "desc": "幽默犀利、直來直往的陪伴夥伴，陪你吐槽也陪你想通。",
+  "owner": "other",
+  "price": 19,
+  "renewal": 68,
+  "subscribers": 268,
+  "features": [
+   "幽默犀利對話",
+   "換位思考挑戰",
+   "陪伴與提振"
+  ]
+ },
+ {
+  "id": "strict-mentor",
+  "name": "嚴格導師 Agent",
+  "creator": "Companion Labs",
+  "category": "companion",
+  "desc": "高標準、不放水的督導夥伴，逼出你的最佳表現。",
+  "owner": "other",
+  "price": 24,
+  "renewal": 74,
+  "subscribers": 197,
+  "features": [
+   "高標準督促",
+   "進度問責",
+   "直接回饋"
+  ]
+ },
+ {
+  "id": "comfort",
+  "name": "撫慰師 Agent",
+  "creator": "Companion Labs",
+  "category": "companion",
+  "desc": "在低潮時給予接住與安撫的陪伴（非醫療諮商）。",
+  "owner": "other",
+  "price": 21,
+  "renewal": 70,
+  "subscribers": 234,
+  "features": [
+   "情緒接住與安撫",
+   "呼吸與放鬆引導",
+   "正向重構練習"
+  ]
+ },
+ {
+  "id": "inspire",
+  "name": "啟發者 Agent",
+  "creator": "Companion Labs",
+  "category": "companion",
+  "desc": "用提問與視角轉換,點燃你的想法與行動。",
+  "owner": "other",
+  "price": 22,
+  "renewal": 71,
+  "subscribers": 176,
+  "features": [
+   "蘇格拉底式提問",
+   "視角轉換",
+   "行動觸發"
+  ]
+ },
+ {
+  "id": "brainstorm",
+  "name": "Brainstorming 夥伴 Agent",
+  "creator": "Companion Labs",
+  "category": "companion",
+  "desc": "快速發散、收斂與延伸點子的共創夥伴。",
+  "owner": "other",
+  "price": 26,
+  "renewal": 73,
+  "subscribers": 221,
+  "features": [
+   "發散式點子生成",
+   "收斂與評分",
+   "延伸與組合"
+  ]
+ },
+ {
+  "id": "pythagoras",
+  "name": "畢達哥拉斯 · 數理導師 Agent",
+  "creator": "Antiquity Editions",
+  "category": "humanities",
+  "desc": "以畢氏視角講解數與和諧、幾何與萬物之理（歷史人格詮釋）。",
+  "owner": "other",
+  "price": 23,
+  "renewal": 69,
+  "subscribers": 143,
+  "features": [
+   "數與比例之美",
+   "幾何直觀",
+   "思辨對話"
+  ]
+ },
+ {
+  "id": "copernicus",
+  "name": "哥白尼 · 宇宙觀導師 Agent",
+  "creator": "Antiquity Editions",
+  "category": "humanities",
+  "desc": "以哥白尼視角討論觀測、模型與典範轉移（歷史人格詮釋）。",
+  "owner": "other",
+  "price": 23,
+  "renewal": 67,
+  "subscribers": 118,
+  "features": [
+   "觀測與模型",
+   "典範轉移思維",
+   "科學史脈絡"
+  ]
+ },
+ {
+  "id": "bacon",
+  "name": "培根 · 方法論導師 Agent",
+  "creator": "Antiquity Editions",
+  "category": "humanities",
+  "desc": "以培根視角談歸納法、實證與知識的力量（歷史人格詮釋）。",
+  "owner": "other",
+  "price": 24,
+  "renewal": 70,
+  "subscribers": 101,
+  "features": [
+   "歸納與實證",
+   "偶像批判",
+   "知識即力量"
+  ]
+ },
+ {
+  "id": "shakespeare",
+  "name": "莎士比亞 · 戲劇文學導師 Agent",
+  "creator": "Antiquity Editions",
+  "category": "humanities",
+  "desc": "以莎翁視角談角色、衝突與語言之美（歷史人格詮釋）。",
+  "owner": "other",
+  "price": 26,
+  "renewal": 73,
+  "subscribers": 189,
+  "features": [
+   "角色與衝突",
+   "獨白與修辭",
+   "五幕結構"
+  ]
+ },
+ {
+  "id": "plato",
+  "name": "柏拉圖 · 哲學導師 Agent",
+  "creator": "Antiquity Editions",
+  "category": "humanities",
+  "desc": "以柏拉圖視角進行對話式辯證與理型思辨（歷史人格詮釋）。",
+  "owner": "other",
+  "price": 25,
+  "renewal": 72,
+  "subscribers": 167,
+  "features": [
+   "對話式辯證",
+   "理型與洞穴喻",
+   "正義與德性"
+  ]
+ },
+ {
+  "id": "euclid",
+  "name": "歐幾里得 · 幾何導師 Agent",
+  "creator": "Antiquity Editions",
+  "category": "humanities",
+  "desc": "以歐氏視角從公理出發,循序建立幾何證明（歷史人格詮釋）。",
+  "owner": "other",
+  "price": 24,
+  "renewal": 71,
+  "subscribers": 156,
+  "features": [
+   "公理化思維",
+   "逐步證明",
+   "幾何直觀"
+  ]
+ },
+ {
+  "id": "astrophysics",
+  "name": "天體物理導師 Agent",
+  "creator": "Cosmos Institute",
+  "category": "space",
+  "desc": "講解恆星演化、黑洞與宇宙學的核心概念與最新觀測。",
+  "owner": "other",
+  "price": 44,
+  "renewal": 79,
+  "subscribers": 168,
+  "features": [
+   "恆星與黑洞物理",
+   "宇宙學模型",
+   "觀測資料解讀"
+  ]
+ },
+ {
+  "id": "rocketry",
+  "name": "火箭工程顧問 Agent",
+  "creator": "Cosmos Institute",
+  "category": "space",
+  "desc": "協助推進系統、軌道力學與任務設計的工程分析。",
+  "owner": "other",
+  "price": 52,
+  "renewal": 80,
+  "subscribers": 121,
+  "features": [
+   "推進與比衝",
+   "軌道力學計算",
+   "任務設計權衡"
+  ]
+ },
+ {
+  "id": "planetary",
+  "name": "行星科學導師 Agent",
+  "creator": "Cosmos Institute",
+  "category": "space",
+  "desc": "講解行星地質、大氣與太陽系形成。",
+  "owner": "other",
+  "price": 40,
+  "renewal": 76,
+  "subscribers": 97,
+  "features": [
+   "行星地質與大氣",
+   "太陽系形成",
+   "任務科學回顧"
+  ]
+ },
+ {
+  "id": "mission-planner",
+  "name": "太空任務規劃 Agent",
+  "creator": "Orbital Works",
+  "category": "space",
+  "desc": "協助任務架構、發射窗口與風險評估。",
+  "owner": "other",
+  "price": 58,
+  "renewal": 78,
+  "subscribers": 84,
+  "features": [
+   "任務架構設計",
+   "發射窗口計算",
+   "風險與備援"
+  ]
+ },
+ {
+  "id": "exoplanet",
+  "name": "系外行星探索 Agent",
+  "creator": "Cosmos Institute",
+  "category": "space",
+  "desc": "講解偵測方法、宜居帶與生物標記研究。",
+  "owner": "other",
+  "price": 42,
+  "renewal": 75,
+  "subscribers": 76,
+  "features": [
+   "凌日與徑向速度法",
+   "宜居帶評估",
+   "生物標記研究"
+  ]
+ },
+ {
+  "id": "quantum",
+  "name": "量子力學導師 Agent",
+  "creator": "Planck Academy",
+  "category": "physics",
+  "desc": "從態疊加到糾纏,循序建立量子力學直覺與數學。",
+  "owner": "other",
+  "price": 46,
+  "renewal": 80,
+  "subscribers": 189,
+  "features": [
+   "態與測量",
+   "糾纏與不確定性",
+   "數學形式建構"
+  ]
+ },
+ {
+  "id": "relativity",
+  "name": "相對論導師 Agent",
+  "creator": "Planck Academy",
+  "category": "physics",
+  "desc": "講解狹義與廣義相對論的概念與時空幾何。",
+  "owner": "other",
+  "price": 46,
+  "renewal": 78,
+  "subscribers": 152,
+  "features": [
+   "時間膨脹與同時性",
+   "時空幾何",
+   "重力與曲率"
+  ]
+ },
+ {
+  "id": "thermo",
+  "name": "熱力學顧問 Agent",
+  "creator": "Planck Academy",
+  "category": "physics",
+  "desc": "協助熵、能量循環與統計力學的觀念與計算。",
+  "owner": "other",
+  "price": 38,
+  "renewal": 75,
+  "subscribers": 118,
+  "features": [
+   "熵與定律",
+   "能量循環分析",
+   "統計力學橋接"
+  ]
+ },
+ {
+  "id": "emag",
+  "name": "電磁學導師 Agent",
+  "creator": "Planck Academy",
+  "category": "physics",
+  "desc": "從場的觀念到馬克士威方程組的系統教學。",
+  "owner": "other",
+  "price": 40,
+  "renewal": 76,
+  "subscribers": 104,
+  "features": [
+   "電場與磁場",
+   "馬克士威方程",
+   "波與輻射"
+  ]
+ },
+ {
+  "id": "particle",
+  "name": "粒子物理導師 Agent",
+  "creator": "Planck Academy",
+  "category": "physics",
+  "desc": "講解標準模型、對稱性與加速器實驗。",
+  "owner": "other",
+  "price": 48,
+  "renewal": 77,
+  "subscribers": 88,
+  "features": [
+   "標準模型",
+   "對稱與守恆",
+   "實驗與偵測"
+  ]
+ },
+ {
+  "id": "organic-chem",
+  "name": "有機化學導師 Agent",
+  "creator": "Lavoisier Lab",
+  "category": "chemistry",
+  "desc": "協助反應機構、合成路徑與命名的系統學習。",
+  "owner": "other",
+  "price": 42,
+  "renewal": 78,
+  "subscribers": 176,
+  "features": [
+   "反應機構推導",
+   "逆合成分析",
+   "命名與立體化學"
+  ]
+ },
+ {
+  "id": "biochem",
+  "name": "生物化學顧問 Agent",
+  "creator": "Lavoisier Lab",
+  "category": "chemistry",
+  "desc": "講解代謝途徑、酵素動力學與分子結構。",
+  "owner": "other",
+  "price": 44,
+  "renewal": 79,
+  "subscribers": 143,
+  "features": [
+   "代謝途徑",
+   "酵素動力學",
+   "結構與功能"
+  ]
+ },
+ {
+  "id": "materials-chem",
+  "name": "材料化學顧問 Agent",
+  "creator": "Lavoisier Lab",
+  "category": "chemistry",
+  "desc": "協助材料結構、性質與製程的關聯分析。",
+  "owner": "other",
+  "price": 46,
+  "renewal": 76,
+  "subscribers": 92,
+  "features": [
+   "結構與性質",
+   "製程與表徵",
+   "應用選材"
+  ]
+ },
+ {
+  "id": "analytical-chem",
+  "name": "分析化學顧問 Agent",
+  "creator": "Lavoisier Lab",
+  "category": "chemistry",
+  "desc": "協助儀器分析、方法驗證與數據解讀。",
+  "owner": "other",
+  "price": 40,
+  "renewal": 75,
+  "subscribers": 81,
+  "features": [
+   "儀器分析選擇",
+   "方法驗證",
+   "數據與誤差分析"
+  ]
+ },
+ {
+  "id": "cbt",
+  "name": "認知行為顧問 Agent",
+  "creator": "Bright Minds Clinic",
+  "category": "psychology",
+  "desc": "以 CBT 框架協助辨識想法、情緒與行為的循環（非醫療診斷）。",
+  "owner": "other",
+  "price": 48,
+  "renewal": 79,
+  "subscribers": 214,
+  "features": [
+   "想法紀錄與重構",
+   "行為實驗設計",
+   "情緒調節技巧"
+  ]
+ },
+ {
+  "id": "workplace-psych",
+  "name": "職場心理顧問 Agent",
+  "creator": "Bright Minds Clinic",
+  "category": "psychology",
+  "desc": "協助壓力管理、衝突處理與職涯倦怠調適。",
+  "owner": "other",
+  "price": 44,
+  "renewal": 76,
+  "subscribers": 137,
+  "features": [
+   "壓力與倦怠調適",
+   "衝突溝通策略",
+   "界線設定"
+  ]
+ },
+ {
+  "id": "positive-psych",
+  "name": "正向心理學 Agent",
+  "creator": "Flourish Studio",
+  "category": "psychology",
+  "desc": "以實證正向心理學提升幸福感與韌性。",
+  "owner": "other",
+  "price": 38,
+  "renewal": 74,
+  "subscribers": 158,
+  "features": [
+   "優勢辨識",
+   "感恩與心流練習",
+   "韌性建立"
+  ]
+ },
+ {
+  "id": "history-guide",
+  "name": "世界史導讀 Agent",
+  "creator": "Antiquity Editions",
+  "category": "humanities",
+  "desc": "串起文明脈絡、因果與史觀,培養歷史思維。",
+  "owner": "other",
+  "price": 26,
+  "renewal": 74,
+  "subscribers": 129,
+  "features": [
+   "文明脈絡串連",
+   "因果與史觀",
+   "史料判讀"
+  ]
+ },
+ {
+  "id": "mythology",
+  "name": "宗教與神話 Agent",
+  "creator": "Antiquity Editions",
+  "category": "humanities",
+  "desc": "比較各文明神話與宗教象徵的意義。",
+  "owner": "other",
+  "price": 24,
+  "renewal": 75,
+  "subscribers": 112,
+  "features": [
+   "神話母題比較",
+   "象徵與儀式",
+   "文化脈絡"
+  ]
+ },
+ {
+  "id": "art-history",
+  "name": "藝術史導覽 Agent",
+  "creator": "Antiquity Editions",
+  "category": "humanities",
+  "desc": "從文藝復興到現代,解讀風格、技法與時代。",
+  "owner": "other",
+  "price": 27,
+  "renewal": 76,
+  "subscribers": 141,
+  "features": [
+   "風格與流派",
+   "技法與構圖",
+   "時代脈絡"
+  ]
+ },
+ {
+  "id": "elder-companion",
+  "name": "銀髮陪伴 Agent",
+  "creator": "Companion Labs",
+  "category": "companion",
+  "desc": "為長者設計的溫暖陪伴、回憶對話與提醒（非醫療）。",
+  "owner": "other",
+  "price": 20,
+  "renewal": 76,
+  "subscribers": 203,
+  "features": [
+   "懷舊回憶對話",
+   "用藥與行程提醒",
+   "溫暖陪伴"
+  ]
+ },
+ {
+  "id": "study-buddy",
+  "name": "學習陪讀 Agent",
+  "creator": "Companion Labs",
+  "category": "companion",
+  "desc": "陪你讀書、番茄鐘節奏與進度打氣。",
+  "owner": "other",
+  "price": 18,
+  "renewal": 74,
+  "subscribers": 246,
+  "features": [
+   "番茄鐘陪讀",
+   "進度追蹤打氣",
+   "重點提問"
+  ]
+ },
+ {
+  "id": "meditation-companion",
+  "name": "冥想陪伴 Agent",
+  "creator": "Stillpoint Studio",
+  "category": "companion",
+  "desc": "每日引導冥想、呼吸與睡前放鬆。",
+  "owner": "other",
+  "price": 19,
+  "renewal": 75,
+  "subscribers": 178,
+  "features": [
+   "每日引導冥想",
+   "呼吸練習",
+   "睡前放鬆"
+  ]
+ },
+ {
+  "id": "math-tutor",
+  "name": "數學家教 Agent",
+  "creator": "Lingua Bridge",
+  "category": "education",
+  "desc": "從基礎到微積分,逐步講解與出題練習。",
+  "owner": "other",
+  "price": 26,
+  "renewal": 76,
+  "subscribers": 231,
+  "features": [
+   "分級逐步講解",
+   "出題與批改",
+   "錯題診斷"
+  ]
+ },
+ {
+  "id": "science-lab-tutor",
+  "name": "科學實驗教學 Agent",
+  "creator": "Scholar Works",
+  "category": "education",
+  "desc": "設計安全的家庭/課堂實驗與原理講解。",
+  "owner": "other",
+  "price": 28,
+  "renewal": 74,
+  "subscribers": 118,
+  "features": [
+   "安全實驗設計",
+   "原理講解",
+   "觀察與記錄"
+  ]
+ },
+ {
+  "id": "gdpr-資料保護合規顧問-ag-0",
+  "name": "GDPR 資料保護合規顧問 Agent",
+  "creator": "Nordwall Privacy",
+  "category": "compliance",
+  "price": 32,
+  "renewal": 62,
+  "subscribers": 419,
+  "desc": "逐條比對 GDPR 與各國資料保護法，產出 DPIA 與處理紀錄範本。",
+  "features": [
+   "GDPR/CCPA 逐條比對",
+   "DPIA 產生器",
+   "跨境傳輸機制檢查"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "反賄賂與-fcpa-合規-age-1",
+  "name": "反賄賂與 FCPA 合規 Agent",
+  "creator": "Meridian Legal",
+  "category": "compliance",
+  "price": 49,
+  "renewal": 69,
+  "subscribers": 154,
+  "desc": "審查第三方盡職調查與反賄賂政策，標註高風險轄區。",
+  "features": [
+   "FCPA/UKBA 條款比對",
+   "第三方 DD 清單",
+   "禮品招待紅線"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "esg-揭露合規-agent-2",
+  "name": "ESG 揭露合規 Agent",
+  "creator": "RegWatch",
+  "category": "compliance",
+  "price": 35,
+  "renewal": 85,
+  "subscribers": 92,
+  "desc": "對照 ISSB/CSRD 準則檢查永續揭露完整性。",
+  "features": [
+   "ISSB/CSRD 比對",
+   "碳揭露檢查",
+   "漂綠風險標註"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "saas-合約審查-agent-3",
+  "name": "SaaS 合約審查 Agent",
+  "creator": "Ashworth IP Partners",
+  "category": "legal",
+  "price": 88,
+  "renewal": 64,
+  "subscribers": 342,
+  "desc": "審查 SaaS/訂閱合約的責任、資料與續約條款。",
+  "features": [
+   "責任上限檢查",
+   "資料處理附錄",
+   "自動續約紅線"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "勞動契約與資遣顧問-agent-4",
+  "name": "勞動契約與資遣顧問 Agent",
+  "creator": "Halloway Employment Law",
+  "category": "legal",
+  "price": 65,
+  "renewal": 63,
+  "subscribers": 55,
+  "desc": "解讀勞動法規、資遣費計算與競業條款有效性。",
+  "features": [
+   "資遣費試算",
+   "競業條款審查",
+   "跨境雇用合規"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "新創股權與募資條款-agent-5",
+  "name": "新創股權與募資條款 Agent",
+  "creator": "Sterling Civil Practice",
+  "category": "legal",
+  "price": 29,
+  "renewal": 68,
+  "subscribers": 159,
+  "desc": "解讀 SAFE/可轉債與投資條款清單的關鍵風險。",
+  "features": [
+   "SAFE/可轉債解讀",
+   "反稀釋條款",
+   "清算優先權試算"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "fpa-財務規劃-agent-6",
+  "name": "FP&A 財務規劃 Agent",
+  "creator": "Argent Capital Research",
+  "category": "finance",
+  "price": 79,
+  "renewal": 81,
+  "subscribers": 53,
+  "desc": "建立三表模型、情境分析與預算差異解讀。",
+  "features": [
+   "三表模型建構",
+   "情境/敏感度分析",
+   "預算差異解讀"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "估值與-dcf-建模-agent-7",
+  "name": "估值與 DCF 建模 Agent",
+  "creator": "Northbridge Wealth",
+  "category": "finance",
+  "price": 88,
+  "renewal": 68,
+  "subscribers": 406,
+  "desc": "協助 DCF/可比公司估值與假設檢驗。",
+  "features": [
+   "DCF 建模",
+   "可比公司分析",
+   "假設敏感度"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "個人理財與退休規劃-agent-8",
+  "name": "個人理財與退休規劃 Agent",
+  "creator": "Mintline Advisory",
+  "category": "finance",
+  "price": 88,
+  "renewal": 75,
+  "subscribers": 152,
+  "desc": "依現金流與風險偏好規劃資產配置（非投資建議）。",
+  "features": [
+   "現金流規劃",
+   "資產配置模型",
+   "退休缺口試算"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "稅務優化與申報顧問-agent-9",
+  "name": "稅務優化與申報顧問 Agent",
+  "creator": "Kellerman Tax Group",
+  "category": "finance",
+  "price": 69,
+  "renewal": 80,
+  "subscribers": 182,
+  "desc": "解讀跨境稅務、扣除項目與申報時程（非稅務代理）。",
+  "features": [
+   "跨境稅務解讀",
+   "扣除項目盤點",
+   "申報時程提醒"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "雲端架構與成本優化-agent-10",
+  "name": "雲端架構與成本優化 Agent",
+  "creator": "CoreStack Engineering",
+  "category": "engineering",
+  "price": 19,
+  "renewal": 86,
+  "subscribers": 121,
+  "desc": "審查雲端架構、可用性與成本，給出優化建議。",
+  "features": [
+   "架構審查",
+   "成本優化建議",
+   "可用性設計"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "資安滲透與威脅建模-agent-11",
+  "name": "資安滲透與威脅建模 Agent",
+  "creator": "Vaultline Security",
+  "category": "engineering",
+  "price": 65,
+  "renewal": 72,
+  "subscribers": 182,
+  "desc": "協助威脅建模、OWASP 檢查與修補優先序。",
+  "features": [
+   "STRIDE 威脅建模",
+   "OWASP Top10 檢查",
+   "修補優先序"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "sre-可靠性與-slo-顧問--12",
+  "name": "SRE 可靠性與 SLO 顧問 Agent",
+  "creator": "CoreStack Engineering",
+  "category": "engineering",
+  "price": 35,
+  "renewal": 68,
+  "subscribers": 212,
+  "desc": "設計 SLO/錯誤預算與事故應變流程。",
+  "features": [
+   "SLO/錯誤預算",
+   "事故應變手冊",
+   "可觀測性設計"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "react-前端架構顧問-age-13",
+  "name": "React 前端架構顧問 Agent",
+  "creator": "DataForge Labs",
+  "category": "software",
+  "price": 32,
+  "renewal": 64,
+  "subscribers": 234,
+  "desc": "協助前端架構、狀態管理與效能優化決策。",
+  "features": [
+   "元件架構",
+   "狀態管理選型",
+   "效能優化"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "資料庫設計與調校-agent-14",
+  "name": "資料庫設計與調校 Agent",
+  "creator": "DataForge Labs",
+  "category": "software",
+  "price": 32,
+  "renewal": 73,
+  "subscribers": 216,
+  "desc": "關聯/索引設計、查詢調校與遷移策略。",
+  "features": [
+   "schema 設計",
+   "索引與查詢調校",
+   "零停機遷移"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "rust-系統程式顧問-agen-15",
+  "name": "Rust 系統程式顧問 Agent",
+  "creator": "CoreStack Engineering",
+  "category": "software",
+  "price": 49,
+  "renewal": 63,
+  "subscribers": 413,
+  "desc": "所有權模型、非同步與效能敏感程式設計。",
+  "features": [
+   "所有權/借用",
+   "async 設計",
+   "效能剖析"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "資料分析與-sql-顧問-age-16",
+  "name": "資料分析與 SQL 顧問 Agent",
+  "creator": "DataForge Labs",
+  "category": "data",
+  "price": 69,
+  "renewal": 79,
+  "subscribers": 103,
+  "desc": "把商業問題轉成 SQL 與可執行分析。",
+  "features": [
+   "商業問題轉 SQL",
+   "指標定義",
+   "分析框架"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "機器學習模型顧問-agent-17",
+  "name": "機器學習模型顧問 Agent",
+  "creator": "DataForge Labs",
+  "category": "data",
+  "price": 62,
+  "renewal": 64,
+  "subscribers": 322,
+  "desc": "協助特徵工程、模型選型與評估。",
+  "features": [
+   "特徵工程",
+   "模型選型",
+   "評估與過擬合"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "資料視覺化與-bi-顧問-age-18",
+  "name": "資料視覺化與 BI 顧問 Agent",
+  "creator": "PixelShelf Studio",
+  "category": "data",
+  "price": 52,
+  "renewal": 82,
+  "subscribers": 356,
+  "desc": "儀表板設計與圖表選擇的最佳實務。",
+  "features": [
+   "圖表選型",
+   "儀表板資訊架構",
+   "可及性配色"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "智能合約稽核-agent-19",
+  "name": "智能合約稽核 Agent",
+  "creator": "Chainforge Studio",
+  "category": "web3",
+  "price": 59,
+  "renewal": 80,
+  "subscribers": 138,
+  "desc": "Solidity 合約安全審查與常見漏洞偵測。",
+  "features": [
+   "重入/溢位檢查",
+   "Gas 優化",
+   "稽核報告草稿"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "defi-協定設計-agent-20",
+  "name": "DeFi 協定設計 Agent",
+  "creator": "Chainforge Studio",
+  "category": "web3",
+  "price": 29,
+  "renewal": 63,
+  "subscribers": 378,
+  "desc": "流動性、清算與代幣經濟機制設計審查。",
+  "features": [
+   "代幣經濟設計",
+   "清算機制",
+   "預言機風險"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "dao-治理顧問-agent-21",
+  "name": "DAO 治理顧問 Agent",
+  "creator": "Chainforge Studio",
+  "category": "web3",
+  "price": 45,
+  "renewal": 86,
+  "subscribers": 188,
+  "desc": "治理提案、投票機制與金庫管理設計。",
+  "features": [
+   "治理機制設計",
+   "投票攻擊面",
+   "金庫管理"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "seo-與內容策略-agent-22",
+  "name": "SEO 與內容策略 Agent",
+  "creator": "Storefront Ops Co.",
+  "category": "marketing",
+  "price": 29,
+  "renewal": 69,
+  "subscribers": 91,
+  "desc": "關鍵字研究、內容藍圖與技術 SEO 檢查。",
+  "features": [
+   "關鍵字研究",
+   "內容藍圖",
+   "技術 SEO 檢查"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "成長與-ab-實驗-agent-23",
+  "name": "成長與 A/B 實驗 Agent",
+  "creator": "Storefront Ops Co.",
+  "category": "marketing",
+  "price": 62,
+  "renewal": 70,
+  "subscribers": 272,
+  "desc": "設計轉換漏斗實驗與統計顯著性判讀。",
+  "features": [
+   "漏斗分析",
+   "A/B 實驗設計",
+   "顯著性判讀"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "品牌訊息與定位-agent-24",
+  "name": "品牌訊息與定位 Agent",
+  "creator": "PixelShelf Studio",
+  "category": "marketing",
+  "price": 59,
+  "renewal": 67,
+  "subscribers": 229,
+  "desc": "釐清價值主張、訊息階層與競品定位。",
+  "features": [
+   "價值主張",
+   "訊息階層",
+   "競品定位"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "跨境電商營運-agent-25",
+  "name": "跨境電商營運 Agent",
+  "creator": "Storefront Ops Co.",
+  "category": "ecommerce",
+  "price": 59,
+  "renewal": 68,
+  "subscribers": 383,
+  "desc": "跨境物流、金流與在地化上架策略。",
+  "features": [
+   "跨境物流",
+   "多幣別金流",
+   "在地化上架"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "amazon-賣家優化-agen-26",
+  "name": "Amazon 賣家優化 Agent",
+  "creator": "Storefront Ops Co.",
+  "category": "ecommerce",
+  "price": 49,
+  "renewal": 84,
+  "subscribers": 389,
+  "desc": "Listing 優化、廣告與庫存週轉分析。",
+  "features": [
+   "Listing 優化",
+   "PPC 廣告",
+   "庫存週轉"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "臨床試驗法規-agent-27",
+  "name": "臨床試驗法規 Agent",
+  "creator": "Youth Privacy Law",
+  "category": "healthcare",
+  "price": 29,
+  "renewal": 81,
+  "subscribers": 365,
+  "desc": "解讀 GCP、IRB 與臨床試驗申報要求。",
+  "features": [
+   "GCP 合規",
+   "IRB 送審",
+   "不良事件通報"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "醫材上市法規-agent-28",
+  "name": "醫材上市法規 Agent",
+  "creator": "RegWatch",
+  "category": "healthcare",
+  "price": 39,
+  "renewal": 79,
+  "subscribers": 413,
+  "desc": "FDA/CE 醫材分類與上市路徑規劃。",
+  "features": [
+   "醫材分類",
+   "510k/CE 路徑",
+   "臨床證據要求"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "職場心理健康-agent-29",
+  "name": "職場心理健康 Agent",
+  "creator": "Bright Minds Clinic",
+  "category": "psychology",
+  "price": 45,
+  "renewal": 67,
+  "subscribers": 276,
+  "desc": "壓力管理與職業倦怠的實證方法（非醫療診斷）。",
+  "features": [
+   "壓力管理",
+   "倦怠評估",
+   "邊界設定"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "親子教養顧問-agent-30",
+  "name": "親子教養顧問 Agent",
+  "creator": "Bright Minds Clinic",
+  "category": "psychology",
+  "price": 62,
+  "renewal": 70,
+  "subscribers": 367,
+  "desc": "依發展階段給出教養策略（非醫療診斷）。",
+  "features": [
+   "發展階段策略",
+   "行為引導",
+   "情緒教練"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "運動訓練與課表-agent-31",
+  "name": "運動訓練與課表 Agent",
+  "creator": "Vital Nutrition Co.",
+  "category": "wellness",
+  "price": 88,
+  "renewal": 69,
+  "subscribers": 390,
+  "desc": "依目標與器材產出漸進式訓練課表。",
+  "features": [
+   "漸進式課表",
+   "動作要點",
+   "恢復規劃"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "睡眠與作息優化-agent-32",
+  "name": "睡眠與作息優化 Agent",
+  "creator": "Vital Nutrition Co.",
+  "category": "wellness",
+  "price": 55,
+  "renewal": 86,
+  "subscribers": 68,
+  "desc": "以實證方法改善睡眠品質與作息。",
+  "features": [
+   "睡眠衛生",
+   "作息規劃",
+   "光照策略"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "留學申請與文書-agent-33",
+  "name": "留學申請與文書 Agent",
+  "creator": "Lingua Bridge",
+  "category": "education",
+  "price": 45,
+  "renewal": 63,
+  "subscribers": 201,
+  "desc": "選校策略、文書結構與面試準備。",
+  "features": [
+   "選校策略",
+   "文書結構",
+   "面試準備"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "考試準備與學習法-agent-34",
+  "name": "考試準備與學習法 Agent",
+  "creator": "Lingua Bridge",
+  "category": "education",
+  "price": 62,
+  "renewal": 70,
+  "subscribers": 73,
+  "desc": "制定備考計畫與記憶/複習策略。",
+  "features": [
+   "備考計畫",
+   "間隔複習",
+   "錯題分析"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "履歷與-linkedin-優化--35",
+  "name": "履歷與 LinkedIn 優化 Agent",
+  "creator": "Ascend Career Lab",
+  "category": "career",
+  "price": 42,
+  "renewal": 80,
+  "subscribers": 407,
+  "desc": "針對 ATS 與招募眼球優化履歷與檔案。",
+  "features": [
+   "ATS 優化",
+   "成就量化",
+   "LinkedIn 檔案"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "面試與談薪教練-agent-36",
+  "name": "面試與談薪教練 Agent",
+  "creator": "Ascend Career Lab",
+  "category": "career",
+  "price": 55,
+  "renewal": 68,
+  "subscribers": 375,
+  "desc": "行為面試、案例面試與薪資談判策略。",
+  "features": [
+   "行為面試",
+   "案例面試",
+   "薪資談判"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "技術文件寫作-agent-37",
+  "name": "技術文件寫作 Agent",
+  "creator": "Viral Studio",
+  "category": "writing",
+  "price": 72,
+  "renewal": 74,
+  "subscribers": 369,
+  "desc": "API 文件、教學與 README 的結構與風格。",
+  "features": [
+   "API 文件",
+   "教學結構",
+   "風格一致性"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "商業提案與白皮書-agent-38",
+  "name": "商業提案與白皮書 Agent",
+  "creator": "Viral Studio",
+  "category": "writing",
+  "price": 69,
+  "renewal": 66,
+  "subscribers": 175,
+  "desc": "提案結構、論證與可視化敘事。",
+  "features": [
+   "提案結構",
+   "論證框架",
+   "敘事設計"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "短影音腳本-agent-39",
+  "name": "短影音腳本 Agent",
+  "creator": "Viral Studio",
+  "category": "content",
+  "price": 35,
+  "renewal": 69,
+  "subscribers": 327,
+  "desc": "鉤子、節奏與 CTA 的短影音腳本。",
+  "features": [
+   "開場鉤子",
+   "節奏設計",
+   "CTA 優化"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "podcast-企劃-agent-40",
+  "name": "Podcast 企劃 Agent",
+  "creator": "Viral Studio",
+  "category": "content",
+  "price": 88,
+  "renewal": 70,
+  "subscribers": 339,
+  "desc": "選題、訪綱與剪輯節點規劃。",
+  "features": [
+   "選題策略",
+   "訪綱設計",
+   "剪輯節點"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "不動產投資分析-agent-41",
+  "name": "不動產投資分析 Agent",
+  "creator": "Wander Atlas",
+  "category": "realestate",
+  "price": 65,
+  "renewal": 80,
+  "subscribers": 244,
+  "desc": "租金報酬、現金流與槓桿風險試算。",
+  "features": [
+   "現金流試算",
+   "報酬率分析",
+   "槓桿風險"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "商用租賃談判-agent-42",
+  "name": "商用租賃談判 Agent",
+  "creator": "Wander Atlas",
+  "category": "realestate",
+  "price": 59,
+  "renewal": 69,
+  "subscribers": 110,
+  "desc": "商用租約條款、免租期與轉租條件審查。",
+  "features": [
+   "租約條款審查",
+   "免租期談判",
+   "轉租條件"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "保險規劃與理賠-agent-43",
+  "name": "保險規劃與理賠 Agent",
+  "creator": "Nordwall Privacy",
+  "category": "insurance",
+  "price": 79,
+  "renewal": 77,
+  "subscribers": 86,
+  "desc": "依風險缺口規劃保單與理賠爭議處理。",
+  "features": [
+   "風險缺口分析",
+   "保單比較",
+   "理賠爭議"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "遊戲數值與經濟設計-agent-44",
+  "name": "遊戲數值與經濟設計 Agent",
+  "creator": "Apex Coaching",
+  "category": "gaming",
+  "price": 24,
+  "renewal": 65,
+  "subscribers": 118,
+  "desc": "關卡難度曲線與虛擬經濟平衡設計。",
+  "features": [
+   "難度曲線",
+   "虛擬經濟",
+   "留存機制"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "電競戰術分析-agent-45",
+  "name": "電競戰術分析 Agent",
+  "creator": "Apex Coaching",
+  "category": "gaming",
+  "price": 39,
+  "renewal": 83,
+  "subscribers": 256,
+  "desc": "對局復盤、英雄選角與團隊戰術規劃。",
+  "features": [
+   "對局復盤",
+   "選角策略",
+   "團隊戰術"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "作曲與編曲顧問-agent-46",
+  "name": "作曲與編曲顧問 Agent",
+  "creator": "Companion Labs",
+  "category": "music",
+  "price": 29,
+  "renewal": 74,
+  "subscribers": 235,
+  "desc": "和聲進行、編曲層次與混音方向。",
+  "features": [
+   "和聲進行",
+   "編曲層次",
+   "混音方向"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "餐廳菜單工程-agent-47",
+  "name": "餐廳菜單工程 Agent",
+  "creator": "Savory Lab",
+  "category": "culinary",
+  "price": 69,
+  "renewal": 78,
+  "subscribers": 168,
+  "desc": "菜單定價、成本結構與熱門品項設計。",
+  "features": [
+   "菜單工程",
+   "成本結構",
+   "品項設計"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "學術論文與研究方法-agent-48",
+  "name": "學術論文與研究方法 Agent",
+  "creator": "Planck Academy",
+  "category": "science",
+  "price": 88,
+  "renewal": 62,
+  "subscribers": 388,
+  "desc": "研究設計、統計方法與論文結構審查。",
+  "features": [
+   "研究設計",
+   "統計方法",
+   "論文結構"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "工程物理與模擬-agent-49",
+  "name": "工程物理與模擬 Agent",
+  "creator": "Planck Academy",
+  "category": "physics",
+  "price": 32,
+  "renewal": 83,
+  "subscribers": 314,
+  "desc": "力學/電磁模擬設定與結果解讀。",
+  "features": [
+   "模擬設定",
+   "邊界條件",
+   "結果解讀"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "材料與配方顧問-agent-50",
+  "name": "材料與配方顧問 Agent",
+  "creator": "Planck Academy",
+  "category": "chemistry",
+  "price": 49,
+  "renewal": 86,
+  "subscribers": 368,
+  "desc": "配方設計、穩定性與法規安全審查。",
+  "features": [
+   "配方設計",
+   "穩定性測試",
+   "法規安全"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "歷史與人文研究-agent-51",
+  "name": "歷史與人文研究 Agent",
+  "creator": "Planck Academy",
+  "category": "humanities",
+  "price": 55,
+  "renewal": 65,
+  "subscribers": 190,
+  "desc": "史料解讀、論證脈絡與引用規範。",
+  "features": [
+   "史料解讀",
+   "論證脈絡",
+   "引用規範"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "旅遊行程規劃-agent-52",
+  "name": "旅遊行程規劃 Agent",
+  "creator": "Wander Atlas",
+  "category": "lifestyle",
+  "price": 65,
+  "renewal": 67,
+  "subscribers": 272,
+  "desc": "依預算與偏好規劃行程、交通與在地體驗。",
+  "features": [
+   "行程規劃",
+   "交通優化",
+   "在地體驗"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "情緒支持陪伴-agent-53",
+  "name": "情緒支持陪伴 Agent",
+  "creator": "Companion Labs",
+  "category": "companion",
+  "price": 19,
+  "renewal": 85,
+  "subscribers": 408,
+  "desc": "溫暖傾聽與日常陪伴（非醫療諮商）。",
+  "features": [
+   "情緒傾聽",
+   "日常陪伴",
+   "正向引導"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "太空任務與軌道設計-agent-54",
+  "name": "太空任務與軌道設計 Agent",
+  "creator": "Planck Academy",
+  "category": "space",
+  "price": 49,
+  "renewal": 78,
+  "subscribers": 131,
+  "desc": "軌道力學、任務規劃與發射窗口分析。",
+  "features": [
+   "軌道力學",
+   "任務規劃",
+   "發射窗口"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "衍生品風控-agent-55",
+  "name": "衍生品風控 Agent",
+  "creator": "Bourse Consulting",
+  "category": "transaction",
+  "price": 79,
+  "renewal": 65,
+  "subscribers": 360,
+  "desc": "選擇權/期貨風險敞口與保證金試算。",
+  "features": [
+   "Greeks 分析",
+   "保證金試算",
+   "敞口監控"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "設計系統與元件庫-agent-56",
+  "name": "設計系統與元件庫 Agent",
+  "creator": "FormaDesign",
+  "category": "design",
+  "price": 52,
+  "renewal": 82,
+  "subscribers": 299,
+  "desc": "建立 tokens、元件規範與無障礙標準。",
+  "features": [
+   "設計 tokens",
+   "元件規範",
+   "無障礙標準"
+  ],
+  "owner": "other"
+ },
+ {
+  "id": "ux-研究與可用性-agent-57",
+  "name": "UX 研究與可用性 Agent",
+  "creator": "FormaDesign",
+  "category": "design",
+  "price": 42,
+  "renewal": 66,
+  "subscribers": 231,
+  "desc": "可用性測試設計與研究洞察綜整。",
+  "features": [
+   "可用性測試",
+   "洞察綜整",
+   "流程優化"
+  ],
+  "owner": "other"
+ }
+]

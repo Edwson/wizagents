@@ -1,0 +1,2926 @@
+[
+ {
+  "id": "ja-kyc-aml-compliance",
+  "name": "KYC/AMLコンプライアンス顧問エージェント",
+  "creator": "明光リーガル",
+  "category": "compliance",
+  "price": 33,
+  "renewal": 62,
+  "subscribers": 321,
+  "desc": "金融機関向けに本人確認と反マネーロンダリング体制の構築から継続的モニタリングまでを支援する専門エージェントです。",
+  "features": [
+   "KYC手続き設計",
+   "疑わしい取引の検知",
+   "規制報告書の作成"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-gdpr-privacy",
+  "name": "GDPR対応個人情報保護エージェント",
+  "creator": "プライバシーガード総研",
+  "category": "compliance",
+  "price": 50,
+  "renewal": 69,
+  "subscribers": 182,
+  "desc": "EU一般データ保護規則に準拠したデータ処理体制と越境移転スキームの整備を包括的に支援します。",
+  "features": [
+   "DPIA影響評価",
+   "データ移転契約の点検",
+   "違反時対応計画"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-appi-privacy",
+  "name": "改正個人情報保護法対応エージェント",
+  "creator": "データ・トラスト法務",
+  "category": "compliance",
+  "price": 32,
+  "renewal": 83,
+  "subscribers": 598,
+  "desc": "日本の個人情報保護法改正に対応した社内規程と同意取得フローの見直しを的確に導きます。",
+  "features": [
+   "利用目的の適正化",
+   "委託先管理",
+   "漏えい報告支援"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-iso27001-isms",
+  "name": "ISO27001情報セキュリティ認証エージェント",
+  "creator": "セキュアパス・コンサルティング",
+  "category": "compliance",
+  "price": 30,
+  "renewal": 80,
+  "subscribers": 472,
+  "desc": "情報セキュリティマネジメントシステムの構築と認証取得、維持審査までを体系的に伴走します。",
+  "features": [
+   "リスクアセスメント",
+   "管理策の実装支援",
+   "内部監査計画"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-jsox-internal-control",
+  "name": "J-SOX内部統制評価エージェント",
+  "creator": "統制ガバナンス研究所",
+  "category": "compliance",
+  "price": 23,
+  "renewal": 62,
+  "subscribers": 135,
+  "desc": "上場企業の財務報告に係る内部統制の整備・運用評価と是正を効率的に進めるための専門家です。",
+  "features": [
+   "統制文書の整備",
+   "運用テスト設計",
+   "不備の評価と改善"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-contract-review-jp",
+  "name": "契約書レビュー法務エージェント",
+  "creator": "青葉総合法律",
+  "category": "legal",
+  "price": 22,
+  "renewal": 79,
+  "subscribers": 243,
+  "desc": "業務委託や売買、秘密保持など各種契約書のリスク条項を精査し修正案を提示する法務専門家です。",
+  "features": [
+   "リスク条項の抽出",
+   "修正文案の提示",
+   "交渉ポイント整理"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-ip-patent-strategy",
+  "name": "知的財産・特許戦略エージェント",
+  "creator": "知財パートナーズ",
+  "category": "legal",
+  "price": 88,
+  "renewal": 75,
+  "subscribers": 265,
+  "desc": "発明の権利化から特許ポートフォリオ構築、他社権利のクリアランスまで知財戦略を助言します。",
+  "features": [
+   "先行技術調査",
+   "出願戦略立案",
+   "侵害リスク評価"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-labor-law-advisor",
+  "name": "労務・就業規則アドバイザーエージェント",
+  "creator": "はたらき法務事務所",
+  "category": "legal",
+  "price": 76,
+  "renewal": 80,
+  "subscribers": 324,
+  "desc": "就業規則の整備や労働時間管理、ハラスメント対応など人事労務の法的論点を実務的に解説します。",
+  "features": [
+   "就業規則の点検",
+   "残業規制対応",
+   "紛争予防助言"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-ma-legal-dd",
+  "name": "M&A法務デューデリジェンスエージェント",
+  "creator": "フロンティア企業法務",
+  "category": "legal",
+  "price": 19,
+  "renewal": 86,
+  "subscribers": 203,
+  "desc": "企業買収における法務調査で重要契約や係争、許認可のリスクを洗い出し取引条件に反映します。",
+  "features": [
+   "法務DD項目設計",
+   "重要契約分析",
+   "表明保証の検討"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-zeimu-advisor",
+  "name": "税務最適化アドバイザーエージェント",
+  "creator": "Argent キャピタル",
+  "category": "finance",
+  "price": 38,
+  "renewal": 68,
+  "subscribers": 384,
+  "desc": "法人と個人の税務戦略を横断的に分析し合法的な節税と申告リスクの低減を提案する専門家です。",
+  "features": [
+   "税額シミュレーション",
+   "申告書レビュー",
+   "税務調査対策"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-ma-financial-model",
+  "name": "財務モデリング・バリュエーションエージェント",
+  "creator": "エクイティ・ワークス",
+  "category": "finance",
+  "price": 32,
+  "renewal": 64,
+  "subscribers": 429,
+  "desc": "事業計画に基づくDCFや類似会社比較法による企業価値評価と精緻な財務モデルを構築します。",
+  "features": [
+   "DCF評価",
+   "感応度分析",
+   "資本政策設計"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-corporate-treasury",
+  "name": "資金繰り・財務戦略エージェント",
+  "creator": "トレジャリー・ラボ",
+  "category": "finance",
+  "price": 31,
+  "renewal": 73,
+  "subscribers": 392,
+  "desc": "キャッシュフロー予測から運転資金管理、資金調達の最適化まで企業財務全般を支援します。",
+  "features": [
+   "資金繰り表作成",
+   "調達手段の比較",
+   "為替リスク管理"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-asset-allocation",
+  "name": "資産運用ポートフォリオ設計エージェント",
+  "creator": "日和田アセット",
+  "category": "finance",
+  "price": 52,
+  "renewal": 87,
+  "subscribers": 84,
+  "desc": "リスク許容度と目標に応じた分散投資戦略とリバランス方針を体系的に設計する運用アドバイザーです。",
+  "features": [
+   "資産配分の最適化",
+   "リスク分析",
+   "リバランス提案"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-cloud-architect",
+  "name": "クラウドアーキテクチャ設計エージェント",
+  "creator": "CoreStack エンジニアリング",
+  "category": "engineering",
+  "price": 65,
+  "renewal": 80,
+  "subscribers": 236,
+  "desc": "スケーラブルで可用性の高いクラウド基盤の設計とコスト最適化を横断的に支援する技術専門家です。",
+  "features": [
+   "構成設計レビュー",
+   "コスト最適化",
+   "可用性設計"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-devops-sre",
+  "name": "DevOps・SRE運用改善エージェント",
+  "creator": "リライアブル・システムズ",
+  "category": "engineering",
+  "price": 27,
+  "renewal": 63,
+  "subscribers": 273,
+  "desc": "CI/CDパイプライン構築やSLO設計、障害対応の高度化により運用の信頼性を向上させます。",
+  "features": [
+   "CI/CD整備",
+   "SLO/SLI設計",
+   "インシデント対応"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-network-security-eng",
+  "name": "ネットワーク・セキュリティ設計エージェント",
+  "creator": "ゲートウェイ・ラボ",
+  "category": "engineering",
+  "price": 31,
+  "renewal": 74,
+  "subscribers": 324,
+  "desc": "ゼロトラストを前提とした社内ネットワークとセキュリティ境界の設計を包括的に支援します。",
+  "features": [
+   "ネットワーク設計",
+   "ファイアウォール方針",
+   "侵入検知設定"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-frontend-react",
+  "name": "フロントエンド開発エージェント",
+  "creator": "ピクセルクラフト",
+  "category": "software",
+  "price": 39,
+  "renewal": 73,
+  "subscribers": 403,
+  "desc": "ReactとTypeScriptによるモダンなUI実装とパフォーマンス最適化を専門とする開発エージェントです。",
+  "features": [
+   "コンポーネント設計",
+   "状態管理最適化",
+   "描画性能改善"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-backend-api",
+  "name": "バックエンドAPI設計エージェント",
+  "creator": "サーバーサイド研究所",
+  "category": "software",
+  "price": 45,
+  "renewal": 83,
+  "subscribers": 313,
+  "desc": "堅牢でスケーラブルなREST/GraphQL APIの設計とデータモデリングを体系的に支援します。",
+  "features": [
+   "API設計",
+   "スキーマ設計",
+   "認証認可実装"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-code-review-bot",
+  "name": "コードレビュー品質保証エージェント",
+  "creator": "クリーンコード工房",
+  "category": "software",
+  "price": 28,
+  "renewal": 81,
+  "subscribers": 215,
+  "desc": "可読性や保守性、セキュリティの観点からプルリクエストを精査し改善提案を行う専門家です。",
+  "features": [
+   "静的解析",
+   "バグ検出",
+   "リファクタ提案"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-test-automation",
+  "name": "テスト自動化エージェント",
+  "creator": "クオリティゲート",
+  "category": "software",
+  "price": 39,
+  "renewal": 76,
+  "subscribers": 428,
+  "desc": "ユニットからE2Eまでのテスト戦略設計と自動化基盤の構築でソフトウェア品質を高めます。",
+  "features": [
+   "テスト設計",
+   "自動化基盤構築",
+   "カバレッジ改善"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-data-pipeline",
+  "name": "データ基盤・ETLエージェント",
+  "creator": "データフロー・ラボ",
+  "category": "data",
+  "price": 53,
+  "renewal": 82,
+  "subscribers": 264,
+  "desc": "大規模データの収集から変換、蓄積までの信頼性の高いデータパイプラインを設計します。",
+  "features": [
+   "ETL設計",
+   "データ品質管理",
+   "ワークフロー自動化"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-ml-modeling",
+  "name": "機械学習モデル開発エージェント",
+  "creator": "ニューラル・ファクトリー",
+  "category": "data",
+  "price": 60,
+  "renewal": 88,
+  "subscribers": 97,
+  "desc": "予測や分類のための機械学習モデルの設計、学習、評価、運用までを一貫して支援します。",
+  "features": [
+   "特徴量設計",
+   "モデル評価",
+   "MLOps構築"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-bi-dashboard",
+  "name": "BI・データ可視化エージェント",
+  "creator": "インサイト・ビジュアル",
+  "category": "data",
+  "price": 48,
+  "renewal": 88,
+  "subscribers": 72,
+  "desc": "経営指標を分かりやすく可視化するダッシュボードとレポート基盤の構築を支援します。",
+  "features": [
+   "指標設計",
+   "ダッシュボード構築",
+   "データ探索支援"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-seo-content-strategy",
+  "name": "SEO・コンテンツ戦略エージェント",
+  "creator": "サーチグロース",
+  "category": "marketing",
+  "price": 27,
+  "renewal": 68,
+  "subscribers": 362,
+  "desc": "検索意図に基づくキーワード設計とコンテンツ改善で自然検索流入の最大化を支援します。",
+  "features": [
+   "キーワード設計",
+   "競合分析",
+   "内部施策提案"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-paid-ads-optimizer",
+  "name": "運用型広告最適化エージェント",
+  "creator": "アドパフォーマンス・ラボ",
+  "category": "marketing",
+  "price": 46,
+  "renewal": 82,
+  "subscribers": 551,
+  "desc": "検索広告やSNS広告の入札とクリエイティブを継続的に最適化し費用対効果を高めます。",
+  "features": [
+   "入札戦略設計",
+   "広告文改善",
+   "効果測定"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-brand-strategy",
+  "name": "ブランド戦略エージェント",
+  "creator": "ブランドコンパス",
+  "category": "marketing",
+  "price": 69,
+  "renewal": 82,
+  "subscribers": 509,
+  "desc": "市場での独自ポジション確立に向けたブランド定義とコミュニケーション設計を導きます。",
+  "features": [
+   "ブランド定義",
+   "ペルソナ設計",
+   "メッセージ開発"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-clinical-guideline",
+  "name": "診療ガイドライン支援エージェント",
+  "creator": "メディカル・ナレッジ研究所",
+  "category": "healthcare",
+  "price": 50,
+  "renewal": 85,
+  "subscribers": 591,
+  "desc": "最新の診療ガイドラインに基づき臨床判断の根拠情報を整理して提供する医療専門エージェントです。",
+  "features": [
+   "ガイドライン照会",
+   "エビデンス整理",
+   "鑑別支援"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-pharma-regulatory",
+  "name": "医薬品薬事・承認申請エージェント",
+  "creator": "ファーマ・レギュラトリー",
+  "category": "healthcare",
+  "price": 52,
+  "renewal": 85,
+  "subscribers": 478,
+  "desc": "医薬品や医療機器の薬事戦略と承認申請資料の作成を規制要件に沿って支援します。",
+  "features": [
+   "申請区分の判定",
+   "CTD作成支援",
+   "照会事項対応"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-nursing-care-plan",
+  "name": "看護・介護ケアプラン支援エージェント",
+  "creator": "ケアデザイン総研",
+  "category": "healthcare",
+  "price": 93,
+  "renewal": 74,
+  "subscribers": 410,
+  "desc": "利用者の状態に応じた個別ケアプランの立案と多職種連携の調整を実務的に支援します。",
+  "features": [
+   "アセスメント支援",
+   "ケアプラン作成",
+   "記録の効率化"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-ui-ux-design",
+  "name": "UI/UXデザイン設計エージェント",
+  "creator": "フローデザイン・スタジオ",
+  "category": "design",
+  "price": 82,
+  "renewal": 64,
+  "subscribers": 88,
+  "desc": "ユーザー中心の情報設計とインターフェースデザインで使いやすいプロダクト体験を創出します。",
+  "features": [
+   "情報設計",
+   "プロトタイピング",
+   "ユーザビリティ評価"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-design-system",
+  "name": "デザインシステム構築エージェント",
+  "creator": "トークン・デザイン",
+  "category": "design",
+  "price": 33,
+  "renewal": 66,
+  "subscribers": 203,
+  "desc": "一貫性と拡張性を備えたデザインシステムの構築とコンポーネント管理を支援します。",
+  "features": [
+   "トークン設計",
+   "コンポーネント整備",
+   "運用ルール策定"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-resume-coaching",
+  "name": "職務経歴書・転職コーチングエージェント",
+  "creator": "キャリアブリッジ",
+  "category": "career",
+  "price": 68,
+  "renewal": 74,
+  "subscribers": 519,
+  "desc": "強みの言語化と職務経歴書の最適化で希望する転職を実現するためのキャリア支援を行います。",
+  "features": [
+   "職務経歴書添削",
+   "面接対策",
+   "キャリア設計"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-engineer-career",
+  "name": "エンジニアキャリア戦略エージェント",
+  "creator": "テックキャリア・ラボ",
+  "category": "career",
+  "price": 86,
+  "renewal": 70,
+  "subscribers": 51,
+  "desc": "技術者のスキル棚卸しから市場価値の向上、キャリアパス設計までを実践的に伴走します。",
+  "features": [
+   "スキル評価",
+   "ロードマップ設計",
+   "年収交渉助言"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-real-estate-transaction",
+  "name": "不動産取引サポートエージェント",
+  "creator": "住まいトラスト",
+  "category": "transaction",
+  "price": 53,
+  "renewal": 86,
+  "subscribers": 388,
+  "desc": "売買契約や重要事項説明の確認から決済手続きまで不動産取引の実務を安全に進めます。",
+  "features": [
+   "契約内容確認",
+   "重説チェック",
+   "決済準備支援"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-cross-border-trade",
+  "name": "貿易・国際取引実務エージェント",
+  "creator": "グローバルトレード・デスク",
+  "category": "transaction",
+  "price": 33,
+  "renewal": 71,
+  "subscribers": 485,
+  "desc": "輸出入契約やインコタームズ、信用状取引など国際貿易の実務手続きを的確に支援します。",
+  "features": [
+   "契約条件設計",
+   "L/C確認",
+   "通関書類支援"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-smart-contract-audit",
+  "name": "スマートコントラクト監査エージェント",
+  "creator": "チェーンセキュア",
+  "category": "web3",
+  "price": 39,
+  "renewal": 76,
+  "subscribers": 43,
+  "desc": "Solidityで記述されたスマートコントラクトの脆弱性を精査し安全性を高める監査を行います。",
+  "features": [
+   "脆弱性検出",
+   "ガス最適化",
+   "監査レポート"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-tokenomics-design",
+  "name": "トークノミクス設計エージェント",
+  "creator": "トークン・エコノミクス研究所",
+  "category": "web3",
+  "price": 52,
+  "renewal": 78,
+  "subscribers": 222,
+  "desc": "持続可能なトークン経済圏の設計とインセンティブ構造の分析を専門的に支援します。",
+  "features": [
+   "供給設計",
+   "インセンティブ分析",
+   "流動性設計"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-ec-cro",
+  "name": "ECサイト改善・CROエージェント",
+  "creator": "コンバージョン・ラボ",
+  "category": "ecommerce",
+  "price": 83,
+  "renewal": 65,
+  "subscribers": 345,
+  "desc": "商品ページや購入導線の分析に基づく改善施策で購入率と客単価の向上を実現します。",
+  "features": [
+   "導線分析",
+   "A/Bテスト設計",
+   "カゴ落ち対策"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-business-writing",
+  "name": "ビジネス文書作成エージェント",
+  "creator": "ワードスミス工房",
+  "category": "writing",
+  "price": 38,
+  "renewal": 73,
+  "subscribers": 205,
+  "desc": "提案書や報告書、社内文書を論理的で説得力のある文章に磨き上げる文章作成の専門家です。",
+  "features": [
+   "構成設計",
+   "推敲・校正",
+   "トーン調整"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-copywriting",
+  "name": "セールスコピーライティングエージェント",
+  "creator": "コピーラボ",
+  "category": "writing",
+  "price": 88,
+  "renewal": 86,
+  "subscribers": 583,
+  "desc": "読み手の心を動かすランディングページや広告のコピーを訴求軸から設計して執筆します。",
+  "features": [
+   "訴求軸設計",
+   "見出し作成",
+   "CTA最適化"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-philosophy-tutor",
+  "name": "哲学・思想解説エージェント",
+  "creator": "叡智アカデミア",
+  "category": "humanities",
+  "price": 19,
+  "renewal": 81,
+  "subscribers": 371,
+  "desc": "古今東西の哲学思想を体系的に整理し現代の問いに引きつけて分かりやすく解説します。",
+  "features": [
+   "思想史整理",
+   "概念解説",
+   "議論の展開"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-cbt-support",
+  "name": "認知行動療法サポートエージェント",
+  "creator": "こころラボ",
+  "category": "psychology",
+  "price": 65,
+  "renewal": 88,
+  "subscribers": 354,
+  "desc": "認知の歪みへの気づきと行動変容を促す認知行動療法の手法を平易に案内する心理支援です。",
+  "features": [
+   "思考記録支援",
+   "認知再構成",
+   "行動計画"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-nutrition-coach",
+  "name": "栄養・食事管理コーチングエージェント",
+  "creator": "ウェルネス・キッチン",
+  "category": "wellness",
+  "price": 91,
+  "renewal": 64,
+  "subscribers": 127,
+  "desc": "目標や体質に応じた栄養バランスの整った食事プランと習慣づくりを継続的に支援します。",
+  "features": [
+   "献立提案",
+   "栄養計算",
+   "習慣化支援"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-study-planner",
+  "name": "学習計画・受験対策エージェント",
+  "creator": "スタディナビ",
+  "category": "education",
+  "price": 87,
+  "renewal": 86,
+  "subscribers": 168,
+  "desc": "目標や現状学力に基づく最適な学習計画と教材選定で効率的な学びを設計します。",
+  "features": [
+   "学習計画立案",
+   "進捗管理",
+   "弱点分析"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-travel-planner",
+  "name": "旅行プランニングエージェント",
+  "creator": "トリップデザイン",
+  "category": "lifestyle",
+  "price": 89,
+  "renewal": 67,
+  "subscribers": 311,
+  "desc": "好みや予算に合わせた旅程設計と現地情報の整理で満足度の高い旅行体験を演出します。",
+  "features": [
+   "旅程設計",
+   "予算最適化",
+   "現地情報整理"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-video-content",
+  "name": "動画コンテンツ企画エージェント",
+  "creator": "フレーム・スタジオ",
+  "category": "content",
+  "price": 46,
+  "renewal": 79,
+  "subscribers": 245,
+  "desc": "企画から構成、台本まで視聴者を惹きつける動画コンテンツの制作プロセスを支援します。",
+  "features": [
+   "企画立案",
+   "構成台本作成",
+   "サムネ設計"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-real-estate-invest",
+  "name": "不動産投資分析エージェント",
+  "creator": "アセット不動産研究所",
+  "category": "realestate",
+  "price": 75,
+  "renewal": 78,
+  "subscribers": 502,
+  "desc": "収益物件のキャッシュフローと利回りを精緻に分析し投資判断の意思決定を支援します。",
+  "features": [
+   "利回り分析",
+   "収支シミュレーション",
+   "リスク評価"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-insurance-review",
+  "name": "保険見直し・リスク設計エージェント",
+  "creator": "保険デザイン・パートナーズ",
+  "category": "insurance",
+  "price": 34,
+  "renewal": 69,
+  "subscribers": 270,
+  "desc": "ライフプランと保障ニーズを分析し過不足のない最適な保険設計を中立的に提案します。",
+  "features": [
+   "保障診断",
+   "保険比較",
+   "見直し提案"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-game-design",
+  "name": "ゲームデザイン企画エージェント",
+  "creator": "プレイクラフト",
+  "category": "gaming",
+  "price": 27,
+  "renewal": 72,
+  "subscribers": 61,
+  "desc": "ゲームメカニクスとレベルデザインの設計で没入感のあるプレイ体験を生み出します。",
+  "features": [
+   "メカニクス設計",
+   "レベルデザイン",
+   "バランス調整"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-music-composition",
+  "name": "作曲・編曲サポートエージェント",
+  "creator": "ハーモニー・ラボ",
+  "category": "music",
+  "price": 94,
+  "renewal": 79,
+  "subscribers": 275,
+  "desc": "楽曲のコード進行やアレンジを理論的に分析し表現したい世界観の作曲を支援します。",
+  "features": [
+   "コード進行提案",
+   "編曲支援",
+   "楽曲構成"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-recipe-development",
+  "name": "レシピ開発・献立エージェント",
+  "creator": "キュイジーヌ研究所",
+  "category": "culinary",
+  "price": 94,
+  "renewal": 69,
+  "subscribers": 47,
+  "desc": "食材や調理環境に合わせたレシピ開発と献立設計で日々の料理を豊かにします。",
+  "features": [
+   "レシピ考案",
+   "味付け調整",
+   "献立設計"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-research-paper",
+  "name": "論文執筆・研究支援エージェント",
+  "creator": "アカデミック・ラボ",
+  "category": "science",
+  "price": 28,
+  "renewal": 84,
+  "subscribers": 100,
+  "desc": "研究計画の設計から論文構成、統計解析の助言まで学術研究のプロセスを支援します。",
+  "features": [
+   "研究設計",
+   "論文構成",
+   "文献整理"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-daily-companion",
+  "name": "日常会話コンパニオンエージェント",
+  "creator": "ともだちラボ",
+  "category": "companion",
+  "price": 48,
+  "renewal": 64,
+  "subscribers": 72,
+  "desc": "日々の出来事や気持ちに寄り添いながら前向きな対話を通じて心を支えるコンパニオンです。",
+  "features": [
+   "傾聴対話",
+   "気分に寄り添う",
+   "習慣の応援"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-aerospace-mission",
+  "name": "宇宙ミッション設計エージェント",
+  "creator": "オービット・ラボ",
+  "category": "space",
+  "price": 61,
+  "renewal": 64,
+  "subscribers": 566,
+  "desc": "衛星の軌道設計やミッション計画を工学的に分析し宇宙開発プロジェクトを支援します。",
+  "features": [
+   "軌道設計",
+   "ミッション計画",
+   "システム検討"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-physics-tutor",
+  "name": "物理学解説・問題解決エージェント",
+  "creator": "フィジックス・アカデミー",
+  "category": "physics",
+  "price": 49,
+  "renewal": 70,
+  "subscribers": 537,
+  "desc": "力学から量子論まで物理の概念と問題を原理から丁寧に解き明かす学習支援を行います。",
+  "features": [
+   "概念解説",
+   "問題解法",
+   "数式導出"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-chemistry-synthesis",
+  "name": "化学合成・反応設計エージェント",
+  "creator": "ケミカル・ラボ",
+  "category": "chemistry",
+  "price": 46,
+  "renewal": 79,
+  "subscribers": 175,
+  "desc": "有機合成の反応経路設計と条件最適化を化学的知見に基づいて助言する専門エージェントです。",
+  "features": [
+   "反応経路設計",
+   "条件最適化",
+   "安全性評価"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-aml-transaction-monitor",
+  "name": "取引モニタリング・不正検知エージェント",
+  "creator": "リスクセンス",
+  "category": "compliance",
+  "price": 92,
+  "renewal": 80,
+  "subscribers": 524,
+  "desc": "取引データのリアルタイム監視により不正やマネーロンダリングの兆候を早期に検知します。",
+  "features": [
+   "異常検知ルール",
+   "アラート精査",
+   "誤検知低減"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-quant-strategy",
+  "name": "クオンツ運用戦略エージェント",
+  "creator": "アルファ・クオンツ",
+  "category": "finance",
+  "price": 71,
+  "renewal": 68,
+  "subscribers": 136,
+  "desc": "統計モデルとバックテストに基づく定量的な運用戦略の設計と検証を専門的に支援します。",
+  "features": [
+   "ファクター分析",
+   "バックテスト",
+   "リスク管理"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-data-analytics-consult",
+  "name": "データ分析・意思決定支援エージェント",
+  "creator": "アナリティクス・パートナーズ",
+  "category": "data",
+  "price": 31,
+  "renewal": 83,
+  "subscribers": 481,
+  "desc": "経営課題を分析設計に落とし込みデータドリブンな意思決定を導く分析コンサルタントです。",
+  "features": [
+   "課題の構造化",
+   "統計分析",
+   "示唆抽出"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-microservices-arch",
+  "name": "マイクロサービス設計エージェント",
+  "creator": "ディストリビュート・ラボ",
+  "category": "engineering",
+  "price": 78,
+  "renewal": 85,
+  "subscribers": 95,
+  "desc": "疎結合でスケールするマイクロサービスの分割設計と分散システムの信頼性を支援します。",
+  "features": [
+   "サービス分割設計",
+   "API境界設計",
+   "分散トレーシング"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-technical-writing",
+  "name": "技術文書・API仕様作成エージェント",
+  "creator": "ドキュメント・ラボ",
+  "category": "writing",
+  "price": 31,
+  "renewal": 63,
+  "subscribers": 452,
+  "desc": "開発者に伝わるAPIリファレンスや技術仕様書を正確で読みやすい文章に整えます。",
+  "features": [
+   "仕様書作成",
+   "API文書化",
+   "用語統一"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja-ux-research",
+  "name": "ユーザーリサーチ・UX調査エージェント",
+  "creator": "インサイト・デザイン",
+  "category": "design",
+  "price": 62,
+  "renewal": 87,
+  "subscribers": 151,
+  "desc": "インタビューやユーザビリティ調査を設計し定性・定量データから示唆を導く調査専門家です。",
+  "features": [
+   "調査設計",
+   "インタビュー分析",
+   "ペルソナ策定"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-soc2-type2-audit-advisor",
+  "name": "SOC 2 Type II 監査対応アドバイザー",
+  "creator": "明光コンプライアンス",
+  "category": "compliance",
+  "price": 98,
+  "renewal": 84,
+  "subscribers": 412,
+  "desc": "SOC 2 Type II 監査に向けたトラストサービス基準のギャップ分析と是正計画を作成し、証跡収集を運用可能な形で整えます。",
+  "features": [
+   "セキュリティ・可用性・機密性の統制マトリクス作成",
+   "監査人からの証跡要求リストへの回答ドラフト",
+   "例外事項の修復ロードマップと責任分担表の提示"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-gdpr-dpia-specialist",
+  "name": "GDPR データ保護影響評価スペシャリスト",
+  "creator": "欧州個人情報研究所",
+  "category": "compliance",
+  "price": 89,
+  "renewal": 80,
+  "subscribers": 338,
+  "desc": "越境データ処理を伴う新規プロダクトのDPIA(データ保護影響評価)を策定し、リスク低減策と適法性根拠を文書化します。",
+  "features": [
+   "処理活動の記録(ROPA)テンプレート生成",
+   "高リスク処理の特定と残余リスク評価",
+   "SCC・移転影響評価(TIA)の作成支援"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-jsox-internal-control",
+  "name": "J-SOX 内部統制文書化アドバイザー",
+  "creator": "和光内部統制パートナーズ",
+  "category": "compliance",
+  "price": 92,
+  "renewal": 82,
+  "subscribers": 276,
+  "desc": "財務報告に係る内部統制(J-SOX)の3点セット(業務記述書・フローチャート・RCM)を整備し、評価範囲の決定を支援します。",
+  "features": [
+   "重要勘定科目とアサーションの割付",
+   "キーコントロールの設計・運用テスト手続作成",
+   "不備の重要性判断と是正計画の策定"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-aml-kyc-program-advisor",
+  "name": "AML/KYC プログラム構築顧問",
+  "creator": "金融犯罪対策ラボ",
+  "category": "compliance",
+  "price": 105,
+  "renewal": 85,
+  "subscribers": 301,
+  "desc": "犯収法・FATF勧告に準拠したマネロン対策プログラムを設計し、リスクベースの顧客管理と取引モニタリング基準を整備します。",
+  "features": [
+   "顧客リスク格付モデルとEDD基準の策定",
+   "疑わしい取引の届出(SAR)判断フロー設計",
+   "制裁リスト・PEPスクリーニング運用手順の整備"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-iso27001-isms-consult",
+  "name": "ISO 27001 ISMS 認証取得コンサル",
+  "creator": "セキュアブリッジ認証支援",
+  "category": "compliance",
+  "price": 86,
+  "renewal": 79,
+  "subscribers": 244,
+  "desc": "ISO/IEC 27001 の認証取得に向けたISMS構築を支援し、附属書A管理策の適用宣言書と内部監査計画を作成します。",
+  "features": [
+   "リスクアセスメント手法と受容基準の定義",
+   "適用宣言書(SoA)と管理策の実装状況整理",
+   "内部監査チェックリストとマネジメントレビュー資料作成"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-whistleblower-hotline-des",
+  "name": "内部通報制度設計スペシャリスト",
+  "creator": "公益通報コンプラ研究会",
+  "category": "compliance",
+  "price": 74,
+  "renewal": 77,
+  "subscribers": 188,
+  "desc": "改正公益通報者保護法に対応した内部通報窓口の規程と運用フローを設計し、通報者保護と調査手続を整えます。",
+  "features": [
+   "通報受付から調査完了までのワークフロー設計",
+   "従事者指定・守秘義務規程のドラフト作成",
+   "不利益取扱い防止のためのモニタリング体制構築"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-commercial-lease-redline",
+  "name": "商業賃貸借レッドライン審査",
+  "creator": "青山リーガルレビュー",
+  "category": "legal",
+  "price": 95,
+  "renewal": 83,
+  "subscribers": 357,
+  "desc": "事業用賃貸借契約書を借主・貸主それぞれの立場でレッドライン修正し、原状回復・中途解約・修繕義務の条項リスクを整理します。",
+  "features": [
+   "原状回復範囲と敷金返還条項の交渉ポイント抽出",
+   "賃料改定・中途解約違約金の条項リスク評価",
+   "代替文言と交渉優先度付きコメントの付与"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-saas-msa-drafting",
+  "name": "SaaS 基本契約(MSA)ドラフト顧問",
+  "creator": "テックロー法務工房",
+  "category": "legal",
+  "price": 102,
+  "renewal": 85,
+  "subscribers": 389,
+  "desc": "SaaS事業者向けの基本契約・SLA・DPAを一括でドラフトし、責任制限とデータ取扱いのバランスを最適化します。",
+  "features": [
+   "SLA稼働率保証とサービスクレジット設計",
+   "責任総額上限・免責条項の交渉ドラフト作成",
+   "データ処理付属契約(DPA)の再委託条項整備"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-ip-license-negotiation",
+  "name": "知的財産ライセンス交渉コンサル",
+  "creator": "知財ストラテジー法律事務所",
+  "category": "legal",
+  "price": 110,
+  "renewal": 86,
+  "subscribers": 263,
+  "desc": "特許・ソフトウェアのライセンス契約における実施許諾範囲とロイヤリティ構造を設計し、交渉戦略を提示します。",
+  "features": [
+   "独占・非独占の許諾範囲と地域制限の設計",
+   "ランニング・一時金併用のロイヤリティ条項ドラフト",
+   "改良発明の帰属とグラントバック条項の交渉支援"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-employment-rules-advisor",
+  "name": "就業規則リスク診断アドバイザー",
+  "creator": "労務法制サポート社",
+  "category": "legal",
+  "price": 78,
+  "renewal": 78,
+  "subscribers": 312,
+  "desc": "就業規則を最新の労働法制に照らして診断し、懲戒・退職・ハラスメント関連条項の不備を洗い出して改定案を提示します。",
+  "features": [
+   "固定残業代・みなし労働時間制の適法性チェック",
+   "懲戒事由と手続の整合性レビュー",
+   "ハラスメント防止措置義務への対応条項追加"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-nda-triage-reviewer",
+  "name": "秘密保持契約(NDA)迅速審査",
+  "creator": "クイックリーガル法務",
+  "category": "legal",
+  "price": 42,
+  "renewal": 72,
+  "subscribers": 540,
+  "desc": "受領したNDAを標準プレイブックに照らして即時トリアージし、非勧誘・競業避止・存続期間の逸脱を色分けで報告します。",
+  "features": [
+   "秘密情報の定義範囲と例外規定の妥当性判定",
+   "一方向・双方向の義務不均衡の検出",
+   "署名可否のGREEN/YELLOW/RED判定と修正案提示"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-privacy-policy-drafter",
+  "name": "プライバシーポリシー整備スペシャリスト",
+  "creator": "個人情報ガバナンス法務",
+  "category": "legal",
+  "price": 68,
+  "renewal": 76,
+  "subscribers": 298,
+  "desc": "個人情報保護法および各国法制に対応したプライバシーポリシーを作成し、第三者提供・越境移転の記載を整えます。",
+  "features": [
+   "利用目的の特定と第三者提供オプトアウト記載",
+   "Cookie・行動履歴取得の同意取得文言作成",
+   "保有個人データの開示請求手続の明示"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-series-a-termsheet-consul",
+  "name": "シリーズA タームシート交渉コンサル",
+  "creator": "ベンチャーファイナンス顧問",
+  "category": "finance",
+  "price": 120,
+  "renewal": 88,
+  "subscribers": 275,
+  "desc": "シリーズA資金調達のタームシートを分析し、バリュエーション・優先株条項・希薄化防止のトレードオフを可視化します。",
+  "features": [
+   "プレ/ポストマネー評価と持株比率の試算",
+   "残余財産分配・参加型優先株の影響分析",
+   "希薄化防止条項とボード構成の交渉戦略提示"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-transfer-pricing-doc-spec",
+  "name": "移転価格文書作成スペシャリスト",
+  "creator": "北風税務コンサルティング",
+  "category": "finance",
+  "price": 115,
+  "renewal": 87,
+  "subscribers": 221,
+  "desc": "国外関連者取引の移転価格ローカルファイル・マスターファイルを作成し、独立企業間価格の算定根拠を文書化します。",
+  "features": [
+   "機能・リスク分析(FAR分析)の整理",
+   "比較対象取引の選定とレンジ算定",
+   "独立企業間価格算定方法の選定と根拠記述"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-dcf-valuation-analyst",
+  "name": "DCF 企業価値評価アナリスト",
+  "creator": "バリュエーション・ラボ",
+  "category": "finance",
+  "price": 99,
+  "renewal": 84,
+  "subscribers": 334,
+  "desc": "DCF法とマルチプル法による企業価値評価モデルを構築し、感応度分析でバリュエーションレンジを提示します。",
+  "features": [
+   "FCF予測とWACC・永久成長率の設定",
+   "類似会社・類似取引マルチプルの算定",
+   "感応度分析とシナリオ別評価レンジの提示"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-monthly-close-optimizer",
+  "name": "月次決算早期化コンサル",
+  "creator": "経理DXパートナーズ",
+  "category": "finance",
+  "price": 88,
+  "renewal": 81,
+  "subscribers": 298,
+  "desc": "月次決算の締めプロセスを分析し、タスク依存関係とボトルネックを特定して決算早期化のロードマップを作成します。",
+  "features": [
+   "決算スケジュールのクリティカルパス分析",
+   "勘定照合・仕訳計上の自動化候補特定",
+   "部門別タスクの依存関係と進捗管理表作成"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-cashflow-forecast-advisor",
+  "name": "資金繰り予測アドバイザー",
+  "creator": "キャッシュフロー戦略社",
+  "category": "finance",
+  "price": 72,
+  "renewal": 77,
+  "subscribers": 365,
+  "desc": "売掛・買掛と固定費から13週・90日の資金繰り予測を作成し、資金ショートリスクを分散バンド付きで警告します。",
+  "features": [
+   "13週ローリング資金繰り表の作成",
+   "入出金タイミングの変動を考慮した予測",
+   "資金ショート時期と必要調達額のフラグ提示"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-ifrs16-lease-accounting",
+  "name": "IFRS 16 リース会計移行アドバイザー",
+  "creator": "国際会計基準サポート",
+  "category": "finance",
+  "price": 94,
+  "renewal": 83,
+  "subscribers": 187,
+  "desc": "IFRS 16に基づくリース資産・負債の認識計算を支援し、使用権資産の測定と移行仕訳を整備します。",
+  "features": [
+   "リース料の割引現在価値と割引率の算定",
+   "使用権資産・リース負債の計上仕訳作成",
+   "短期・少額リースの免除適用判定"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-ma-due-diligence-lead",
+  "name": "M&A デューデリジェンス統括アドバイザー",
+  "creator": "ディールアドバイザリー合同",
+  "category": "transaction",
+  "price": 135,
+  "renewal": 89,
+  "subscribers": 198,
+  "desc": "買収対象企業の財務・税務・法務DDを統括し、発見事項をリスク別に整理して価格調整・表明保証への反映を提案します。",
+  "features": [
+   "DDチェックリストとデータルーム要求リスト作成",
+   "発見事項のディールブレーカー/価格調整分類",
+   "表明保証・補償条項への反映ポイント整理"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-spa-negotiation-advisor",
+  "name": "株式譲渡契約(SPA)交渉アドバイザー",
+  "creator": "コーポレート取引法務",
+  "category": "transaction",
+  "price": 118,
+  "renewal": 87,
+  "subscribers": 176,
+  "desc": "株式譲渡契約の主要条項を交渉し、表明保証・補償上限・クロージング前提条件のリスク配分を最適化します。",
+  "features": [
+   "表明保証の範囲と補償キャップ・バスケット設計",
+   "クロージング前提条件(CP)の充足管理表作成",
+   "競業避止・キーマン条項の交渉ドラフト"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-earnout-structuring-consul",
+  "name": "アーンアウト条項設計コンサル",
+  "creator": "ディールストラクチャー研究所",
+  "category": "transaction",
+  "price": 108,
+  "renewal": 85,
+  "subscribers": 142,
+  "desc": "買収対価のアーンアウト条項を設計し、業績指標・支払条件・紛争防止メカニズムを具体化して当事者間の期待を調整します。",
+  "features": [
+   "EBITDA・売上等の業績指標と測定期間設定",
+   "支払上限・段階的達成条件の構造化",
+   "計算方法の紛争を防ぐ会計方針の固定化"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-dataroom-vdr-organizer",
+  "name": "バーチャルデータルーム構築スペシャリスト",
+  "creator": "トランザクション支援工房",
+  "category": "transaction",
+  "price": 76,
+  "renewal": 78,
+  "subscribers": 234,
+  "desc": "M&A取引のバーチャルデータルームを体系的に構築し、開示資料のインデックス整備とQ&A管理プロセスを設計します。",
+  "features": [
+   "フォルダ構成と開示資料インデックスの標準化",
+   "閲覧権限のティア設計とアクセスログ管理",
+   "買主Q&Aの受付・回答トラッキング運用"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-post-merger-integration",
+  "name": "PMI 統合計画アドバイザー",
+  "creator": "統合戦略パートナーズ",
+  "category": "transaction",
+  "price": 112,
+  "renewal": 86,
+  "subscribers": 167,
+  "desc": "買収後の100日統合計画を策定し、システム・人事・業務プロセスの統合優先度とシナジー実現ロードマップを提示します。",
+  "features": [
+   "Day1・100日の統合マイルストーン設計",
+   "シナジー効果の定量化とKPIトラッキング",
+   "組織・人事制度の統合方針と離職リスク対策"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-ipo-readiness-advisor",
+  "name": "IPO 準備態勢診断アドバイザー",
+  "creator": "上場準備アドバイザリー",
+  "category": "transaction",
+  "price": 128,
+  "renewal": 88,
+  "subscribers": 153,
+  "desc": "新規上場に向けた内部管理体制・資本政策・開示体制のギャップを診断し、上場審査に耐える準備ロードマップを作成します。",
+  "features": [
+   "I の部・II の部作成に向けた課題洗い出し",
+   "資本政策とストックオプション設計レビュー",
+   "内部統制・関連当事者取引の整備状況評価"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-do-liability-advisor",
+  "name": "D&O 保険付保設計アドバイザー",
+  "creator": "リスクマネジメント保険工房",
+  "category": "insurance",
+  "price": 92,
+  "renewal": 82,
+  "subscribers": 168,
+  "desc": "会社役員賠償責任保険(D&O)の補償範囲と免責事項を精査し、株主代表訴訟リスクに応じた付保設計を提案します。",
+  "features": [
+   "Side A/B/C 補償構造と限度額の設計",
+   "免責事項・除外条項のギャップ分析",
+   "上場・M&A時の特約と保険料交渉ポイント整理"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-cyber-insurance-consult",
+  "name": "サイバー保険付保診断コンサル",
+  "creator": "サイバーリスク保険研究所",
+  "category": "insurance",
+  "price": 85,
+  "renewal": 80,
+  "subscribers": 214,
+  "desc": "サイバー保険の補償内容を企業のセキュリティ態勢に照らして診断し、身代金・事業中断・第三者賠償の補償ギャップを整理します。",
+  "features": [
+   "インシデント対応費用・事業中断補償の範囲確認",
+   "ランサムウェア身代金補償の適用条件精査",
+   "付保前セキュリティ要件と保険料最適化提案"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-pl-insurance-claim-spec",
+  "name": "生産物賠償責任(PL)保険クレーム対応",
+  "creator": "製造業リスク保険社",
+  "category": "insurance",
+  "price": 79,
+  "renewal": 79,
+  "subscribers": 146,
+  "desc": "製品事故に伴うPL保険の保険金請求を支援し、事故原因の立証資料整備と保険会社との交渉を進めます。",
+  "features": [
+   "事故報告書と因果関係立証資料の整理",
+   "補償対象・免責の該当性判断",
+   "リコール費用特約の適用と請求額算定"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-group-health-benefit-des",
+  "name": "団体保険・福利厚生設計スペシャリスト",
+  "creator": "従業員福利プランニング",
+  "category": "insurance",
+  "price": 68,
+  "renewal": 76,
+  "subscribers": 257,
+  "desc": "従業員向け団体保険と福利厚生制度を設計し、保障内容と保険料負担のバランスを最適化して制度案を提示します。",
+  "features": [
+   "団体定期・医療保険の保障設計と加入率分析",
+   "会社・従業員の保険料負担割合の最適化",
+   "GLTD・所得補償保険の導入効果試算"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-business-interruption-adv",
+  "name": "事業中断保険リスク評価アドバイザー",
+  "creator": "事業継続保険コンサル",
+  "category": "insurance",
+  "price": 88,
+  "renewal": 81,
+  "subscribers": 132,
+  "desc": "自然災害・サプライチェーン寸断に備えた事業中断保険の必要補償額を算定し、BCPと連動した付保設計を提案します。",
+  "features": [
+   "粗利益ベースの補償必要額と復旧期間の算定",
+   "サプライチェーン中断特約の適用範囲確認",
+   "BCPシナリオと保険補償のギャップ分析"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-re-investment-analyst",
+  "name": "収益不動産投資分析アナリスト",
+  "creator": "アセット投資リサーチ",
+  "category": "realestate",
+  "price": 96,
+  "renewal": 83,
+  "subscribers": 312,
+  "desc": "収益不動産のNOI・キャップレート・IRRを算定し、レバレッジと出口戦略を含む投資シミュレーションを作成します。",
+  "features": [
+   "賃料・稼働率前提のNOIとDSCR算定",
+   "キャップレートとIRR・キャッシュオンキャッシュ分析",
+   "出口価格シナリオと保有期間別リターン比較"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-lease-abstract-specialist",
+  "name": "賃貸借契約アブストラクト作成スペシャリスト",
+  "creator": "プロパティ管理法務",
+  "category": "realestate",
+  "price": 64,
+  "renewal": 75,
+  "subscribers": 198,
+  "desc": "複雑な事業用賃貸借契約から重要条件を抽出してアブストラクトを作成し、更新期限・賃料改定・オプション条項を一覧化します。",
+  "features": [
+   "賃料・共益費・改定条項の抽出と整理",
+   "更新・解約通知期限のクリティカルデート管理",
+   "増床オプション・専用使用権の条件整理"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-development-feasibility",
+  "name": "不動産開発事業性評価コンサル",
+  "creator": "デベロップメント企画研究所",
+  "category": "realestate",
+  "price": 118,
+  "renewal": 86,
+  "subscribers": 143,
+  "desc": "開発用地の事業収支計画を策定し、建設費・分譲/賃貸収入・資金計画から事業性とリスクを評価します。",
+  "features": [
+   "ボリュームスタディと容積消化率の検討",
+   "建設費・販売単価前提の事業収支シミュレーション",
+   "許認可スケジュールと開発リスクの洗い出し"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-property-tax-appeal-adv",
+  "name": "固定資産税評価見直しアドバイザー",
+  "creator": "不動産税務サポート",
+  "category": "realestate",
+  "price": 72,
+  "renewal": 77,
+  "subscribers": 176,
+  "desc": "固定資産税の評価額の適正性を検証し、過大評価の是正に向けた審査申出・不服申立ての根拠資料を整備します。",
+  "features": [
+   "路線価・評価倍率と実勢価格の乖離分析",
+   "負担調整措置・特例適用漏れの検証",
+   "審査申出のための評価誤り立証資料作成"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-reit-portfolio-advisor",
+  "name": "REIT ポートフォリオ戦略アドバイザー",
+  "creator": "不動産証券化リサーチ",
+  "category": "realestate",
+  "price": 102,
+  "renewal": 84,
+  "subscribers": 158,
+  "desc": "REITの保有物件ポートフォリオを分析し、セクター配分・鑑定NAVとの乖離・分配金持続性を評価して投資判断を支援します。",
+  "features": [
+   "物件セクター・地域分散とNOI利回り分析",
+   "NAV倍率と鑑定評価の乖離評価",
+   "LTV・分配金カバレッジの持続性診断"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-d2c-retention-ltv-strat",
+  "name": "D2C リテンション/LTV 戦略",
+  "creator": "グロースマーケ研究所",
+  "category": "marketing",
+  "price": 90,
+  "renewal": 82,
+  "subscribers": 428,
+  "desc": "D2Cブランドの購買データからLTV・解約要因を分析し、リテンション施策とCRMシナリオでリピート率向上を設計します。",
+  "features": [
+   "コホート別LTVと解約タイミングの分析",
+   "RFMセグメント別のCRMシナリオ設計",
+   "定期購入の離脱防止オファーとチャーン予測"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-b2b-abm-campaign-consul",
+  "name": "B2B ABM キャンペーン設計コンサル",
+  "creator": "アカウントベース戦略社",
+  "category": "marketing",
+  "price": 95,
+  "renewal": 83,
+  "subscribers": 267,
+  "desc": "ターゲットアカウントを選定したABMキャンペーンを設計し、インテントデータと多チャネル施策で商談化率を高めます。",
+  "features": [
+   "ICP定義とターゲットアカウントリスト作成",
+   "インテントシグナル別のコンテンツ出し分け設計",
+   "営業連携のプレイブックとMQL引き渡し基準策定"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-seo-technical-audit",
+  "name": "テクニカルSEO 監査スペシャリスト",
+  "creator": "サーチビジビリティ工房",
+  "category": "marketing",
+  "price": 78,
+  "renewal": 79,
+  "subscribers": 356,
+  "desc": "サイトのクロール・インデックス・Core Web Vitalsを監査し、検索順位を毀損する技術的問題を優先度付きで是正提案します。",
+  "features": [
+   "クロールバジェットとインデックス制御の診断",
+   "構造化データ・内部リンク構造の最適化提案",
+   "Core Web Vitals改善の技術的施策リスト作成"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-paid-media-roas-analyst",
+  "name": "運用型広告 ROAS 改善アナリスト",
+  "creator": "パフォーマンス広告ラボ",
+  "category": "marketing",
+  "price": 85,
+  "renewal": 81,
+  "subscribers": 389,
+  "desc": "検索・SNS広告のアカウント構造とクリエイティブを分析し、無駄配信を削減してROAS改善の施策を提示します。",
+  "features": [
+   "キャンペーン構造とターゲティングの無駄検出",
+   "クリエイティブ疲弊とCVR低下要因の分析",
+   "入札戦略・予算配分の最適化シミュレーション"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-brand-messaging-architect",
+  "name": "ブランドメッセージ設計アーキテクト",
+  "creator": "ブランド戦略パートナーズ",
+  "category": "marketing",
+  "price": 88,
+  "renewal": 82,
+  "subscribers": 234,
+  "desc": "ブランドのポジショニングとメッセージング階層を設計し、ターゲット別の価値提案とトーンガイドを体系化します。",
+  "features": [
+   "競合ポジショニングマップと差別化軸の設定",
+   "メッセージハウスと証拠となる根拠の構造化",
+   "チャネル別トーン&マナーガイドの作成"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-content-funnel-planner",
+  "name": "コンテンツファネル設計プランナー",
+  "creator": "インバウンド企画社",
+  "category": "marketing",
+  "price": 74,
+  "renewal": 78,
+  "subscribers": 301,
+  "desc": "認知から商談化までのカスタマージャーニーに沿ったコンテンツファネルを設計し、テーマとKPIを紐づけて計画化します。",
+  "features": [
+   "ジャーニー段階別のコンテンツテーマ設計",
+   "検索意図に基づくトピッククラスター構築",
+   "段階別CTAとリードナーチャリング設計"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-marketplace-listing-opt",
+  "name": "マーケットプレイス出品最適化スペシャリスト",
+  "creator": "EC出店戦略工房",
+  "category": "ecommerce",
+  "price": 76,
+  "renewal": 78,
+  "subscribers": 367,
+  "desc": "Amazon・楽天等の商品ページを分析し、検索アルゴリズムとコンバージョン視点でタイトル・画像・レビュー戦略を最適化します。",
+  "features": [
+   "検索キーワードとカタログ属性の最適化",
+   "メイン画像・A+コンテンツのCVR改善提案",
+   "レビュー獲得と低評価対応のオペレーション設計"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-cart-abandon-recovery",
+  "name": "カゴ落ち回復シナリオ設計",
+  "creator": "コンバージョン最適化社",
+  "category": "ecommerce",
+  "price": 68,
+  "renewal": 76,
+  "subscribers": 312,
+  "desc": "ECサイトのカゴ落ち・離脱を分析し、リマーケティングメールとオンサイト施策で回収率を高めるシナリオを設計します。",
+  "features": [
+   "購入ファネルの離脱ポイント特定",
+   "カゴ落ちメール3ステップのシナリオ設計",
+   "送料・決済手段の離脱要因と改善提案"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-subscription-churn-analyst",
+  "name": "サブスクEC 解約防止アナリスト",
+  "creator": "リカーリング分析ラボ",
+  "category": "ecommerce",
+  "price": 82,
+  "renewal": 80,
+  "subscribers": 278,
+  "desc": "サブスクリプションEC の解約データを分析し、解約予兆スコアと引き止め施策で継続率を改善する打ち手を提示します。",
+  "features": [
+   "解約予兆スコアリングモデルの構築",
+   "初回・n回目継続の障壁分析",
+   "スキップ・プラン変更等の引き止めオファー設計"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-fulfillment-cost-optimizer",
+  "name": "EC 物流コスト最適化コンサル",
+  "creator": "ロジスティクス改善パートナーズ",
+  "category": "ecommerce",
+  "price": 88,
+  "renewal": 81,
+  "subscribers": 196,
+  "desc": "受注から配送までの物流コストを分析し、在庫配置・送料設定・倉庫作業の効率化でフルフィルメント費用を削減します。",
+  "features": [
+   "配送エリア別の送料・キャリア最適化",
+   "在庫拠点配置とリードタイム短縮の検討",
+   "梱包・ピッキング作業のコスト構造分析"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-headless-commerce-advisor",
+  "name": "ヘッドレスコマース移行アドバイザー",
+  "creator": "コマースアーキテクト社",
+  "category": "ecommerce",
+  "price": 98,
+  "renewal": 83,
+  "subscribers": 154,
+  "desc": "既存ECからヘッドレス構成への移行を支援し、CMS・決済・在庫連携のアーキテクチャとフェーズ移行計画を設計します。",
+  "features": [
+   "フロント/バックエンド分離のアーキテクチャ設計",
+   "API連携範囲と外部サービス選定の整理",
+   "段階的移行とSEO維持の切替計画作成"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-exec-resume-branding",
+  "name": "エグゼクティブ職務経歴書ブランディング",
+  "creator": "キャリアブランド設計社",
+  "category": "career",
+  "price": 72,
+  "renewal": 77,
+  "subscribers": 423,
+  "desc": "管理職・経営層向けに実績を定量化した職務経歴書とキャリアサマリーを作成し、採用担当に響く成果訴求を設計します。",
+  "features": [
+   "実績のインパクトを定量化した表現への再構成",
+   "応募ポジション別の強み訴求の出し分け",
+   "エグゼクティブサマリーとキャリアストーリー構築"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-behavioral-interview-coach",
+  "name": "行動面接(STAR)対策コーチ",
+  "creator": "インタビュー突破ラボ",
+  "category": "career",
+  "price": 58,
+  "renewal": 74,
+  "subscribers": 512,
+  "desc": "行動面接の想定質問に対しSTAR法で回答を構築し、コンピテンシー別の説得力あるエピソードを準備します。",
+  "features": [
+   "職務要件から頻出コンピテンシーの特定",
+   "STAR構造での回答ドラフトと深掘り想定",
+   "逆質問と条件交渉のトーク準備"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-comp-negotiation-advisor",
+  "name": "オファー年収交渉アドバイザー",
+  "creator": "報酬交渉コンサルティング",
+  "category": "career",
+  "price": 68,
+  "renewal": 76,
+  "subscribers": 347,
+  "desc": "内定オファーの報酬パッケージを市場水準と照合し、基本給・賞与・RSUを含めた交渉戦略とスクリプトを提示します。",
+  "features": [
+   "市場水準ベンチマークとオファー妥当性評価",
+   "総報酬(基本給・賞与・株式)の交渉余地分析",
+   "交渉メール・電話スクリプトの作成"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-career-pivot-strategist",
+  "name": "キャリアチェンジ戦略ストラテジスト",
+  "creator": "転身キャリア設計所",
+  "category": "career",
+  "price": 75,
+  "renewal": 78,
+  "subscribers": 268,
+  "desc": "異業種・異職種への転身を目指す人材のスキル棚卸しと市場適合を分析し、移行ロードマップと訴求ストーリーを設計します。",
+  "features": [
+   "ポータブルスキルの棚卸しと転用可能性分析",
+   "ターゲット業界の要件ギャップと学習計画",
+   "キャリアの一貫性を示す転身ストーリー構築"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-linkedin-profile-optimizer",
+  "name": "LinkedIn プロフィール最適化スペシャリスト",
+  "creator": "プロフェッショナル発信研究会",
+  "category": "career",
+  "price": 52,
+  "renewal": 73,
+  "subscribers": 389,
+  "desc": "LinkedInプロフィールをリクルーター検索と信頼形成の両面で最適化し、ヘッドラインと実績記述を強化します。",
+  "features": [
+   "リクルーター検索に効くキーワード設計",
+   "ヘッドライン・アバウト欄の訴求文作成",
+   "実績・推薦・スキル欄の信頼性強化提案"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-hipaa-compliance-advisor",
+  "name": "HIPAA コンプライアンス対応顧問",
+  "creator": "Verity ヘルスケア顧問",
+  "category": "healthcare",
+  "price": 98,
+  "renewal": 84,
+  "subscribers": 178,
+  "desc": "医療情報を扱う事業者のHIPAA準拠態勢を診断し、プライバシー・セキュリティ規則への対応とBAA整備を支援します。",
+  "features": [
+   "PHIのデータフローマッピングとリスク評価",
+   "管理的・物理的・技術的セーフガードの整備",
+   "事業提携契約(BAA)のレビューと締結支援"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-medical-device-reg-consul",
+  "name": "医療機器薬事申請コンサル",
+  "creator": "レギュラトリー薬事支援",
+  "category": "healthcare",
+  "price": 112,
+  "renewal": 86,
+  "subscribers": 143,
+  "desc": "医療機器の承認・認証申請に向けたクラス分類と申請戦略を策定し、STED・技術文書の整備を支援します。",
+  "features": [
+   "医療機器のクラス分類と申請区分の判定",
+   "QMS省令適合とSTED構成の整備",
+   "臨床評価・添付文書の妥当性レビュー"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-clinical-trial-protocol",
+  "name": "臨床試験プロトコル設計アドバイザー",
+  "creator": "臨床開発サイエンス社",
+  "category": "healthcare",
+  "price": 120,
+  "renewal": 87,
+  "subscribers": 112,
+  "desc": "臨床試験のプロトコルとエンドポイント設計を支援し、症例数設計と統計解析計画の科学的妥当性を高めます。",
+  "features": [
+   "主要・副次評価項目とエンドポイント設定",
+   "症例数設計と検出力の統計的根拠整理",
+   "選択・除外基準と有害事象モニタリング計画"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-clinic-revenue-cycle",
+  "name": "医療機関レセプト・収益改善コンサル",
+  "creator": "メディカル経営サポート",
+  "category": "healthcare",
+  "price": 84,
+  "renewal": 80,
+  "subscribers": 167,
+  "desc": "医療機関のレセプト請求と査定返戻を分析し、算定漏れ・返戻要因を特定して収益サイクルを改善します。",
+  "features": [
+   "算定漏れ・査定減点の要因分析",
+   "返戻・再請求のワークフロー改善提案",
+   "施設基準の届出漏れと増収機会の抽出"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja2-telehealth-launch-advisor",
+  "name": "オンライン診療導入アドバイザー",
+  "creator": "デジタルヘルス推進研究所",
+  "category": "healthcare",
+  "price": 78,
+  "renewal": 79,
+  "subscribers": 198,
+  "desc": "オンライン診療の導入に向けた指針適合と運用フローを設計し、対象患者・情報管理・診療報酬算定の要件を整理します。",
+  "features": [
+   "オンライン診療指針への適合チェック",
+   "初診・再診の運用フローと患者要件整理",
+   "情報通信機器等加算の算定要件確認"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-k8s-cost-optimizer",
+  "name": "Kubernetes コスト最適化アドバイザー",
+  "creator": "クラウドネイティブ工房",
+  "category": "engineering",
+  "price": 89,
+  "renewal": 78,
+  "subscribers": 420,
+  "desc": "リクエスト/リミットの過剰割り当てとノードの余剰を検出し、ワークロード別の削減額とrightsizing案をレポートします。",
+  "features": [
+   "リソース要求と実使用のギャップを可視化し推奨値を算出",
+   "スポット/オンデマンド混在によるノード構成の最適化提案",
+   "名前空間別の月次コスト内訳とムダの優先順位付け"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-terraform-drift-guard",
+  "name": "Terraform ドリフト検知ガード",
+  "creator": "インフラ整流研究所",
+  "category": "engineering",
+  "price": 76,
+  "renewal": 72,
+  "subscribers": 260,
+  "desc": "実インフラとステートの差分を継続的に照合し、意図しない手動変更を検出して修復プランを提示します。",
+  "features": [
+   "planの差分を分類し破壊的変更を事前に警告",
+   "モジュール間の依存関係グラフから影響範囲を推定",
+   "ドリフト履歴を記録し再発しやすい箇所を特定"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-observability-slo-designer",
+  "name": "SLO/エラーバジェット 設計",
+  "creator": "信頼性設計ラボ",
+  "category": "engineering",
+  "price": 82,
+  "renewal": 74,
+  "subscribers": 190,
+  "desc": "ユーザー体験に基づくSLIを定義し、現実的なSLOとエラーバジェット消費アラートの閾値を設計します。",
+  "features": [
+   "レイテンシと可用性の分布からSLI指標を提案",
+   "バーンレートに基づく多段階アラート条件を生成",
+   "バジェット消費に応じたリリース抑制ポリシーを助言"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-ci-pipeline-accelerator",
+  "name": "CI パイプライン 高速化診断",
+  "creator": "ビルド最適化スタジオ",
+  "category": "engineering",
+  "price": 68,
+  "renewal": 70,
+  "subscribers": 330,
+  "desc": "ジョブの並列度・キャッシュ・テスト分割を分析し、ボトルネックを特定してビルド時間短縮策を提示します。",
+  "features": [
+   "ステージ別の所要時間からクリティカルパスを抽出",
+   "キャッシュヒット率を分析し無効化要因を指摘",
+   "テストの実行時間分散から均等な分割案を生成"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-solid-refactor-coach",
+  "name": "SOLID リファクタリング コーチ",
+  "creator": "設計原則工房",
+  "category": "software",
+  "price": 72,
+  "renewal": 72,
+  "subscribers": 280,
+  "desc": "密結合や責務過多のクラスを検出し、依存性逆転や責務分離に沿った段階的なリファクタリング手順を提案します。",
+  "features": [
+   "責務の混在を検出し単一責任への分割案を提示",
+   "循環依存を検出しインターフェース抽出を提案",
+   "変更容易性を損なう箇所を優先度付きで指摘"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-api-contract-designer",
+  "name": "REST API 契約設計レビュー",
+  "creator": "インターフェース設計舎",
+  "category": "software",
+  "price": 74,
+  "renewal": 73,
+  "subscribers": 240,
+  "desc": "OpenAPI定義をレビューし、命名一貫性・エラー設計・冪等性の観点から実運用に耐える契約へ改善します。",
+  "features": [
+   "リソース命名とHTTPメソッドの一貫性を検証",
+   "エラーレスポンスとステータスコードの整合性を確認",
+   "後方互換性を壊す変更を検出し移行方針を助言"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-concurrency-bug-hunter",
+  "name": "並行処理バグ ハンター",
+  "creator": "並列実行解析ラボ",
+  "category": "software",
+  "price": 95,
+  "renewal": 79,
+  "subscribers": 170,
+  "desc": "競合状態やデッドロックの温床となるコードパターンを解析し、ロック設計と再現条件を明示します。",
+  "features": [
+   "共有状態への非同期アクセスから競合箇所を推定",
+   "ロック取得順序を解析しデッドロック可能性を警告",
+   "アトミック操作への置換など安全化パターンを提案"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-legacy-migration-planner",
+  "name": "レガシー移行 段階計画",
+  "creator": "漸進刷新スタジオ",
+  "category": "software",
+  "price": 88,
+  "renewal": 77,
+  "subscribers": 210,
+  "desc": "モノリスからの段階的な切り出しを、ストラングラーパターンに沿って依存関係の少ない順に計画します。",
+  "features": [
+   "モジュール結合度から分離しやすい境界を特定",
+   "移行順序をリスクと工数で優先順位付け",
+   "並行稼働時のデータ整合性戦略を提案"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-postgres-queryplan-tuner",
+  "name": "Postgres クエリプラン チューナー",
+  "creator": "データベース整調所",
+  "category": "data",
+  "price": 84,
+  "renewal": 76,
+  "subscribers": 360,
+  "desc": "EXPLAIN ANALYZEの実行計画を解析し、シーケンシャルスキャンやインデックス不足を特定して改善案を示します。",
+  "features": [
+   "実行計画から非効率な結合順序とスキャンを検出",
+   "選択率に基づく複合インデックスの列順を提案",
+   "統計情報の偏りによる誤った見積もりを指摘"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-dbt-model-lineage",
+  "name": "dbt モデル系譜 監査",
+  "creator": "アナリティクス工学舎",
+  "category": "data",
+  "price": 70,
+  "renewal": 71,
+  "subscribers": 250,
+  "desc": "dbtプロジェクトの依存グラフを解析し、冗長なモデルや命名規約違反、テスト不足を洗い出します。",
+  "features": [
+   "モデル間の系譜から未使用・重複モデルを検出",
+   "主キー一意性やnot_nullテストの欠落を指摘",
+   "マテリアライズ戦略の妥当性を層ごとに評価"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-ab-test-power-planner",
+  "name": "A/B 検定 検出力/サンプル設計",
+  "creator": "実験計画研究所",
+  "category": "data",
+  "price": 78,
+  "renewal": 74,
+  "subscribers": 300,
+  "desc": "最小検出効果と有意水準から必要サンプル数と実験期間を算出し、覗き見バイアスを避ける停止規則を設計します。",
+  "features": [
+   "効果量と分散から必要サンプルサイズを計算",
+   "逐次検定における第一種過誤の膨張を補正",
+   "分散削減のためのCUPED適用可否を助言"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-data-quality-sentinel",
+  "name": "データ品質 監視センチネル",
+  "creator": "品質保証データ舎",
+  "category": "data",
+  "price": 73,
+  "renewal": 72,
+  "subscribers": 220,
+  "desc": "欠損・重複・分布ドリフトを継続監視し、パイプライン下流に影響が及ぶ前に異常を検知してレポートします。",
+  "features": [
+   "列ごとの分布変化を統計的に検定し逸脱を警告",
+   "参照整合性と一意制約の違反を自動検出",
+   "異常発生時の影響下流テーブルを系譜から特定"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-solidity-reentrancy-audit",
+  "name": "Solidity 再入可能性 監査",
+  "creator": "スマートコントラクト監査房",
+  "category": "web3",
+  "price": 115,
+  "renewal": 82,
+  "subscribers": 140,
+  "desc": "外部呼び出しと状態更新の順序を解析し、再入攻撃の経路を特定してcheck-effects-interactions準拠へ導きます。",
+  "features": [
+   "外部コール前後の状態変更順序を検査",
+   "再入ガードの欠落と適用漏れを箇所別に指摘",
+   "攻撃シナリオを再現しガス消費と影響を評価"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-gas-optimizer-evm",
+  "name": "EVM ガス最適化アドバイザー",
+  "creator": "オンチェーン効率研究所",
+  "category": "web3",
+  "price": 98,
+  "renewal": 80,
+  "subscribers": 160,
+  "desc": "ストレージレイアウトやループ処理を解析し、SSTORE削減やパッキングによるガスコスト削減案を提示します。",
+  "features": [
+   "ストレージスロットのパッキング最適化を提案",
+   "冗長なSLOAD/SSTOREをメモリ活用で削減",
+   "calldata活用と関数可視性によるガス削減を助言"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-tokenomics-simulator",
+  "name": "トークノミクス シミュレーター",
+  "creator": "分散型経済設計舎",
+  "category": "web3",
+  "price": 105,
+  "renewal": 81,
+  "subscribers": 130,
+  "desc": "供給スケジュール・報酬・ロックアップを組み合わせ、インフレ率と流通量の推移をシナリオ別に試算します。",
+  "features": [
+   "ベスティングと排出曲線から流通供給を予測",
+   "ステーキング報酬とインフレ率の均衡を分析",
+   "売り圧シナリオごとの価格希薄化リスクを可視化"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-design-system-tokens",
+  "name": "デザインシステム トークン設計",
+  "creator": "体系デザイン工房",
+  "category": "design",
+  "price": 80,
+  "renewal": 75,
+  "subscribers": 340,
+  "desc": "色・タイポ・余白のプリミティブとセマンティックトークンを階層化し、ダークモード対応の命名体系を設計します。",
+  "features": [
+   "プリミティブとセマンティックの2層構造を設計",
+   "ライト/ダーク切替に耐えるエイリアス体系を構築",
+   "トークン命名規約と参照関係の一貫性を検証"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-accessibility-contrast-audit",
+  "name": "アクセシビリティ コントラスト監査",
+  "creator": "包摂設計ラボ",
+  "category": "design",
+  "price": 66,
+  "renewal": 70,
+  "subscribers": 290,
+  "desc": "WCAG基準に照らして配色のコントラスト比を検査し、可読性を保つ代替カラーとフォーカス設計を提案します。",
+  "features": [
+   "文字と背景のコントラスト比をAA/AAA基準で判定",
+   "色覚特性を考慮した識別可能な配色を提案",
+   "フォーカスリングとタップ領域の十分性を確認"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-ux-microcopy-refiner",
+  "name": "UXマイクロコピー 洗練",
+  "creator": "言葉のUI舎",
+  "category": "design",
+  "price": 58,
+  "renewal": 68,
+  "subscribers": 270,
+  "desc": "ボタン・エラー・空状態の文言を、簡潔で行動を促す表現へ整え、トーンの一貫性ガイドを作成します。",
+  "features": [
+   "曖昧な指示文を具体的な行動喚起へ書き換え",
+   "エラー文言を原因と次の一手が分かる表現に改善",
+   "製品全体のボイス&トーンの統一ルールを整備"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-figma-component-audit",
+  "name": "Figma コンポーネント整理監査",
+  "creator": "UI資産整備所",
+  "category": "design",
+  "price": 64,
+  "renewal": 69,
+  "subscribers": 230,
+  "desc": "バリアントの重複や未使用スタイルを検出し、再利用性の高いコンポーネント構造への再編を提案します。",
+  "features": [
+   "重複コンポーネントとデタッチを検出し統合案を提示",
+   "バリアントプロパティの命名と粒度を最適化",
+   "未使用スタイルとレイヤーの整理方針を助言"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-technical-seo-crawl",
+  "name": "テクニカルSEO クロール解析",
+  "creator": "検索技術診断所",
+  "category": "content",
+  "price": 75,
+  "renewal": 73,
+  "subscribers": 310,
+  "desc": "サイト構造をクロールし、インデックス障害・重複コンテンツ・内部リンクの偏りを検出して改善策を示します。",
+  "features": [
+   "クロール到達性とインデックス除外要因を診断",
+   "canonicalとリダイレクト連鎖の不整合を検出",
+   "内部リンク構造から重要ページの権威流入を分析"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-content-brief-architect",
+  "name": "コンテンツ ブリーフ設計",
+  "creator": "編集戦略工房",
+  "category": "content",
+  "price": 56,
+  "renewal": 68,
+  "subscribers": 260,
+  "desc": "検索意図と競合上位を分析し、見出し構成・網羅すべき論点・内部リンク案を含む執筆ブリーフを作成します。",
+  "features": [
+   "検索意図を分類し満たすべき情報要件を抽出",
+   "上位記事の見出しから網羅トピックを構造化",
+   "関連クエリと内部リンク先を提案"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-newsletter-growth-optimizer",
+  "name": "ニュースレター 成長最適化",
+  "creator": "読者育成ラボ",
+  "category": "content",
+  "price": 60,
+  "renewal": 69,
+  "subscribers": 240,
+  "desc": "件名・配信時間・セグメントを分析し、開封率とクリック率を高める改善仮説とテスト計画を提示します。",
+  "features": [
+   "件名パターン別の開封率を比較し傾向を抽出",
+   "エンゲージメントに基づく読者セグメント分割を提案",
+   "解約率を抑える配信頻度とコンテンツ配分を助言"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-technical-doc-editor",
+  "name": "技術ドキュメント 校閲",
+  "creator": "文書品質舎",
+  "category": "writing",
+  "price": 54,
+  "renewal": 67,
+  "subscribers": 320,
+  "desc": "手順書やAPIリファレンスを、正確さ・一貫性・読み手視点で校閲し、曖昧な記述と抜けを指摘します。",
+  "features": [
+   "用語ゆれと表記統一の逸脱を検出し修正案を提示",
+   "前提条件や手順の抜けを読み手視点で洗い出し",
+   "受動的で冗長な文を簡潔な能動表現へ改善"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-narrative-structure-coach",
+  "name": "物語構成 コーチ",
+  "creator": "物語構造研究所",
+  "category": "writing",
+  "price": 62,
+  "renewal": 69,
+  "subscribers": 200,
+  "desc": "三幕構成やキャラクターアークの観点から原稿を分析し、緊張の起伏やペース配分の弱点を指摘します。",
+  "features": [
+   "各幕の転換点と葛藤の配置を評価",
+   "キャラクターの動機と成長の一貫性を検証",
+   "中だるみするシーンとペース調整案を提示"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-business-proposal-sharpener",
+  "name": "提案書 説得力シャープナー",
+  "creator": "提案設計工房",
+  "category": "writing",
+  "price": 66,
+  "renewal": 70,
+  "subscribers": 250,
+  "desc": "提案書の論理構成を課題・解決・効果の流れで再編し、意思決定者に響く要点と数値根拠を強化します。",
+  "features": [
+   "主張と根拠の論理飛躍を検出し補強を提案",
+   "定量効果と投資対効果の見せ方を整理",
+   "エグゼクティブサマリーの要点を再構成"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-game-balance-tuner",
+  "name": "ゲームバランス 調整解析",
+  "creator": "ゲーム設計研究所",
+  "category": "gaming",
+  "price": 72,
+  "renewal": 72,
+  "subscribers": 210,
+  "desc": "ユニットやスキルの数値を比較し、支配的戦略や死にスキルを検出してメタの多様性を保つ調整案を提示します。",
+  "features": [
+   "コスト対効果からユニット性能の偏りを分析",
+   "勝率データと選択率から支配的戦略を特定",
+   "カウンター関係を維持する数値調整を提案"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-level-design-flow",
+  "name": "レベルデザイン フロー診断",
+  "creator": "体験設計ゲーム舎",
+  "category": "gaming",
+  "price": 68,
+  "renewal": 71,
+  "subscribers": 180,
+  "desc": "難易度曲線とプレイヤー導線を分析し、詰まりやすい箇所や単調な区間を特定して緩急の設計を助言します。",
+  "features": [
+   "難易度の急変とストレス区間を可視化",
+   "導線の分岐と誘目要素の配置を評価",
+   "チュートリアルと習熟曲線の整合性を診断"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-unity-perf-profiler",
+  "name": "Unity パフォーマンス診断",
+  "creator": "リアルタイム最適化房",
+  "category": "gaming",
+  "price": 80,
+  "renewal": 75,
+  "subscribers": 190,
+  "desc": "ドローコールやGC発生を解析し、フレーム落ちの原因を特定してバッチングやプーリングの改善策を示します。",
+  "features": [
+   "ドローコールとバッチング阻害要因を特定",
+   "GCアロケーションの発生源を追跡し削減案を提示",
+   "物理演算とスクリプトのフレーム負荷を分析"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-mix-mastering-analyzer",
+  "name": "ミックス/マスタリング 診断",
+  "creator": "音響解析スタジオ",
+  "category": "music",
+  "price": 70,
+  "renewal": 71,
+  "subscribers": 200,
+  "desc": "周波数バランスとダイナミクスを解析し、濁りや音圧不足を特定して配信基準に合うマスタリング案を示します。",
+  "features": [
+   "帯域ごとのエネルギー偏りとマスキングを検出",
+   "ラウドネスとダイナミックレンジを配信基準で評価",
+   "位相と定位の問題を指摘し補正方針を助言"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-chord-progression-composer",
+  "name": "コード進行 作曲アシスト",
+  "creator": "和声創作舎",
+  "category": "music",
+  "price": 52,
+  "renewal": 66,
+  "subscribers": 230,
+  "desc": "キーとムードから機能和声に沿った進行を提案し、転調やテンションの活用でマンネリを打破します。",
+  "features": [
+   "機能和声に基づく自然な進行候補を生成",
+   "セカンダリドミナントや借用和音の挿入を提案",
+   "メロディに調和するボイシングと転調案を助言"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-experiment-design-advisor",
+  "name": "実験計画 統計アドバイザー",
+  "creator": "研究方法論ラボ",
+  "category": "science",
+  "price": 76,
+  "renewal": 73,
+  "subscribers": 170,
+  "desc": "交絡要因と検出力を考慮した実験デザインを設計し、無作為化・盲検・反復の妥当性を検証します。",
+  "features": [
+   "交絡因子を洗い出し無作為化と層別を提案",
+   "必要な反復数と検出力を事前に算出",
+   "適切な統計検定と多重比較補正を助言"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-bioinformatics-pipeline",
+  "name": "バイオインフォ 解析パイプライン",
+  "creator": "ゲノム解析工房",
+  "category": "science",
+  "price": 92,
+  "renewal": 78,
+  "subscribers": 120,
+  "desc": "シーケンスデータのQC・アライメント・変異検出の工程を設計し、再現性の高い解析フローを構築します。",
+  "features": [
+   "リードのQCとトリミング基準を設定",
+   "アライメントと変異検出ツールの選定を助言",
+   "バッチ効果とカバレッジ偏りを検出し補正"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-systematic-review-synth",
+  "name": "システマティックレビュー 統合",
+  "creator": "エビデンス統合研究所",
+  "category": "science",
+  "price": 84,
+  "renewal": 76,
+  "subscribers": 110,
+  "desc": "論文の選定基準とバイアスリスクを評価し、メタ分析に向けた効果量の抽出と統合方針を整理します。",
+  "features": [
+   "組み入れ基準に沿った文献スクリーニングを支援",
+   "研究ごとのバイアスリスクを項目別に評価",
+   "異質性を考慮した効果量統合モデルを提案"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-fem-simulation-advisor",
+  "name": "有限要素法 解析アドバイザー",
+  "creator": "数値解析工学舎",
+  "category": "physics",
+  "price": 96,
+  "renewal": 79,
+  "subscribers": 100,
+  "desc": "メッシュ品質と境界条件を診断し、応力集中の解像不足や収束不良の原因を特定して改善策を示します。",
+  "features": [
+   "メッシュの歪みと局所細分化の要否を評価",
+   "境界条件と荷重設定の物理的妥当性を検証",
+   "収束判定と要素次数の選定を助言"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-quantum-circuit-optimizer",
+  "name": "量子回路 最適化アドバイザー",
+  "creator": "量子計算研究房",
+  "category": "physics",
+  "price": 118,
+  "renewal": 83,
+  "subscribers": 80,
+  "desc": "ゲート数と回路深さを解析し、トランスパイルとゲート融合による誤り低減とコスト削減案を提示します。",
+  "features": [
+   "回路深さとゲート数を削減する等価変換を提案",
+   "ハードウェア結合制約に沿ったマッピングを最適化",
+   "ノイズモデルに基づく誤り緩和手法を助言"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-reaction-route-planner",
+  "name": "合成ルート 設計アシスト",
+  "creator": "有機合成設計舎",
+  "category": "chemistry",
+  "price": 94,
+  "renewal": 78,
+  "subscribers": 110,
+  "desc": "目的化合物から逆合成解析を行い、収率と入手性を考慮した現実的な合成経路の候補を提示します。",
+  "features": [
+   "逆合成により切断点と前駆体候補を列挙",
+   "各工程の収率と副反応リスクを評価",
+   "試薬の入手性とコストから経路を優先順位付け"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-spectra-interpretation",
+  "name": "スペクトル 解析支援",
+  "creator": "分析化学工房",
+  "category": "chemistry",
+  "price": 78,
+  "renewal": 74,
+  "subscribers": 130,
+  "desc": "NMR・IR・MSのデータから官能基と構造断片を推定し、候補構造の整合性を照合します。",
+  "features": [
+   "化学シフトと結合定数から部分構造を推定",
+   "IR吸収帯から官能基の存在を判定",
+   "質量スペクトルの開裂パターンから骨格を照合"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-orbital-mechanics-planner",
+  "name": "軌道遷移 計画アシスト",
+  "creator": "宇宙航行力学舎",
+  "category": "space",
+  "price": 100,
+  "renewal": 80,
+  "subscribers": 90,
+  "desc": "出発・到着軌道からホーマン遷移や重力アシストのΔVと打ち上げ窓を試算し、燃料効率の高い経路を比較します。",
+  "features": [
+   "遷移軌道ごとの必要ΔVと所要時間を算出",
+   "打ち上げウィンドウとフェージング条件を計算",
+   "重力アシスト活用による燃料削減案を提示"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-satellite-linkbudget",
+  "name": "衛星 リンクバジェット設計",
+  "creator": "衛星通信設計所",
+  "category": "space",
+  "price": 90,
+  "renewal": 77,
+  "subscribers": 100,
+  "desc": "送信電力・アンテナ利得・伝搬損失からリンクバジェットを構築し、必要なマージンと変調方式を評価します。",
+  "features": [
+   "自由空間損失と大気減衰から受信電力を計算",
+   "必要C/NとリンクマージンをQoS基準で評価",
+   "降雨減衰を考慮した変調符号化方式を助言"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-curriculum-scaffold-designer",
+  "name": "カリキュラム 足場設計",
+  "creator": "学習設計研究所",
+  "category": "education",
+  "price": 58,
+  "renewal": 68,
+  "subscribers": 280,
+  "desc": "学習目標を分解し、前提知識から段階的に積み上げる単元順序と到達度チェックポイントを設計します。",
+  "features": [
+   "学習目標を測定可能な到達目標へ分解",
+   "前提依存に沿った単元の学習順序を構築",
+   "形成的評価の挿入位置とルーブリックを設計"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-spaced-repetition-tutor",
+  "name": "間隔反復 学習チューター",
+  "creator": "記憶定着ラボ",
+  "category": "education",
+  "price": 50,
+  "renewal": 66,
+  "subscribers": 300,
+  "desc": "忘却曲線に基づき復習間隔を最適化し、つまずきやすい項目を重点化した学習スケジュールを提示します。",
+  "features": [
+   "正答履歴から項目ごとの復習間隔を調整",
+   "誤答が多い概念を関連づけて重点出題",
+   "学習負荷を平準化する日次スケジュールを生成"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-socratic-question-coach",
+  "name": "ソクラテス式 問いかけコーチ",
+  "creator": "探究学習工房",
+  "category": "education",
+  "price": 54,
+  "renewal": 67,
+  "subscribers": 240,
+  "desc": "答えを与えず、思考を深める問いを段階的に投げかけ、学習者自身が概念にたどり着く対話を導きます。",
+  "features": [
+   "理解度に応じた足場かけの問いを段階的に提示",
+   "誤概念を露わにする反例と問い返しを生成",
+   "メタ認知を促す振り返りの問いを組み込む"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-cbt-thought-reframer",
+  "name": "認知の歪み リフレーミング",
+  "creator": "認知行動サポート舎",
+  "category": "psychology",
+  "price": 56,
+  "renewal": 68,
+  "subscribers": 320,
+  "desc": "自動思考を書き出し、認知の歪みのパターンを特定して、より現実的でバランスの取れた捉え直しを支援します。",
+  "features": [
+   "全か無か思考など歪みのパターンを分類",
+   "根拠と反証を整理し思考の妥当性を検証",
+   "バランスの取れた代替思考の作成を支援"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-habit-behavior-designer",
+  "name": "行動習慣 デザイン支援",
+  "creator": "行動変容研究所",
+  "category": "psychology",
+  "price": 52,
+  "renewal": 66,
+  "subscribers": 290,
+  "desc": "きっかけ・行動・報酬のループを設計し、小さな習慣から無理なく定着させる実行計画を組み立てます。",
+  "features": [
+   "既存習慣に紐づけたトリガー設計を提案",
+   "行動のハードルを下げる環境調整を助言",
+   "逆戻りを防ぐ実装意図と代替行動を設計"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-sleep-hygiene-coach",
+  "name": "睡眠改善 コーチ",
+  "creator": "睡眠科学ラボ",
+  "category": "wellness",
+  "price": 48,
+  "renewal": 65,
+  "subscribers": 340,
+  "desc": "就寝リズムと光・カフェイン習慣を分析し、入眠と中途覚醒を改善する具体的な生活調整を提案します。",
+  "features": [
+   "就寝起床リズムのばらつきから体内時計を診断",
+   "カフェインと光曝露のタイミングを最適化",
+   "入眠儀式と寝室環境の改善策を提示"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-strength-program-builder",
+  "name": "筋力トレ プログラム設計",
+  "creator": "トレーニング科学舎",
+  "category": "wellness",
+  "price": 54,
+  "renewal": 67,
+  "subscribers": 310,
+  "desc": "目標と経験レベルに応じて漸進的過負荷に基づくメニューを組み、回復とボリュームのバランスを設計します。",
+  "features": [
+   "主要種目の頻度とボリュームを目標別に配分",
+   "漸進的過負荷の進め方とデロード時期を設定",
+   "部位別の回復日程と代替種目を提案"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-stress-resilience-guide",
+  "name": "ストレス回復力 ガイド",
+  "creator": "心身調律研究所",
+  "category": "wellness",
+  "price": 50,
+  "renewal": 66,
+  "subscribers": 280,
+  "desc": "ストレス反応のパターンを把握し、呼吸法やマインドフルネスなど回復を促すセルフケアを日常に組み込みます。",
+  "features": [
+   "ストレス兆候の早期サインを言語化し記録",
+   "状況に応じた呼吸法とグラウンディングを提案",
+   "回復を促す休息と切り替え習慣を設計"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-recipe-ratio-scaler",
+  "name": "レシピ 比率スケーラー",
+  "creator": "調理数理工房",
+  "category": "culinary",
+  "price": 44,
+  "renewal": 64,
+  "subscribers": 260,
+  "desc": "人数や型のサイズに合わせて分量を再計算し、ベイカーズパーセントで配合の一貫性を保ちます。",
+  "features": [
+   "型のサイズ差から分量を体積比で再計算",
+   "ベイカーズパーセントで配合比率を維持",
+   "塩・膨張剤などの上限を考慮した調整を助言"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-flavor-pairing-advisor",
+  "name": "風味ペアリング アドバイザー",
+  "creator": "味覚設計舎",
+  "category": "culinary",
+  "price": 48,
+  "renewal": 65,
+  "subscribers": 230,
+  "desc": "食材の香気成分と味の要素から相性の良い組み合わせを提案し、料理の輪郭を引き締める一手を助言します。",
+  "features": [
+   "共通香気成分に基づく食材の組み合わせを提案",
+   "酸味・甘味・旨味のバランス調整を助言",
+   "対比と調和を使い分けた味の設計を提示"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-daily-reflection-partner",
+  "name": "日々の振り返り 対話パートナー",
+  "creator": "内省対話舎",
+  "category": "companion",
+  "price": 42,
+  "renewal": 64,
+  "subscribers": 360,
+  "desc": "一日の出来事や感情を穏やかに聞き取り、気づきを引き出す問いかけで前向きな整理を手伝います。",
+  "features": [
+   "出来事と感情を落ち着いて言語化する対話",
+   "小さな達成と感謝の視点を引き出す問いかけ",
+   "翌日への意図を無理なく整える振り返りを支援"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-language-conversation-buddy",
+  "name": "日本語会話 練習バディ",
+  "creator": "言語練習工房",
+  "category": "companion",
+  "price": 46,
+  "renewal": 65,
+  "subscribers": 340,
+  "desc": "レベルに合わせた自然な会話で日本語の練習相手になり、誤りをやさしく訂正して表現の幅を広げます。",
+  "features": [
+   "レベルに応じた話題と語彙で自然な会話を継続",
+   "誤用をさりげなく訂正し正しい表現を提示",
+   "場面に応じた敬語やカジュアル表現を助言"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-declutter-system-coach",
+  "name": "片付け 仕組み化コーチ",
+  "creator": "暮らし整流舎",
+  "category": "lifestyle",
+  "price": 44,
+  "renewal": 64,
+  "subscribers": 300,
+  "desc": "モノの量と動線を見直し、リバウンドしない収納の仕組みと手放す判断基準づくりを一緒に進めます。",
+  "features": [
+   "カテゴリ別に総量を把握し適正量を設定",
+   "使用頻度と動線に沿った定位置を設計",
+   "手放す判断基準と維持ルーティンを助言"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-personal-finance-planner",
+  "name": "家計 見直しプランナー",
+  "creator": "生活設計ラボ",
+  "category": "lifestyle",
+  "price": 50,
+  "renewal": 66,
+  "subscribers": 330,
+  "desc": "収支と固定費を整理し、ムダを可視化して無理なく貯蓄率を高める家計改善プランを提案します。",
+  "features": [
+   "固定費と変動費を分類し削減余地を可視化",
+   "目標貯蓄率から逆算した予算配分を設計",
+   "先取り貯蓄と自動化の仕組みを助言"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-graphql-schema-linter",
+  "name": "GraphQL スキーマ設計監査",
+  "creator": "スキーマ設計舎",
+  "category": "software",
+  "price": 70,
+  "renewal": 71,
+  "subscribers": 220,
+  "desc": "型設計とページネーション、N+1の温床を解析し、進化に強く過剰取得を防ぐスキーマ改善案を提示します。",
+  "features": [
+   "過剰なネストとN+1発生箇所を検出し解消を助言",
+   "カーソルページネーションと命名一貫性を検証",
+   "破壊的変更を検出し非推奨化による移行を提案"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ },
+ {
+  "id": "ja3-color-palette-systemizer",
+  "name": "配色パレット 体系化",
+  "creator": "色彩設計工房",
+  "category": "design",
+  "price": 56,
+  "renewal": 68,
+  "subscribers": 250,
+  "desc": "ブランドカラーから知覚的に均一な色階調を生成し、状態表現やダークモードに耐える配色体系を構築します。",
+  "features": [
+   "知覚均一な色空間で明度階調を生成",
+   "成功・警告など状態色の一貫した割り当てを設計",
+   "ダークモード向けの色調整とコントラストを検証"
+  ],
+  "owner": "other",
+  "lang": "ja"
+ }
+]

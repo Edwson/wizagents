@@ -1,0 +1,703 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String
+  name         String
+  role         String   @default("buyer") // buyer | creator | enterprise | admin
+  avatarColor  String   @default("#8b6dff")  // fallback when there is no photo
+  avatarMediaId String?                      // uploaded photo (Media) — every user, not just creators
+  bio          String   @default("")         // short, shown next to your posts in the community
+  location     String   @default("")
+  website      String   @default("")         // http(s) only, validated server-side
+  orgName      String?
+  emailVerified   Boolean  @default(false)
+  twoFactorEnabled Boolean @default(false)
+  twoFactorSecret  String?
+  authProvider     String  @default("credentials") // credentials | google | github | apple
+  providerId       String?
+  failedLogins     Int      @default(0)
+  lockedUntil      DateTime?
+  currentChallenge String?                 // transient WebAuthn challenge
+  sessionVersion   Int      @default(0)     // bump to invalidate every issued session
+  deletedAt        DateTime?                 // erased account: personal data gone, ledger intact
+  orgBudgetMonthly Int      @default(0)     // enterprise monthly spend cap (0 = unlimited)
+  orgPolicy        String   @default("open") // open | allowlist — governs which Agents seats may use
+  createdAt    DateTime @default(now())
+
+  creatorProfile CreatorProfile?
+  agents         Agent[]          @relation("CreatorAgents")
+  subscriptions  Subscription[]
+  pass           Pass?
+  conversations  Conversation[]
+  reviews        Review[]
+  transactions   Transaction[]
+  escalations    Escalation[]     @relation("BuyerEscalations")
+  expertAnswers  Escalation[]     @relation("ExpertEscalations")
+  seatsOwned     EnterpriseSeat[] @relation("OrgOwnerSeats")
+  blacklist      Blacklist[]
+  auditLogs      AuditLog[]
+  media          Media[]
+  posts          Post[]
+  replies        Reply[]
+  votes          Vote[]
+  reports        Report[]
+  notifications  Notification[]
+  usageEvents    UsageEvent[]
+  favorites      Favorite[]
+  backupCodes    BackupCode[]
+  emailTokens    EmailToken[]
+  assetUploads   AssetUpload[]
+  paymentMethods PaymentMethod[]
+  webauthnCreds  WebAuthnCredential[]
+  securityLogs   SecurityLog[]
+  endorsementsRequested Endorsement[] @relation("EndorsementRequester")
+  endorsementsGiven     Endorsement[] @relation("EndorsementExpert")
+  kyc                   KycSubmission?
+  securityEvents SecurityEvent[]
+}
+
+model CreatorProfile {
+  id                 String   @id @default(cuid())
+  userId             String   @unique
+  user               User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  displayName        String
+  bio                String   @default("")                 // one-line summary (cards)
+  headline           String   @default("")                 // "20 years in EU privacy law" — the hook
+  about              String   @default("")                 // long-form markdown: who you are, how you work
+  howIWork           String   @default("")                 // what a buyer actually gets from you
+  coverMediaId       String?                               // storefront banner
+  avatarMediaId      String?                               // real photo beats a coloured square
+  links              String   @default("[]")               // JSON: [{label,url}] — http(s) only, validated server-side
+  location           String   @default("")
+  verticalLabel      String   @default("")
+  verified           Boolean  @default(false)   // credential-checked → "Verified Expert"
+  identityVerified   Boolean  @default(false)   // KYC identity confirmed
+  kycStatus          String   @default("none")  // none | submitted | in_review | approved | rejected
+  verificationStatus String   @default("none")  // none | pending | approved | rejected
+  licenseInfo        String   @default("")
+  payoutShare        Int      @default(85)
+  totalEarnings      Float    @default(0)
+  withdrawnTotal     Float    @default(0)   // sum of completed payouts
+  pendingPayout      Float    @default(0)   // requested but not yet paid
+  payoutMethod       String   @default("")  // bank | paypal | stripe | wise
+  payoutDetailMasked String   @default("")  // e.g. "•••• 4321" — never full account numbers
+  payoutVerified     Boolean  @default(false)
+  stripeAccountId    String   @default("")      // Stripe Connect account (live settlement)
+  stripeOnboarded    Boolean  @default(false)
+  createdAt          DateTime @default(now())
+
+  payouts            Payout[]
+}
+
+model Agent {
+  id               String   @id @default(cuid())
+  slug             String   @unique
+  name             String
+  creatorId        String
+  creator          User     @relation("CreatorAgents", fields: [creatorId], references: [id], onDelete: Cascade)
+  creatorName      String
+  category         String
+  price            Int
+  renewal          Int      @default(70)
+  subscribers      Int      @default(0)
+  rating           Float    @default(4.5)
+  tagline          String   @default("")
+  description      String
+  features         String   @default("[]")
+  systemPrompt     String   @default("")
+  knowledgeSummary String   @default("")
+  updatedLabel     String   @default("本週更新")
+  lang             String   @default("en")
+  fidelityScore    Int      @default(0)      // 0 = not yet measured
+  fidelityMeasuredAt DateTime?                 // set only by a real harness run
+  fidelitySamples_n  Int    @default(0)
+  regulated        Boolean  @default(false)  // gates disclaimer + accountability routing
+  stanceProfile    String   @default("")      // expert-authored heuristics / red-lines / refusals
+  agentType        String   @default("mentor") // mentor | assistant | conversation | discussion
+  pitch            String   @default("")       // the expert's own words: why this agent exists
+  useCases         String   @default("[]")     // JSON: what it's best for
+  notFor           String   @default("")       // honest scope limits
+  sampleQuestions  String   @default("[]")     // JSON: suggested starter questions
+  tags             String   @default("[]")     // JSON: expert-authored topic tags (SEO)
+  status           String   @default("published") // draft | review | published | suspended
+  trending         Boolean  @default(false)
+  inPass           Boolean  @default(false)
+  trialLimit       Int      @default(3)
+  escalationPrice  Int      @default(180)
+  signaturePrice   Int      @default(90)
+  replacesRate     Int      @default(150)
+  replacesRole     String   @default("專業顧問")
+  savesHrs         Int      @default(12)
+  createdAt        DateTime @default(now())
+
+  knowledgeVersions KnowledgeVersion[]
+  subscriptions     Subscription[]
+  conversations     Conversation[]
+  reviews           Review[]
+  escalations       Escalation[]
+  metrics           MetricPoint[]
+  usageEvents       UsageEvent[]
+  favorites         Favorite[]
+  endorsements      Endorsement[]
+  fidelitySamples   FidelitySample[]
+  fidelityRuns      FidelityRun[]
+  securityEvents    SecurityEvent[]
+  posts            Post[]
+  forumReplies     Reply[]  @relation("ReplyAgent")
+}
+
+model KnowledgeVersion {
+  id        String   @id @default(cuid())
+  agentId   String
+  agent     Agent    @relation(fields: [agentId], references: [id], onDelete: Cascade)
+  version   String
+  note      String
+  docCount  Int      @default(0)
+  scanStatus String  @default("clean") // pending | clean | suspicious | infected
+  createdAt DateTime @default(now())
+}
+
+model Subscription {
+  id         String    @id @default(cuid())
+  userId     String
+  user       User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  agentId    String
+  agent      Agent     @relation(fields: [agentId], references: [id], onDelete: Cascade)
+  status     String    @default("active") // active | canceled | trial
+  price      Int       @default(0)
+  viaPass    Boolean   @default(false)
+  mcpToken   String    @unique
+  startedAt  DateTime  @default(now())
+  canceledAt DateTime?
+  seatId     String?
+  requests   Int       @default(0)
+  dayStamp   String    @default("")
+  dayCount   Int       @default(0)
+  lockedPrice Int?                       // price-lock: long-term subscribers keep the price they joined at
+  credits     Int      @default(0)       // loyalty credits (escalations / endorsements)
+  creditStamp String   @default("")      // last month credits were granted (YYYY-MM)
+  lastDigestAt DateTime?                 // last "what your expert changed" digest
+  currentPeriodEnd DateTime?
+  flagged          Boolean  @default(false)
+  extractionStrikes Int     @default(0)
+
+  @@unique([userId, agentId])
+}
+
+model Pass {
+  id           String   @id @default(cuid())
+  userId       String   @unique
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  active       Boolean  @default(true)
+  monthlyPrice Int      @default(129)
+  startedAt    DateTime @default(now())
+}
+
+model Conversation {
+  id        String    @id @default(cuid())
+  userId    String
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  agentId   String
+  agent     Agent     @relation(fields: [agentId], references: [id], onDelete: Cascade)
+  isTrial   Boolean   @default(false)
+  trialUsed Int       @default(0)
+  createdAt DateTime  @default(now())
+  messages  Message[]
+}
+
+model Message {
+  id             String       @id @default(cuid())
+  conversationId String
+  conversation   Conversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+  role           String       // user | assistant | expert | system
+  content        String
+  escalated      Boolean      @default(false)
+  createdAt      DateTime     @default(now())
+}
+
+model Escalation {
+  id             String    @id @default(cuid())
+  conversationId String?
+  agentId        String
+  agent          Agent     @relation(fields: [agentId], references: [id], onDelete: Cascade)
+  userId         String
+  user           User      @relation("BuyerEscalations", fields: [userId], references: [id], onDelete: Cascade)
+  expertUserId   String?
+  expert         User?     @relation("ExpertEscalations", fields: [expertUserId], references: [id])
+  status         String    @default("queued") // queued | in_progress | answered | signed
+  tier           String    @default("standard") // standard | urgent
+  price          Int       @default(180)
+  question       String
+  answer         String    @default("")
+  signed         Boolean   @default(false)
+  slaDueAt       DateTime?
+  createdAt      DateTime  @default(now())
+  answeredAt     DateTime?
+}
+
+model Review {
+  id         String   @id @default(cuid())
+  agentId    String
+  agent      Agent    @relation(fields: [agentId], references: [id], onDelete: Cascade)
+  userId     String
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  authorName String   @default("訂閱者")
+  rating     Int
+  comment    String
+  createdAt  DateTime @default(now())
+}
+
+model Transaction {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  type      String   // subscription | escalation | signature | pass | payout
+  amount    Float
+  agentId   String?
+  note      String   @default("")
+  status    String   @default("succeeded")
+  createdAt DateTime @default(now())
+}
+
+model EnterpriseSeat {
+  id           String   @id @default(cuid())
+  orgOwnerId   String
+  orgOwner     User     @relation("OrgOwnerSeats", fields: [orgOwnerId], references: [id], onDelete: Cascade)
+  memberEmail  String
+  memberName   String   @default("")
+  memberUserId String?                              // resolved when the invitee has an account
+  role         String   @default("member")          // member | admin (admins manage seats, budget, governance)
+  status       String   @default("invited")         // invited | active | suspended | declined
+  inviteToken  String?  @unique                     // the invitee must EXPLICITLY accept — no silent joins
+  invitedAt    DateTime @default(now())
+  acceptedAt   DateTime?
+  dailyLimit   Int      @default(0)                 // 0 = use the platform default
+  createdAt    DateTime @default(now())
+  tokens       SeatToken[]
+  @@index([memberEmail])
+  @@index([memberUserId])
+  @@index([orgOwnerId, status])
+}
+
+/// A per-seat MCP / API key. Usage is attributable to the individual, and a single
+/// person can be cut off without rotating the whole organization's access.
+model SeatToken {
+  id         String   @id @default(cuid())
+  seatId     String
+  seat       EnterpriseSeat @relation(fields: [seatId], references: [id], onDelete: Cascade)
+  token      String   @unique
+  label      String   @default("")
+  revoked    Boolean  @default(false)
+  createdAt  DateTime @default(now())
+  lastUsedAt DateTime?
+  @@index([seatId])
+}
+
+/// Procurement: a member asks for an Agent, an org admin approves, the org subscribes.
+model AccessRequest {
+  id            String   @id @default(cuid())
+  orgOwnerId    String
+  requesterId   String
+  requesterEmail String  @default("")
+  agentId       String
+  agentName     String   @default("")
+  reason        String   @default("")
+  status        String   @default("pending")        // pending | approved | denied
+  decidedById   String?
+  decidedAt     DateTime?
+  note          String   @default("")
+  createdAt     DateTime @default(now())
+  @@index([orgOwnerId, status])
+}
+
+/// When the org's policy is "allowlist", ONLY these Agents may be used.
+model OrgAllowlist {
+  id         String   @id @default(cuid())
+  orgOwnerId String
+  agentId    String
+  agentName  String   @default("")
+  createdAt  DateTime @default(now())
+  @@unique([orgOwnerId, agentId])
+}
+
+model Blacklist {
+  id         String   @id @default(cuid())
+  orgOwnerId String
+  orgOwner   User     @relation(fields: [orgOwnerId], references: [id], onDelete: Cascade)
+  agentId    String
+  agentName  String   @default("")
+  reason     String   @default("")
+  createdAt  DateTime @default(now())
+}
+
+model AuditLog {
+  id         String   @id @default(cuid())
+  orgOwnerId String
+  orgOwner   User     @relation(fields: [orgOwnerId], references: [id], onDelete: Cascade)
+  actorEmail String
+  agentId    String?
+  agentName  String   @default("")
+  action     String
+  query      String   @default("")
+  createdAt  DateTime @default(now())
+}
+
+model MetricPoint {
+  id          String @id @default(cuid())
+  agentId     String
+  agent       Agent  @relation(fields: [agentId], references: [id], onDelete: Cascade)
+  month       String
+  subscribers Int    @default(0)
+  revenue     Float  @default(0)
+  renewal     Int    @default(70)
+}
+model Notification {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  type      String   // subscription | escalation_answered | knowledge_update | review | signed | welcome
+  title     String
+  body      String   @default("")
+  href      String   @default("")
+  read      Boolean  @default(false)
+  createdAt DateTime @default(now())
+
+  @@index([userId, read])
+}
+
+model UsageEvent {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  agentId   String
+  agent     Agent    @relation(fields: [agentId], references: [id], onDelete: Cascade)
+  kind      String   // chat | mcp | escalation | trial
+  createdAt DateTime @default(now())
+
+  @@index([agentId, createdAt])
+  @@index([userId, createdAt])
+}
+
+model PlatformConfig {
+  id               String   @id @default("singleton")
+  takeRatePct      Int      @default(15)
+  passPrice        Int      @default(129)
+  defaultTrial     Int      @default(3)
+  dailyRateLimit   Int      @default(200)
+  escalationFeePct Int      @default(15)
+  updatedAt        DateTime @updatedAt
+}
+
+model Favorite {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  agentId   String
+  agent     Agent    @relation(fields: [agentId], references: [id], onDelete: Cascade)
+  createdAt DateTime @default(now())
+
+  @@unique([userId, agentId])
+}
+
+model BackupCode {
+  id       String  @id @default(cuid())
+  userId   String
+  user     User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  codeHash String
+  used     Boolean @default(false)
+  createdAt DateTime @default(now())
+}
+
+model EmailToken {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  token     String   @unique
+  type      String   // verify | reset
+  expiresAt DateTime
+  usedAt    DateTime?
+  createdAt DateTime @default(now())
+  @@index([token])
+}
+
+model AssetUpload {
+  id          String   @id @default(cuid())
+  creatorId   String
+  creator     User     @relation(fields: [creatorId], references: [id], onDelete: Cascade)
+  agentId     String?
+  fileName    String
+  mime        String   @default("")
+  size        Int      @default(0)
+  sha256      String   @default("")
+  scanStatus  String   @default("pending") // pending | clean | suspicious | infected
+  scanDetail  String   @default("")
+  quarantined Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  @@index([creatorId, createdAt])
+}
+
+model PaymentMethod {
+  id         String   @id @default(cuid())
+  userId     String
+  user       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  brand      String   @default("card")   // visa | mastercard | amex | ...
+  last4      String   @default("")       // last 4 digits only — never the full PAN
+  expMonth   Int      @default(1)
+  expYear    Int      @default(2030)
+  holderName String   @default("")
+  isDefault  Boolean  @default(false)
+  providerRef String  @default("")       // e.g. Stripe payment_method id (when live)
+  createdAt  DateTime @default(now())
+  @@index([userId])
+}
+
+model SecurityEvent {
+  id        String   @id @default(cuid())
+  agentId   String?                                  // null = a platform-wide event (e.g. harvesting in the forum)
+  agent     Agent?   @relation(fields: [agentId], references: [id], onDelete: Cascade)
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  subId     String?
+  kind      String   // extraction_attempt | expired_access | rate_limit | token_flagged
+  detail    String   @default("")
+  createdAt DateTime @default(now())
+  @@index([agentId, createdAt])
+}
+
+
+model Payout {
+  id               String   @id @default(cuid())
+  creatorId        String
+  creatorProfile   CreatorProfile @relation(fields: [creatorId], references: [userId], onDelete: Cascade)
+  amount           Float                       // gross requested from available balance
+  feePct           Int      @default(0)        // payout processing fee %
+  feeAmount        Float    @default(0)
+  netAmount        Float                        // amount - feeAmount
+  method           String                       // bank | paypal | stripe | wise
+  destinationMasked String  @default("")
+  status           String   @default("requested") // requested | processing | paid | failed | canceled
+  note             String   @default("")
+  provider         String   @default("ledger")   // ledger | stripe
+  providerRef      String   @default("")         // e.g. Stripe transfer id
+  requestedAt      DateTime @default(now())
+  processedAt      DateTime?
+  @@index([creatorId, requestedAt])
+}
+
+model WebAuthnCredential {
+  id           String   @id @default(cuid())
+  userId       String
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  credentialId String   @unique
+  publicKey    String                          // base64url
+  counter      Int      @default(0)
+  deviceName   String   @default("Passkey")
+  transports   String   @default("")
+  createdAt    DateTime @default(now())
+  lastUsedAt   DateTime?
+  @@index([userId])
+}
+
+model Endorsement {
+  id           String   @id @default(cuid())
+  refCode      String   @unique                 // public citable reference, e.g. WZ-7Q2K9F
+  agentId      String
+  agent        Agent    @relation(fields: [agentId], references: [id], onDelete: Cascade)
+  userId       String                             // requester (buyer)
+  user         User     @relation("EndorsementRequester", fields: [userId], references: [id], onDelete: Cascade)
+  expertUserId String                             // the named human expert
+  expert       User     @relation("EndorsementExpert", fields: [expertUserId], references: [id])
+  expertName   String   @default("")
+  subject      String                             // what is being endorsed (paper/pitch/design)
+  context      String   @default("")              // the claim/summary submitted for review
+  statement    String   @default("")              // the expert's signed statement
+  scope        String   @default("reviewed")      // tier: reviewed | engaged
+  status       String   @default("requested")     // requested | reviewing | signed | declined
+  price        Int      @default(0)
+  knowledgeVersion String @default("")            // KB snapshot the sign-off is pinned to
+  slaDueAt     DateTime?                          // the expert's SLA to respond
+  acceptedAt   DateTime?                          // expert began review
+  signedAt     DateTime?
+  declinedAt   DateTime?
+  refundedAt   DateTime?                          // fee returned on decline
+  revokedAt    DateTime?                          // integrity: a signed citation can be withdrawn
+  revokeReason String   @default("")
+  createdAt    DateTime @default(now())
+  @@index([agentId, createdAt])
+  @@index([expertUserId, status])
+}
+
+/// KYC / identity + credential review. Document BYTES are never stored — the upload
+/// pipeline scans in memory and keeps only a hash + verdict (see AssetUpload).
+/// For production, swap in a KYC provider (Persona/Onfido/Stripe Identity) via provider/providerRef.
+model KycSubmission {
+  id              String   @id @default(cuid())
+  userId          String   @unique
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  legalName       String
+  country         String   @default("")
+  idType          String   @default("passport")   // passport | national_id | drivers_licence
+  idDocId         String?                          // AssetUpload id (scanned, not stored)
+  selfieId        String?
+  credentialDocId String?
+  licenceNumber   String   @default("")
+  issuingBody     String   @default("")
+  links           String   @default("[]")          // JSON: corroborating public profiles
+  status          String   @default("submitted")   // submitted | in_review | approved | rejected
+  grantedLevel    String   @default("none")        // none | identity | expert
+  reviewerNote    String   @default("")
+  provider        String   @default("manual")      // manual | persona | onfido | stripe_identity
+  providerRef     String   @default("")
+  reviewedAt      DateTime?
+  createdAt       DateTime @default(now())
+  @@index([status, createdAt])
+}
+
+/// A held-out question + the expert's OWN real answer. The harness scores the avatar
+/// against these — this is what turns "fidelity" from a claim into a measurement.
+model FidelitySample {
+  id           String   @id @default(cuid())
+  agentId      String
+  agent        Agent    @relation(fields: [agentId], references: [id], onDelete: Cascade)
+  question     String
+  expertAnswer String
+  createdAt    DateTime @default(now())
+  @@index([agentId])
+}
+
+/// One scoring run of the avatar against the held-out samples.
+model FidelityRun {
+  id        String   @id @default(cuid())
+  agentId   String
+  agent     Agent    @relation(fields: [agentId], references: [id], onDelete: Cascade)
+  score     Int                                  // 0-100, measured
+  samples   Int
+  detail    String   @default("[]")              // JSON: per-sample breakdown
+  method    String   @default("v1")
+  createdAt DateTime @default(now())
+  @@index([agentId, createdAt])
+}
+
+/// Account-security activity the USER can see: sign-ins, 2FA changes, password
+/// changes, payout-destination changes, token rotations, session revocations.
+/// (Distinct from SecurityEvent, which protects the creator's asset.)
+model SecurityLog {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  kind      String   // login | login_failed | password_changed | 2fa_enabled | 2fa_disabled |
+                     // sessions_revoked | payout_method_changed | passkey_added | passkey_removed |
+                     // token_rotated | data_exported
+  detail    String   @default("")
+  ip        String   @default("")
+  userAgent String   @default("")
+  createdAt DateTime @default(now())
+  @@index([userId, createdAt])
+}
+
+// ---------------------------------------------------------------------------
+// Community: creator blog + expert/buyer forum.
+// A public square where experts publish and discuss. It is a promotion and
+// discussion surface — NOT a free-consulting back door. Public answers are
+// capped and scanned, so the forum feeds subscriptions instead of replacing them.
+// ---------------------------------------------------------------------------
+
+model Media {
+  id        String   @id @default(cuid())
+  ownerId   String
+  owner     User     @relation(fields: [ownerId], references: [id], onDelete: Cascade)
+  mime      String                                  // re-validated against magic bytes, never trusted from the client
+  size      Int      @default(0)
+  sha256    String   @default("")
+  width     Int      @default(0)
+  height    Int      @default(0)
+  bytes     Bytes                                   // stored in the DB: no volume, no path traversal, portable to Docker
+  alt       String   @default("")
+  createdAt DateTime @default(now())
+  @@index([ownerId, createdAt])
+}
+
+model Post {
+  id            String   @id @default(cuid())
+  slug          String   @unique
+  authorId      String
+  author        User     @relation(fields: [authorId], references: [id], onDelete: Cascade)
+  kind          String   @default("discussion")     // article | guide | question | discussion | case
+  title         String
+  body          String                              // markdown; rendered through a strict sanitizer
+  excerpt       String   @default("")
+  coverMediaId  String?
+  tags          String   @default("")               // comma separated, powers SEO + discovery
+  lang          String   @default("en")
+  agentId       String?                             // the Agent this post promotes (optional)
+  agent         Agent?   @relation(fields: [agentId], references: [id], onDelete: SetNull)
+  status        String   @default("published")      // draft | published | removed
+  pinned        Boolean  @default(false)
+  views         Int      @default(0)
+  score         Int      @default(0)                // net votes
+  replyCount    Int      @default(0)
+  acceptedReplyId String?
+  answeredById  String?                             // the expert whose reply was accepted
+  lastActivityAt DateTime @default(now())
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  replies       Reply[]
+  votes         Vote[]
+  @@index([status, kind, lastActivityAt])
+  @@index([authorId, createdAt])
+}
+
+model Reply {
+  id        String   @id @default(cuid())
+  postId    String
+  post      Post     @relation(fields: [postId], references: [id], onDelete: Cascade)
+  authorId  String
+  author    User     @relation(fields: [authorId], references: [id], onDelete: Cascade)
+  parentId  String?                                 // one level of nesting
+  body      String
+  score     Int      @default(0)
+  accepted  Boolean  @default(false)
+  status    String   @default("published")          // published | removed
+  agentId   String?                                 // "the full reasoning lives here" pointer
+  agent     Agent?   @relation("ReplyAgent", fields: [agentId], references: [id], onDelete: SetNull)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  votes     Vote[]
+  @@index([postId, createdAt])
+  @@index([authorId, createdAt])
+}
+
+model Vote {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  postId    String?
+  post      Post?    @relation(fields: [postId], references: [id], onDelete: Cascade)
+  replyId   String?
+  reply     Reply?   @relation(fields: [replyId], references: [id], onDelete: Cascade)
+  value     Int      @default(1)                    // +1 / -1
+  createdAt DateTime @default(now())
+  @@unique([userId, postId])
+  @@unique([userId, replyId])
+}
+
+model Report {
+  id         String   @id @default(cuid())
+  reporterId String
+  reporter   User     @relation(fields: [reporterId], references: [id], onDelete: Cascade)
+  targetType String                                  // post | reply
+  targetId   String
+  reason     String   @default("")
+  status     String   @default("open")               // open | actioned | dismissed
+  createdAt  DateTime @default(now())
+  @@index([status, createdAt])
+}
