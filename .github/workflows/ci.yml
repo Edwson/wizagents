@@ -14,7 +14,7 @@ jobs:
       AUTH_SECRET: ci-placeholder-secret-not-used-in-production-000000
       DATABASE_URL: "file:./prisma/dev.db"
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       - name: Set up Node
         uses: actions/setup-node@v4
